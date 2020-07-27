@@ -42,7 +42,7 @@ The schedule for the workshop is shown below. For details about each tutorial, p
 ------
 **Day Three** (September 2, 2020): Tutorials (Part 2)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*12:00pm - 1:00pm* -- Approaches for Reproducible Research (Environments and containers on Ceres)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*3:00pm - 5:00pm* -- Distributed Machine Learning (Xgboost with NDVI, Soil, and Climate data)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*1:00pm - 3:00pm* -- Distributed Machine Learning (Xgboost with NDVI, Soil, and Climate data)
 
 ------
 **Day Four** (Semptember 3, 2020): Speaker Day<br>
