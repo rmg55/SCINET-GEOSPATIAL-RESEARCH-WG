@@ -23,7 +23,7 @@ The schedule for the workshop is shown below. For details about each tutorial, p
 #### Schedule
 
 ------
-**Premeeting** (August XX, 2020): Getting setup on SCINet<br>
+**Premeeting** (August 19, 2020): Getting setup on SCINet<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2:00pm - 3:00pm* -- Open Help Forum: VRSC to assist in accessing Ceres<br>
  
 ------
