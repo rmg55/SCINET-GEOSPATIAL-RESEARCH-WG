@@ -11,5 +11,5 @@ Coursera Opportunities
 
 Pangeo
 
-SCINet Website
+[SCINet Website](https://scinet.usda.gov/)
 
