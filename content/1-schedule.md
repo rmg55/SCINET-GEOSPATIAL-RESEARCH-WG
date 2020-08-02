@@ -50,4 +50,5 @@ The schedule for the workshop is shown below. For details about each tutorial, p
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*12:00pm - 12:30pm* -- Speaker 1: Talk Title Here<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*12:35pm - 1:10pm* -- Speaker 2: Talk Title Here<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*1:15pm - 1:45pm* -- Speaker 3: Talk Title Here<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2:00pm - 2:30pm* -- Panel Discussion (Moderator: ______)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2:00pm - 2:30pm* -- Speaker 4: Talk Title Here<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*2:30pm - 3:00pm* -- Panel Discussion (Moderator: ______)
