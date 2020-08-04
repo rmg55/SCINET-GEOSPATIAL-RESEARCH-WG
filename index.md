@@ -30,7 +30,7 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 <br>
 # How to Participate
 
-**All members of the working group as well as non-members from USDA ARS are welcome to participate!** We also welcome our University collaborators who have USDA SCINet accounts. We are hoping that everyone will attend the general session of the working group ([Session 1](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group) and then pick and choose other sessions to attend based on your own interests and skill level.
+**All members of the working group as well as non-members from USDA ARS are welcome to participate!** We also welcome our University collaborators who have USDA SCINet accounts. We are hoping that everyone will attend the general session of the working group ([Session 1](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)) and then pick and choose other sessions to attend based on your own interests and skill level.
 
 The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting assistance session) that will include:
   - computational infrastructure and resource development for the ARS geospatial research community (e.g. the common data library and the geospatial workbook), 
