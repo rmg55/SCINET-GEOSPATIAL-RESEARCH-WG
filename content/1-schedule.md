@@ -1,6 +1,6 @@
 ---
 title: Schedule
-nav: true
+#nav: true
 ---
 
 ## Schedule (Tentative - Not Final)
