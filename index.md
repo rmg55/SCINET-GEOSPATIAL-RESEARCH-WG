@@ -21,10 +21,10 @@ The 2020 SCINet Geospatial Workshop continues the efforts outlined from the 2019
 <br>
 # Organizing Committee
 
-Rowan Gaffney, Physical Scientist, Ft Collins, CO
-Kerrie Geil, SCINet Postdoc, Las Cruces, NM
-Amy Hudson, SCINet Postdoc, Las Cruces, NM
-Yanghui Kang, SCINet Postdoc, Beltsville, MD
+Rowan Gaffney, Physical Scientist, Ft Collins, CO<br>
+Kerrie Geil, SCINet Postdoc, Las Cruces, NM<br>
+Amy Hudson, SCINet Postdoc, Las Cruces, NM<br>
+Yanghui Kang, SCINet Postdoc, Beltsville, MD<br>
 Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 <br>
@@ -154,8 +154,8 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 1:15-1:25 | short break
 1:25-2 | Panel Discussion
 
-
-More information about our invited speakers can be found on our [speakers page](/content/3-speakers.html)
+<br>
+More information about our invited speakers can be found on our [speakers page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/3-speakers.html)
 
 ------
 
