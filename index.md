@@ -46,16 +46,15 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 <br>
 # Schedule / Registration
 <br>
+**Quick Links to Content Below**
 
-| DATE | TIME | QUICK LINK TO CONTENT BELOW |
----|---|---
-8/19/2020   | 11am-1pm MDT   | [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
-8/25/2020   | 11am-2pm MDT   | [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group) 
-8/27/2020   | 11am-1pm MDT   | [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script) <br>
-8/27/2020   | 1:30-2:30pm MDT   | [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
-8/28/2020   | 11am-1:15pm MDT   | [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
-8/28/2020   | 1:30-3:30pm MDT   | [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
-9/1/2020   | 11am-2pm MDT   | [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
+  - 8/19/2020  |  11am-1pm MDT  | [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
+  - 8/25/2020  |  11am-2pm MDT  | [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
+  - 8/27/2020   | 11am-1pm MDT   | [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script)
+  - 8/27/2020   | 1:30-2:30pm MDT   | [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
+  - 8/28/2020   | 11am-1:15pm MDT   | [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
+  - 8/28/2020   | 1:30-3:30pm MDT   | [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
+  - 9/1/2020   | 11am-2pm MDT   | [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
 
 <br>
 ### Session 0: Pre-meeting SCINet Account Login Assistance
@@ -143,7 +142,7 @@ We will not cover basic Python, basic distributed/parallel computing, how to log
 ### Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 **Tuesday September 1, 11am - 2pm MDT**<br>
-**Registration Required:**  [https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y]( https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y)
+**Registration Required:**  [https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y]( https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y)<br>
 **Prerequisites:** None
 
 This session is for USDA ARS scientists, scientific staff, and University collaborators who are interested in learning about how machine learning is being used in agricultural research. We will have 4 invited speakers from outside of USDA ARS give talks about using maching learning for a range of agricultural research questions, followed by a panel discussion. 
@@ -156,6 +155,7 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 12:45-1:15 | Dr Jingyi Huang | University of Wisconsin | remote sensing and modeling of soil moisture
 1:15-1:25 | short break
 1:25-2 | Panel Discussion
+
 
 More information about our invited speakers can be found on our [speakers page](/content/3-speakers.html)
 
