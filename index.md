@@ -10,7 +10,7 @@ layout: default
 
 *Hosted By: SCINet Geospatial Research Working Group with support from [USDA ARS, SCINet Scientific Computing Initiative](https://scinet.usda.gov/)*
 
-<br><br>
+<br>
 # Goals
 
 The 2020 SCINet Geospatial Workshop continues the efforts outlined from the 2019 workshop held in Las Cruces, NM. The two overarching goals of this workshop are to:
@@ -18,7 +18,7 @@ The 2020 SCINet Geospatial Workshop continues the efforts outlined from the 2019
   1. provide hands-on learning experiences (tutorials) on workflows to access the Ceres high-performance computing (HPC) system and conduct geospatial and machine learning research at scale,
   2. foster research efforts that had previously been un-attainable due to computational limitations or technical bottleknecks. This includes developing infrastructure and exploring state-of-the-art machine learning methods applicable to geospatial sciences.
 
-<br><br>
+<br>
 # Organizing Committee
 
 NAME | POSITION | LOCATION
@@ -29,7 +29,7 @@ Amy Hudson | SCINet Postdoc | Las Cruces, NM
 Yanghui Kang | SCINet Postdoc | Beltsville, MD
 Suzy Stillman | SCINet Postdoc | Las Cruces, NM
 
-<br><br>
+<br>
 # How to Participate
 
 The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting assistance session) that will include:
@@ -43,21 +43,21 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
-<br><br>
+<br>
 # Schedule / Registration
-
+<br>
 
 | DATE | TIME | QUICK LINK TO CONTENT BELOW |
 ---|---|---
-8/19/2020 | 11am-1pm MDT | [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
-8/25/2020 | 11am-2pm MDT | [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group) 
-8/27/2020 | 11am-1pm MDT | [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script) <br>
-8/27/2020 | 1:30-2:30pm MDT | [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
-8/28/2020 | 11am-1:15pm MDT | [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
-8/28/2020 | 1:30-3:30pm MDT | [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
-9/1/2020 | 11am-2pm MDT | [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
+8/19/2020   | 11am-1pm MDT   | [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
+8/25/2020   | 11am-2pm MDT   | [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group) 
+8/27/2020   | 11am-1pm MDT   | [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script) <br>
+8/27/2020   | 1:30-2:30pm MDT   | [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
+8/28/2020   | 11am-1:15pm MDT   | [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
+8/28/2020   | 1:30-3:30pm MDT   | [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
+9/1/2020   | 11am-2pm MDT   | [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
 
-<br><br>
+<br>
 ### Session 0: Pre-meeting SCINet Account Login Assistance
 
 **Wednesday August 19, 11am - 1pm MDT** <br>
@@ -68,7 +68,7 @@ For those who plan on participating in Sessions 2-5, this pre-meeting session wi
 
 Please ensure that you have applied for a SCINet account well in advance of this pre-meeting session, as there are multiple approvals (including your supervisor) that new accounts must pass through before it will receive final approval. Suggested final date for applying for a new account in order to be ready for this pre-meeting session is Wednesday Aug 12. Go to [https://scinet.usda.gov/signup/](https://scinet.usda.gov/signup/) to start the account application process.
 
-<br><br>
+<br>
 ### Session 1: Annual Meeting of the SCINet Geospatial Research Working Group
 
 **Tuesday August 25, 11am - 2pm MDT**<br>
@@ -87,7 +87,7 @@ We encourage everyone to attend this general session- members and non-members fr
 1:15-1:45 | Working Session: geospatial workbook
 1:45-2 | Proposals for new working group initiatives
 
-<br><br>
+<br>
 ### Session 2: Tutorial: Introduction to the Ceres High-Performance Computing System Environment (SSH, JupyterHub, Basic Linux, SLURM batch script)
 
 **Thursday August 27, 11am - 1pm MDT**<br>
@@ -98,7 +98,7 @@ This interactive follow-along session will demonstrate how to access the SCINet 
 
 We will not troubleshoot individual SCINet account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0.
 
-<br><br>
+<br>
 ### Session 3: Tutorial: Introduction to Distributed Computing on the Ceres HPC System Using Python and Dask
 
 **Thursday August 27, 1:30pm - 2:30pm MDT**<br>
@@ -109,7 +109,7 @@ This session will be an interactive follow-along about how to compute in paralle
 
 We will not cover how to login to your SCINet account or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you are new to working in an HPC environment attending Session 2 first will be helpful but not required.
 
-<br><br>
+<br>
 ### Session 4: Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers)
 
 **Friday August 28, 11am - 12:15pm MDT**<br>
@@ -120,7 +120,7 @@ This interactive follow-along session will demonstrate how to use the Conda pack
 
 We will not cover basic linux, how to login to your SCINet account, or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you need basic linux help or are new to working in an HPC environment please plan to first attend Session 2.
 
-<br><br>
+<br>
 ### Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 
 **Friday August 28, 12:30pm - 2:30pm MDT**<br>
@@ -139,7 +139,7 @@ Quantify the accuracy and visualize the results (Scikit Learn, SHAP).
 
 We will not cover basic Python, basic distributed/parallel computing, how to login to your SCINet account, or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you have limited experience working on an HPC system we recommend first attending Sessions 2 and 3.
 
-<br><br>
+<br>
 ### Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 **Tuesday September 1, 11am - 2pm MDT**<br>
