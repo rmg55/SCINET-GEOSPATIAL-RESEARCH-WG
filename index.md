@@ -56,6 +56,11 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
   - 8/28/2020, 1:30-3:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
   - 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
 
+
+<table border=1 width=600>
+<tr><td width=100>8/19/2020</td><td width=100>11am-1pm MDT</td><td width=400>[Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)</td></tr>
+<tr><td>Element 4</td><td>Element 5</td><td>Element 6</td></tr>
+</table>
 <br>
 ### Session 0: Pre-meeting SCINet Account Login Assistance
 
