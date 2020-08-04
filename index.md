@@ -30,22 +30,21 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 <br>
 # How to Participate
 
-**All members of the working group as well as non-members from USDA ARS are welcome to participate!** We also welcome our University collaborators who have USDA SCINet accounts. We are hoping that everyone will attend the general session of the working group (Session 1) and then pick and choose other sessions to attend based on your own interests and skill level.
+**All members of the working group as well as non-members from USDA ARS are welcome to participate!** We also welcome our University collaborators who have USDA SCINet accounts. We are hoping that everyone will attend the general session of the working group ([Session 1](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group) and then pick and choose other sessions to attend based on your own interests and skill level.
 
 The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting assistance session) that will include:
   - computational infrastructure and resource development for the ARS geospatial research community (e.g. the common data library and the geospatial workbook), 
   - hands-on tutorials to assist researchers in utilizing the Ceres HPC system, and 
   - research presentations from successful efforts using machine learning to address agricultural issues.
   
-**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account.** We recommend applying for an account by 8/12/2020 at the latest, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/19/2020 (Session 0), but make sure you have applied for an account well in advance of this session.
+**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account. We recommend applying for an account by 8/12/2020 at the latest**, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/19/2020 (Session 0), but make sure you have applied for an account well in advance of this session.
 
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
 <br>
 # Schedule / Registration
-<br>
 
-Note: All workshop sessions are open to all scientists and scientific staff at USDA ARS as well as ARS contractors and University collaborators who have a SCINet account. **Please make sure to register separately for each session you plan on attending (the Zoom join details are different for each session).**
+**Note: All workshop sessions are open to all scientists and scientific staff at USDA ARS. We also welcome ARS contractors and University collaborators who have a SCINet account. Please make sure to register separately for each session you plan on attending (the Zoom join details are different for each session).**
 
 **Quick Links to Content Below**
 
