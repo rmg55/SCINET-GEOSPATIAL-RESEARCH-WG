@@ -19,7 +19,7 @@ Below is a brief description of each tutorial as well as an instructional on how
 
 # How to Run Tutorials on Ceres
 <br>
-For Sessions 1 & 4 tutorials ("Intro to Ceres" and "Computational Reproducibility Tools") login to your SCINet account using SSH and work through the html tutorials (links in the tutorial sections below) from the command line.
+For Sessions 2 & 4 tutorials ("Intro to Ceres" and "Computational Reproducibility Tools") login to your SCINet account using SSH (or through JupyterHub and then open a terminal) and work through the html tutorials from the command line (links in the tutorial sections below).
 
 For Sessions 3 & 5 tutorials ("Intro to Distributed Computing" and "Distributed Machine Learning") follow the instructions in this section to open the tutorial in a Jupyter Notebook:
 
@@ -53,7 +53,7 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
 <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 2 Tutorial](/link-to-tutorial)--><br>
 
- Login to your SCINet account using SSH and work through the html tutorial from the command line.
+ Login to your SCINet account using SSH (or through JupyterHub and then open a terminal) and work through the html tutorial from the command line.
 
 **Learning Goals:**
 
@@ -66,8 +66,8 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
 
 # Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 <br>
-**Link to HTML (static) Material:** coming soon <!--[Session 3 Tutorial](/link-to-tutorial)--><br>
 **Link to Jupyter Notebook on Github:** coming soon 
+**Link to HTML (static) Material:** coming soon <!--[Session 3 Tutorial](/link-to-tutorial)--><br>
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
 
@@ -86,7 +86,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 4 Tutorial](/link-to-tutorial)--><br>
 
- Login to your SCINet account using SSH and work through the html tutorial from the command line.
+ Login to your SCINet account using SSH (or through JupyterHub and then open a terminal) and work through the html tutorial from the command line.
 
 **Learning Goals:**
 
@@ -102,8 +102,8 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 
 # Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 <br>
-**Link to HTML (static) Material:** coming soon <!--[Session 5 Tutorial](/link-to-tutorial)--><br>
 **Link to Jupyter Notebook on Github:** coming soon 
+**Link to HTML (static) Material:** coming soon <!--[Session 5 Tutorial](/link-to-tutorial)--><br>
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
 
