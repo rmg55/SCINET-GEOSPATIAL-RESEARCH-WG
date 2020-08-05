@@ -43,7 +43,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
-Lastly, review the pre-meeting checklist and background information on the [Pre-meeting page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html).
+**Lastly, review the pre-meeting checklist and background information on the [Pre-meeting page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html) to ensure you are prepared for the workshop sessions.**
 
 <br>
 # Schedule / Registration
