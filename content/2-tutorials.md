@@ -38,13 +38,13 @@ For Sessions 3 & 5 tutorials ("Intro to Distributed Computing" and "Distributed 
 2. Download the tutorial material from the workshop GitHub repo
    * Open a terminal: File-->New-->terminal (alternatively, click the "+" icon (launcher) on the left and then choose the "terminal" icon on the launcher screen) 
    * Download the tutorials
-       instruction coming soon
-    <!--  ```bash
+      * instruction coming soon 
+      <!-- ```bash
       git clone --single-branch https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEARCH-WG.git
       ```-->
 3. Run a notebook:
-   instruction coming soon
-   <!--* You should now see a folder (file system extension on the left hand side of JuputerLab) titled *SCINET-GEOSPATIAL-RESEARCH-WG*.
+   * instruction coming soon
+   <!-- * You should now see a folder (file system extension on the left hand side of JuputerLab) titled *SCINET-GEOSPATIAL-RESEARCH-WG*.
    * Navigate to ```/SCINET-GEOSPATIAL-RESEARCH-WG/tutorials/```
    * Open the desired tutorial
    * Select the py_geo kernel (upper right corner in the notebook)
