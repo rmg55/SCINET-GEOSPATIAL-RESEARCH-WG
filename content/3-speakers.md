@@ -4,9 +4,12 @@ nav: true
 ---
 
 # Symposium
+
 ### Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 **9/1/2020, 11am-2pm MDT**
+
+**Registration Required:** https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y
 
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research. 
 
@@ -15,9 +18,9 @@ Following the presentations, a panel discussion will address the following quest
 - panel question coming soon
 - panel question coming soon
 
-
+<br>
 # Invited Speakers
-
+<br>
 {% capture text %}### Dr. Matthew Jones from the University of Montana{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
