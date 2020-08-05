@@ -51,7 +51,7 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
 
 # Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, Basic Linux, SLURM batch script)
 <br>
-**Link to HTML (static) Material:** coming soon #[Session 2 Tutorial](/link-to-tutorial)<br>
+**Link to HTML (static) Material:** coming soon <!--[Session 2 Tutorial](/link-to-tutorial)--><br>
 
  Login to your SCINet account using SSH and work through the html tutorial from the command line.
 
@@ -66,7 +66,7 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
 
 # Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 <br>
-**Link to HTML (static) Material:** coming soon #[Session 3 Tutorial](/link-to-tutorial)<br>
+**Link to HTML (static) Material:** coming soon <!--[Session 3 Tutorial](/link-to-tutorial)--><br>
 **Link to Jupyter Notebook on Github:** coming soon 
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
@@ -84,7 +84,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 
 # Session 4 Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers)
 <br>
-**Link to HTML (static) Material:** coming soon #[Session 4 Tutorial](/link-to-tutorial)<br>
+**Link to HTML (static) Material:** coming soon <!--[Session 4 Tutorial](/link-to-tutorial)--><br>
 
  Login to your SCINet account using SSH and work through the html tutorial from the command line.
 
@@ -102,7 +102,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 
 # Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 <br>
-**Link to HTML (static) Material:** coming soon #[Session 5 Tutorial](/link-to-tutorial)<br>
+**Link to HTML (static) Material:** coming soon <!--[Session 5 Tutorial](/link-to-tutorial)--><br>
 **Link to Jupyter Notebook on Github:** coming soon 
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
