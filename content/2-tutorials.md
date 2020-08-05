@@ -11,7 +11,7 @@ Below is a brief description of each tutorial as well as an instructional on how
 * [**How to Run Tutorials on Ceres**](#how-to-run-tutorials-on-ceres)
 * [**Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, Basic Linux, SLURM batch script)**](#session-2-tutorial-intro-to-the-ceres-hpc-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script)
 * [**Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask**](#session-3-tutorial-intro-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask) 
-* [**Session 4 Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers**](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers) 
+* [**Session 4 Tutorial: Computational Reproducibility Tools (Git/Github, Conda, Docker/Singularity containers**](#session-4-tutorial-computational-reproducibility-tools-gitgithub-conda-environments-dockersingularity-containers) 
 * [**Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics**](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
 {% endcapture %}
 {% include card.md header="Table of Contents" text=text %}
@@ -82,7 +82,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 - view Dask diagnostics to visualize cluster computations in real time
 <br><br>
 
-# Session 4 Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers)
+# Session 4 Tutorial: Computational Reproducibility Tools (Git/Github, Conda, Docker/Singularity containers)
 <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 4 Tutorial](/link-to-tutorial)--><br>
 
@@ -90,6 +90,11 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 
 **Learning Goals:**
 
+- versioning and archiving your codes with Git and Github
+    - fork/copy an existing online repo to your SCINet/Ceres account
+    - push your local fork/repo online to your own Github account
+    - make an edit to your fork/repo
+    - make a pull request to have your edits incorporated into the original repo
 - use the Conda package/environment management system on the Ceres HPC system
     - access or install Conda on Ceres
     - use Conda to download software on Ceres
