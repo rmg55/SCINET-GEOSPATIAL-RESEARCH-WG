@@ -9,7 +9,8 @@ Please complete this pre-meeting checklist ahead of time if you plan to particip
 1. Have a SCINet account and be able to login. [Apply for an account](https://scinet.usda.gov/signup/) if you don't have one by 8/12/2020. 
 2. If you need help accessing your SCINet account, attend [Session 0: Pre-meeting SCINet Account Login Assistance](/SCINET-GEOSPATIAL-RESEARCH-WG/#session-0-pre-meeting-scinet-account-login-assistance) on 8/19/2020 at 11am MDT.
 3. Review the [tutorials page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/2-tutorials.html) and know which ones you wish to attend. Then, register for each one individually on the [workshop homepage](/SCINET-GEOSPATIAL-RESEARCH-WG/).
-4. Familiarize yourself with the brief background information below.
+4. [Create a free personal Github account]() if you plan to participate in the Session 4 Tutorial: Computational Reproducibility Tools. Make sure you remember your Github username and password.
+5. Familiarize yourself with the brief background information below.
 {% endcapture %}
 {% include card.md text=text header="PreMeeting Checklist" %}
 
@@ -66,6 +67,15 @@ Containers are a unit of isolated software that include an entire runtime enviro
 
 The use of both containers and environments can vastly improve the reproduciblity of computatoinal research. Environments are able to acheive this by keeping a detailed list of the exact software environment used for the computation. Containers are able to further this effort by essentially archiving/saving the exact environment in a "*container file*", which others can access and use on other systems.
 
-**GitHub**
+**Git & GitHub**
 
-GitHub is a Git (version controll software) repository hosting service. Much of the workshop materials will be accessible thru the workshop's GitHub repository at: (repo coming soon). GitHub allows you to version and archive your codes. If you keep your Github repo up to date, it also allows you to access your codes from anywhere. You don't have to have your own Github account to participate in the workshop tutorials, but it is a good idea to create one for yourself (they are free) ahead of the workshop sessions if you want to begin to learn how to use Git/Github. 
+Git & GitHub allow you to version and archive your scientific codes (and more).
+
+Git is version control software that you use at the command line to keep track of edits to your scientific codes over time.
+
+GitHub is an online repository hosting service where you can archive your scientific codes online. You can [create a free personal Github account]() where you can archive your scientific codes into different "repositories" within your account. If you keep your Github repo's up to date, it also allows you to access your codes from anywhere. 
+
+Much of the workshop materials will be accessible through the workshop's GitHub repository at (repo address coming soon). 
+
+You don't have to have your own Github account to participate in the workshop tutorials, but it is a good idea to create one for yourself (they are free) ahead of the workshop sessions if you want to begin to learn how to use Git/Github. Note: creation of a personal Github account is required if you want to follow along with the Github portion of the Session 4 Tutorial: Computational Reproducibility Tools. 
+
