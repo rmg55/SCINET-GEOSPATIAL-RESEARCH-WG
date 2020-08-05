@@ -71,7 +71,7 @@ For Sessions 3 & 5 tutorials ("Intro to Distributed Computing" and "Distributed 
 
 # Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 <br>
-**Link to Jupyter Notebook on Github:** coming soon 
+**Link to Jupyter Notebook on Github:** coming soon <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 3 Tutorial](/link-to-tutorial)--><br>
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
@@ -112,7 +112,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 
 # Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 <br>
-**Link to Jupyter Notebook on Github:** coming soon 
+**Link to Jupyter Notebook on Github:** coming soon <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 5 Tutorial](/link-to-tutorial)--><br>
 
 To launch JupyterHub and download the workshop materials, see the [How to Run Tutorials on Ceres](#how-to-run-tutorials-on-ceres) section above.
