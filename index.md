@@ -135,13 +135,13 @@ We will not cover basic linux, how to login to your SCINet account, or troublesh
 
 This interactive follow-along tutorial uses a machine learning gradient boosting model (XGBoost) to predict NDVI (Harmonized Landsat Sentinel) from daily weather (PRISM) and physiologic variables (soil properties) at the Central Plains Experimental Range (CPER) Long Term Agro-ecosystem Research station. Participants will use their own SCINet account to walk through a Jupyter Notebook and execute Python code on the Ceres HPC system.
 
-The workflow involves:
-Setup a cluster on Ceres (Dask Distributed).
-Read data and interpolate onto a consistent grid (Xarray, Dask Dataframe).
-Merge/shuffle/split the data (Dask_ML, Scikit Learn).
-Optimize the hyperparameters (Dask_ML, Scikit Learn, XGBoost).
-Train a distributed XGBoost model (Scikit Learn, XGBoost, Dask Distributed, datashader).
-Quantify the accuracy and visualize the results (Scikit Learn, SHAP).
+The workflow involves:<br>
+- Setup a cluster on Ceres (Dask Distributed)<br>
+- Read data and interpolate onto a consistent grid (Xarray, Dask Dataframe)<br>
+- Merge/shuffle/split the data (Dask_ML, Scikit Learn)<br>
+- Optimize the hyperparameters (Dask_ML, Scikit Learn, XGBoost)<br>
+- Train a distributed XGBoost model (Scikit Learn, XGBoost, Dask Distributed, datashader)<br>
+- Quantify the accuracy and visualize the results (Scikit Learn, SHAP)
 
 We will not cover basic Python, basic distributed/parallel computing, how to login to your SCINet account, or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you have limited experience working on an HPC system we recommend first attending Sessions 2 and 3.
 
