@@ -60,7 +60,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
  
 - 8/27/2020, 1:30-2:30pm MDT, [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
  
-- 8/28/2020, 10:30am-12:30pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-git=github-conda-docker-singularity-containers)
+- 8/28/2020, 10:30am-12:30pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-git-github-conda-docker-singularity-containers)
  
 - 8/28/2020, 1:00-2:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
  
