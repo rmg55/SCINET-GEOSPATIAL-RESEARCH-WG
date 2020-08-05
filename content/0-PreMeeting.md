@@ -1,44 +1,48 @@
 ---
-title: Pre-meeting
+title: Premeeting
 nav: true
 --- 
 
-Please review the workshop schedule and pre-meeting tasks listed below.
+Please complete this pre-meeting checklist ahead of time if you plan to participate in any of the interactive follow-along tutorials (Sessions 2-5).
 
 {% capture text %}
-1. Have SCINet credentials.
-2. Attend the "Premeeting" event if you need help accessing Ceres.
-3. Review the tutorials - know which ones you wish the attend.
-4. Familiarize yourself with the software.
+1. Have a SCINet account and be able to login. [Apply for an account](https://scinet.usda.gov/signup/) if you don't have one by 8/12/2020. 
+2. If you need help accessing your SCINet account, attend [Session 0: Pre-meeting SCINet Account Login Assistance](/SCINET-GEOSPATIAL-RESEARCH-WG/#session-0-pre-meeting-scinet-account-login-assistance) on 8/19/2020 at 11am MDT.
+3. Review the [tutorials page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/2-tutorials.html) and know which ones you wish to attend. Then, register for each one individually on the [workshop homepage](/SCINET-GEOSPATIAL-RESEARCH-WG/).
+4. Familiarize yourself with the brief background information below.
 {% endcapture %}
 {% include card.md text=text header="PreMeeting Checklist" %}
 
 ------
+# Background Information
+<br>
 ## Tutorials
 
 The tutorials span the range from beginner (new to SCINet/Ceres) to more advanced (Big Data and Machine Learning). If you have questions about the material, please do not hesitate to contact the organizing committee.
 
-In general, these tutorials assume some level of knowledge in scientific programming.
+In general, these tutorials assume some level of knowledge in scientific programming, but beginners are still welcome.
 
 ------
-## Ceres Access
+## Access to the SCINet Ceres HPC System
 
-SCINet credentials process: [https://scinet.usda.gov/guide/quickstart](https://scinet.usda.gov/guide/quickstart)
+You must [apply for a SCINet account](https://scinet.usda.gov/signup/) to get access to the Ceres HPC system. Usually, the account approval process takes 1-2 weeks. After your account is approved, there are a couple more steps to complete before you will be able to successfully login to your account. You will receive instructions by email on how to access your account for the first time upon account approval. Please make sure you can login to your account before joining our tutorial sessions.
 
-Access JupyterHub (need SCINet credentials): [https://jupyterhub.scinet.usda.gov/](https://jupyterhub.scinet.usda.gov/)
+Visit the [Ceres Quickstart Guide](https://scinet.usda.gov/guide/quickstart) for more information about how to login and brief information about the HPC system.
 
-If you have issues accessing Ceres (either thru SSH or JupyterHub) please attend the premeeting event (see the schedule) where the Virtual Research Support Core (VRSC) will be able to help trouble shoot any issues.
+After your first successful login to the Ceres HPC system, make sure you can also login to the system through the JupyterHub web interface. See the [Launching Jupyter section of the Jupyter Guide](https://scinet.usda.gov/guide/jupyter/#launching-jupyter). Follow the instructions in the guide and test the JupyterLab Spawner (step 3 in the guide) by entering Node Type = short, Number of Cores = 2, Job Duration = 00:10:00, and leave the rest of the fields blank. If JupyterLub does not open in your browser after 3-4 minutes and you receive an error message, contact the SCINet Virtual Research Support Core at scinet_vrsc@usda.gov.
+
+**If you have issues accessing Ceres (either thru SSH or JupyterHub) please attend [Session 0: Pre-meeting SCINet Account Login Assistance](/SCINET-GEOSPATIAL-RESEARCH-WG/#session-0-pre-meeting-scinet-account-login-assistance) on 8/19/2020 at 11am MDT. We cannot provide individual assistance for login issues in any other session.**
 
 ------
 ## Software + Hardware + Nomenclature Overview
 
-The software discussed and shown in the workshop is largely open source, can run on a dekstop, HPC, or cloud environment, and can be installed with software management systems that support reproducibility (such as conda, singularity, and docker). Below is a quick overview of some of the software, hardware, and confusing nomenclature that will be used during this workshop.
+The software discussed and shown in the workshop is largely open source, can run on a dekstop, HPC, or cloud environment, and can be installed with software management systems that support reproducibility (such as Conda, Singularity, and Docker). Below is a quick overview of some of the software, hardware, and confusing nomenclature that will be used during this workshop.
 
 **SCINet vs. Ceres**
 
-SCINet is an USDA ARS initiative to improve access to high performance and cloud computing, increase networking to facilitate high speed data transfer, and to facilitate scientific computing training.
+SCINet is the USDA ARS initiative to improve access to high performance and cloud computing, imporove networking to facilitate high speed data transfer, and to facilitate scientific computational training.
 
-Ceres is the HPC system housed at Iowa State University. It contains 2500 compute cores, 27 TB RAM, 150 TB local storage, and 2.4 PB of shared storage.
+Ceres is one of the HPC systems (located in Iowa) connected to the SCINet infrastucture. The system is largely maintained by staff at Iowa State University called the SCINet Virtual Research Support Core (VRSC). For more information on the Ceres and other HPC systems that SCINet offers, see the [Computer Systems page of the SCINet website](https://scinet.usda.gov/about/compute).  
 
 **Project Jupyter**
 
@@ -46,9 +50,9 @@ Jupyter is an open-source, non-profit project to support interactive data scienc
   1. JupyterHub: A software to serve JupyterLab to multiple users (this is how we will launch an instance of JupyterLab on Ceres without having to to SSH into the cluster). Documention at: [https://jupyterhub.readthedocs.io/en/stable/](https://jupyterhub.readthedocs.io/en/stable/)
   2. JupyterLab: A web-based interactive development environment. Documentation at: [https://jupyterlab.readthedocs.io/en/stable/](https://jupyterlab.readthedocs.io/en/stable/)
 
-**Slurm**
+**SLURM**
 
-[Slurm](https://slurm.schedmd.com/quickstart.html) is the cluster management software used on Ceres to allocate computational resources.
+[SLURM](https://slurm.schedmd.com/quickstart.html) (Simple Linux Utility for Resource Management) is the workload manager used on the Ceres HPC system to allocate computational resources. From the [SLURM documentation](https://slurm.schedmd.com/quickstart.html), SLURM is "an open source... cluster management and job scheduling system for large and small Linux clusters. As a cluster workload manager, SLURM has three key functions. First, it allocates exclusive and/or non-exclusive access to resources (compute nodes) to users for some duration of time so they can perform work. Second, it provides a framework for starting, executing, and monitoring work (normally a parallel job) on the set of allocated nodes. Finally, it arbitrates contention for resources by managing a queue of pending work."
 
 **Scientific Coding Languages - Python and R**
 
@@ -56,12 +60,12 @@ The tutorials in this workshop will use Python, but we will make an effort to di
 
 **Containers and Environments**
 
-Environments are a method of isolating a set of software installed on a computing system. In this workshop we will largely be discussing environments in the context of the [anaconda (conda)](https://www.anaconda.com/products/individual) software stack. However, other software management systems impliment similiar approaches.
+Environments are a method of isolating a set of software installed on a computing system. In this workshop we will largely be discussing environments in the context of the [Anaconda (Conda)](https://www.anaconda.com/products/individual) package/environment management system. However, other software management systems impliment similiar approaches.
 
-Containers are a unit of isolated software that include an entire runtime environment (applications, dependencies, libraries, and binaries). These systems were created to be able to reliably run computing environments across hetereogenous infrastructure. The container system used on Ceres (and most other HPC systems) is [singularity](https://sylabs.io/docs/). However, singularity is able to use containers from Docker, a much more prevalent containerization software.
+Containers are a unit of isolated software that include an entire runtime environment (applications, dependencies, libraries, and binaries). These systems were created to be able to reliably run computing environments across hetereogenous infrastructure (operating systems). The container system used on Ceres (and most other HPC systems) is [Singularity](https://sylabs.io/docs/). However, Singularity is able to run a container from a Docker image, a much more prevalent containerization software.
 
 The use of both containers and environments can vastly improve the reproduciblity of computatoinal research. Environments are able to acheive this by keeping a detailed list of the exact software environment used for the computation. Containers are able to further this effort by essentially archiving/saving the exact environment in a "*container file*", which others can access and use on other systems.
 
 **GitHub**
 
-GitHub is a Git (version controll software) repository hosting service. Much of the workshops materials will be accessible thru the workshops GitHub repository at: [https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEARCH-WG](https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEARCH-WG). GitHub allows you to version and/or archive your code.
+GitHub is a Git (version controll software) repository hosting service. Much of the workshop materials will be accessible thru the workshop's GitHub repository at: (repo coming soon). GitHub allows you to version and archive your codes. If you keep your Github repo up to date, it also allows you to access your codes from anywhere. You don't have to have your own Github account to participate in the workshop tutorials, but it is a good idea to create one for yourself (they are free) ahead of the workshop sessions if you want to begin to learn how to use Git/Github. 
