@@ -4,7 +4,7 @@ layout: default
 ---
 {% include figure.html img="usda_symbol_rgb_color.svg" alt="intro image here" caption="" width="100%" %}
 
-# SCINet Geospatial Workshop (2020)
+# SCINet Geospatial Workshop 2020
 
 **Harnessing SCINet computational resources in geospatial data science to further sustainable and intensified agriculture.**
 
@@ -48,7 +48,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 
 **Quick Links to Content Below:**
 
- 8/19/2020, 11am-1pm MDT, [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
+ - 8/19/2020, 11am-1pm MDT, [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
  
  8/25/2020, 11am-2pm MDT, [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
  
