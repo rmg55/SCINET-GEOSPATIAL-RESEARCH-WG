@@ -15,7 +15,7 @@ Below is a brief description of each tutorial as well as an instructional on how
 * [**Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics**](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
 {% endcapture %}
 {% include card.md header="Table of Contents" text=text %}
-<p>
+<br><br>
 
 
 # How to Run Tutorials on Ceres
