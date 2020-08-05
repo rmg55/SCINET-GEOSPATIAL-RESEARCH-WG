@@ -46,21 +46,23 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 
 **Note: All workshop sessions are open to all scientists and scientific staff at USDA ARS. We also welcome ARS contractors and University collaborators who have a SCINet account. Please make sure to register separately for each session you plan on attending (the Zoom join details are different for each session).**
 
-**Quick Links to Content Below**
+**Quick Links to Content Below:**
 
-  - 8/19/2020, 11am-1pm MDT, [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
-  - 8/25/2020, 11am-2pm MDT, [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
-  - 8/27/2020, 11am-1pm MDT, [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script)
-  - 8/27/2020, 1:30-2:30pm MDT, [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
-  - 8/28/2020, 11am-1:15pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
-  - 8/28/2020, 1:30-3:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
-  - 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
+ 8/19/2020, 11am-1pm MDT, [Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)
+ 
+ 8/25/2020, 11am-2pm MDT, [Session 1: Annual Meeting of the SCINet Geospatial Research Working Group](#session-1-annual-meeting-of-the-scinet-geospatial-research-working-group)
+ 
+ 8/27/2020, 11am-1pm MDT, [Session 2: Tutorial: Intro to the Ceres HPC System Environment](#session-2-tutorial-introduction-to-the-ceres-high-performance-computing-system-environment-ssh-jupyterhub-basic-linux-slurm-batch-script)
+ 
+ 8/27/2020, 1:30-2:30pm MDT, [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
+ 
+ 8/28/2020, 11am-1:15pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
+ 
+ 8/28/2020, 1:30-3:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
+ 
+ 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
 
 
-<table border=1 width=600>
-<tr><td width=100>8/19/2020</td><td width=100>11am-1pm MDT</td><td width=400>[Session 0: Pre-meeting SCINet Account Login Assistance](#session-0-pre-meeting-scinet-account-login-assistance)</td></tr>
-<tr><td>Element 4</td><td>Element 5</td><td>Element 6</td></tr>
-</table>
 <br>
 ### Session 0: Pre-meeting SCINet Account Login Assistance
 
