@@ -15,10 +15,11 @@ Below is a brief description of each tutorial as well as an instructional on how
 * [**Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics**](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
 {% endcapture %}
 {% include card.md header="Table of Contents" text=text %}
-
+<br>
 ------
+<br>
 # How to Run Tutorials on Ceres
-
+<br>
 For Sessions 1 & 4 tutorials ("Intro to Ceres" and "Computational Reproducibility Tools") login to your SCINet account using SSH and work through the html tutorials (links in the tutorial sections below) from the command line.
 
 For Sessions 3 & 5 tutorials ("Intro to Distributed Computing" and "Distributed Machine Learning") follow the instructions in this section to open the tutorial in a Jupyter Notebook:
@@ -47,11 +48,11 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
    * Open the desired tutorial
    * Select the py_geo kernel (upper right corner in the notebook)
    * Execute blocks of script by clicking the "play" icon in the notebook or typing Shift+Enter
-
+<br>
 ------
-
+<br>
 # Session 2 Tutorial: Intro to the Ceres HPC System Environment (SSH, JupyterHub, Basic Linux, SLURM batch script)
-
+<br>
 **Link to HTML (static) Material:** coming soon #[Session 2 Tutorial](/link-to-tutorial)<br>
 
  Login to your SCINet account using SSH and work through the html tutorial from the command line.
@@ -63,11 +64,11 @@ After a few minutes, a JupyterLab instance connected directly to the Ceres HPC s
 - access JupyterLab and RStudio on the Ceres HPC through the JupyterHub web interface
 - basic linux commands
 - how to write a SLURM batch script to submit a compute job on the Ceres HPC
-
+<br>
 ------
-
+<br>
 # Session 3 Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
-
+<br>
 **Link to HTML (static) Material:** coming soon #[Session 3 Tutorial](/link-to-tutorial)<br>
 **Link to Jupyter Notebook on Github:** coming soon 
 
@@ -82,11 +83,11 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 - scale clusters for heavy compute
 - use adaptive clusters to dynamically scale up and down your computing
 - view Dask diagnostics to visualize cluster computations in real time
-
+<br>
 ------
-
+<br>
 # Session 4 Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers)
-
+<br>
 **Link to HTML (static) Material:** coming soon #[Session 4 Tutorial](/link-to-tutorial)<br>
 
  Login to your SCINet account using SSH and work through the html tutorial from the command line.
@@ -101,11 +102,11 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 - how containers can allow your codes to run successfully on different operating systems
     - use (and create) a Docker image
     - use Singularity on the Ceres HPC to run a container from a Docker image
-
+<br>
 ------
-
+<br>
 # Session 5 Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
-
+<br>
 **Link to HTML (static) Material:** coming soon #[Session 5 Tutorial](/link-to-tutorial)<br>
 **Link to Jupyter Notebook on Github:** coming soon 
 
