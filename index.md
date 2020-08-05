@@ -39,6 +39,8 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
   
 **To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account. We recommend applying for an account by 8/12/2020 at the latest**, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/19/2020 (Session 0), but make sure you have applied for an account well in advance of this session.
 
+**To follow along with the Session 4 Tutorial: Computational Reproducibility Tools make sure you create a Github account** for yourself and remember your Github username and password. You will also, of course, need a SCINet account as described above.
+
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
 Lastly, review the pre-meeting checklist and background information on the [Pre-meeting page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html).
@@ -58,9 +60,9 @@ Lastly, review the pre-meeting checklist and background information on the [Pre-
  
 - 8/27/2020, 1:30-2:30pm MDT, [Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask](#session-3-tutorial-introduction-to-distributed-computing-on-the-ceres-hpc-system-using-python-and-dask)
  
-- 8/28/2020, 11am-1:15pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-conda-environments-docker-and-singularity-containers)
+- 8/28/2020, 10:30am-12:30pm MDT, [Session 4: Tutorial: Computational Reproducibility Tools](#session-4-tutorial-computational-reproducibility-tools-git=github-conda-docker-singularity-containers)
  
-- 8/28/2020, 1:30-3:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
+- 8/28/2020, 1:00-2:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
  
 - 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
 
@@ -118,20 +120,20 @@ This session will be an interactive follow-along about how to compute in paralle
 We will not cover how to login to your SCINet account or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you are new to working in an HPC environment attending Session 2 first will be helpful but not required.
 
 <br>
-### Session 4: Tutorial: Computational Reproducibility Tools (Conda environments, Docker and Singularity containers)
+### Session 4: Tutorial: Computational Reproducibility Tools (Git/Github, Conda, Docker/Singularity containers)
 
-**Friday August 28, 11am - 12:15pm MDT**<br>
+**Friday August 28, 10:30am - 12:30pm MDT**<br>
 **Registration Required:** [https://www.zoomgov.com/meeting/register/vJItdOugqjMjHx3Cb7qwMCGtE6Wv38MFHos](https://www.zoomgov.com/meeting/register/vJItdOugqjMjHx3Cb7qwMCGtE6Wv38MFHos)<br>
-**Prerequisites:** basic linux, have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
+**Prerequisites:** basic linux, create a free Github account for yourself and remember your username/password, have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
 
-This interactive follow-along session will demonstrate how to use the Conda package/environment management system on the Ceres HPC system. We will cover how to access or install Conda on Ceres, how to use Conda to download software on Ceres, how to use Conda environments to document all the software you are using and eliminate dependency issues, and how to save your Conda environment details to a specification file so that you can quickly recreate your complete software environment for any project. We will also cover how containers can allow your codes to run successfully on different operating systems, how to use (and create) a Docker image, and how to use Singularity on the Ceres HPC to run a container from a Docker image.
+This interactive follow-along session will demonstrate how to use Git/Github, the Conda package/environment management system, and Docker/Singularity containers on the Ceres HPC system. During the Git/Github portion we will cover how to copy an existing Github repo to your SCINet/Ceres account, make a change to the repo locally, push the repo online to your own Github account, and how to pull request your changes to get them incorporated into the original repo. The Conda portion will cover how to access or install Conda on Ceres, how to use Conda to download software on Ceres, how to use Conda environments to document all the software you are using and eliminate dependency issues, and how to save your Conda environment details to a specification file so that you can quickly recreate your complete software environment for any project. We will also cover how containers can allow your codes to run successfully on different operating systems, how to use (and create) a Docker image, and how to use Singularity on the Ceres HPC to run a container from a Docker image.
 
 We will not cover basic linux, how to login to your SCINet account, or troubleshoot individual account access problems during this session. If you are having trouble accessing your account please plan to attend Session 0. If you need basic linux help or are new to working in an HPC environment please plan to first attend Session 2.
 
 <br>
 ### Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 
-**Friday August 28, 12:30pm - 2:30pm MDT**<br>
+**Friday August 28, 1:00pm - 2:30pm MDT**<br>
 **Registration Required:** [https://www.zoomgov.com/meeting/register/vJIsfuuppj8iHCnvY0oCa9-_g22XBVc3d0I](https://www.zoomgov.com/meeting/register/vJIsfuuppj8iHCnvY0oCa9-_g22XBVc3d0I)<br>
 **Prerequisites:** basic Python and basic HPC skill helpful (expertise not required), have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
 
