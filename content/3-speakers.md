@@ -3,8 +3,20 @@ title: Speakers
 nav: true
 ---
 
-The workshop will have several 30 minute invited presentations from the below speakers. Following the presentations, there will be a panel discussion focusing on "Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture". 
+# Symposium
+### Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
+**9/1/2020, 11am-2pm MDT**
+
+The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research. 
+
+Following the presentations, a panel discussion will address the following questions as well as questions from the audience:
+- panel question coming soon
+- panel question coming soon
+- panel question coming soon
+
+
+# Invited Speakers
 
 {% capture text %}### Dr. Matthew Jones from the University of Montana{% endcapture %}
 {% include alert.md text=text color=secondary %}
