@@ -74,7 +74,7 @@ Lastly, review the pre-meeting checklist and background information on the [Pre-
 **No registration required, just show up at 11am MDT:**  [https://www.zoomgov.com/j/1616041733](https://www.zoomgov.com/j/1616041733) <br>
 **Prerequisites:** None
 
-For those who plan on participating in Sessions 2-5, this pre-meeting session with the SCINet Vitural Research Support Core (VRSC) is to help anyone who is having trouble accessing their SCINet account.
+For those who plan on participating in any of the Sessions 2-5 tutorials, this pre-meeting session with the SCINet Vitural Research Support Core (VRSC) is to help anyone who is having trouble accessing their SCINet account.
 
 Please ensure that you have applied for a SCINet account well in advance of this pre-meeting session, as there are multiple approvals (including your supervisor) that new accounts must pass through before it will receive final approval. Suggested final date for applying for a new account in order to be ready for this pre-meeting session is Wednesday Aug 12. Go to [https://scinet.usda.gov/signup/](https://scinet.usda.gov/signup/) to start the account application process.
 
