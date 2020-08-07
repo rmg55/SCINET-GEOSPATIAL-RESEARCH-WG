@@ -14,9 +14,9 @@ nav: true
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research. 
 
 Following the presentations, a panel discussion will address the following questions as well as questions from the audience:
-- panel question coming soon
-- panel question coming soon
-- panel question coming soon
+- What are the merits and pitfalls of machine learning techniques in comparison to traditional deterministic (physical/process-based) and probabilistic modeling/analysis for agricultural research?
+- The USDA ARS is currently undergoing an effort to increase/improve the computational and machine learning capabilities across the agency. What are the skillsets that are required to conduct research with “big data” using machine learning techniques? Do you have suggestions on the best approaches for developing these skillsets?
+- What do you see as the future directions for machine learning and advanced computing techniques (e.g. cloud, HPC) in agricultural research?
 
 <br>
 # Invited Speakers
