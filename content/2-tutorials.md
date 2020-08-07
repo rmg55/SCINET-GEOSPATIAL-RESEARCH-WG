@@ -91,7 +91,7 @@ Run the notebook titled *intro-to-python-dask-on-ceres.ipynb*
 <br>
 **Link to HTML (static) Material:** coming soon <!--[Session 4 Tutorial](/link-to-tutorial)--><br>
 
- Login to your SCINet account using SSH (or through JupyterHub and then open a terminal) and work through the html tutorial from the command line. **To follow along with the Git/Github portion of this tutorial you must create a free Github account for yourself ahead of time and remember your Github username and password.**
+ Login to your SCINet account using SSH (or through JupyterHub and then open a terminal) and work through the html tutorial from the command line. **To follow along with the Git/Github portion of this tutorial you must [create a free Github account](https://github.com/join) for yourself ahead of time and remember your Github username and password.**
 
 **Learning Goals:**
 
