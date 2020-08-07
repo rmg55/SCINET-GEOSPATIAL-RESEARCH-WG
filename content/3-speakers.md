@@ -52,7 +52,9 @@ Maimaitijiang, M.; Sagan, V.; Sidike, P.; Daloye, A.M.; Erkbol, H.; Fritschi, F.
 {% capture text %}### Dr. Jingyi Huang, University of Wisconsin{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
-**Topic**: Remote sensing and random forest methods to understand soil physical processes such as soil water dynamics and nutrient cycles
+**Title:** Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
+
+**Abstract:** Knowledge of soil moisture dynamics at the field scale is essential for agricultural management such as irrigation and fertilization scheduling. However, soil moisture varies greatly in space and time. Neither in situ soil moisture sensor networks nor satellite remote sensing platforms can be directly used to guide field-scale agricultural management. Compared to mechanistic and statistical methods, machine learning models have recently shown the potential to leverage big data from remote sensing and in situ soil sensor network measurements and high-resolution land surface parameters for mapping and forecasting soil moisture dynamics at the field, regional, and global scales. Future work is required to improve the machine learning models (e.g. transferability, interpretability), integrate soil moisture forecasts into decision-support systems (e.g. cost-benefit analysis, economic and environmental trade-offs), and enhance cyberinfrastructure (e.g. FAIR principles) for sustainable and intensified agricultural production. 
 
 **Related Publications**:
 Chatterjee, S.; Huang, J.; Hartemink, A.E. Establishing an Empirical Model for Surface Soil Moisture Retrieval at the U.S. Climate Reference Network Using Sentinel-1 Backscatter and Ancillary Data. *Remote Sens.* 2020, 12, 1242. [10.3390/rs12081242](10.3390/rs12081242)
