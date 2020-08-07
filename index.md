@@ -39,7 +39,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
   
 **To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account. We recommend applying for an account by 8/12/2020 at the latest**, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/19/2020 (Session 0), but make sure you have applied for an account well in advance of this session.
 
-**To follow along with the Session 4 Tutorial: Computational Reproducibility Tools make sure you create a Github account** for yourself and remember your Github username and password. You will also, of course, need a SCINet account as described above.
+**To follow along with the Session 4 Tutorial: Computational Reproducibility Tools make sure you** [**create a Github account**](https://github.com/join) for yourself and remember your Github username and password. You will also, of course, need a SCINet account as described above.
 
 **Please register for each session individually** using the registration links below so we can have an idea of how many people will be present at each event. Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
@@ -124,7 +124,7 @@ We will not cover how to login to your SCINet account or troubleshoot individual
 
 **Friday August 28, 10:30am - 12:30pm MDT**<br>
 **Registration Required:** [https://www.zoomgov.com/meeting/register/vJItdOugqjMjHx3Cb7qwMCGtE6Wv38MFHos](https://www.zoomgov.com/meeting/register/vJItdOugqjMjHx3Cb7qwMCGtE6Wv38MFHos)<br>
-**Prerequisites:** basic linux, create a free Github account for yourself and remember your username/password, have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
+**Prerequisites:** basic linux, [create a free Github account](https://github.com/join) for yourself and remember your username/password, have a SCINet account and be able to login ([apply for an account here](https://scinet.usda.gov/signup/))
 
 This interactive follow-along session will demonstrate how to use Git/Github, the Conda package/environment management system, and Docker/Singularity containers on the Ceres HPC system. During the Git/Github portion we will cover how to copy an existing Github repo to your SCINet/Ceres account, make a change to the repo locally, push the repo online to your own Github account, and how to pull request your changes to get them incorporated into the original repo. The Conda portion will cover how to access or install Conda on Ceres, how to use Conda to download software on Ceres, how to use Conda environments to document all the software you are using and eliminate dependency issues, and how to save your Conda environment details to a specification file so that you can quickly recreate your complete software environment for any project. We will also cover how containers can allow your codes to run successfully on different operating systems, how to use (and create) a Docker image, and how to use Singularity on the Ceres HPC to run a container from a Docker image.
 
