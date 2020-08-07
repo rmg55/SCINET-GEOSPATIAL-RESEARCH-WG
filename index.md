@@ -163,12 +163,12 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 11-11:30 | Dr Matthew Jones | University of Montana | rangeland monitoring & classification
 11:35-12:05 | Dr Liheng Zhong | Descartes Labs | large-scale agricultural mapping
 12:10-12:40 | Dr Vasit Sagan | Saint Louis University | crop monitoring and yield prediction using UAVs
-12:45-1:15 | Dr Jingyi Huang | University of Wisconsin | remote sensing and modeling of soil moisture
+12:45-1:15 | Dr Jingyi Huang | University of Wisconsin | Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
 1:15-1:25 | short break
 1:25-2 | Panel Discussion
 
 <br>
-More information about our invited speakers can be found on our [speakers page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/3-speakers.html)
+More information about our invited speakers and panel session can be found on our [speakers page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/3-speakers.html)
 
 ------
 
