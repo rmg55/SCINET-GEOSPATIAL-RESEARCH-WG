@@ -29,16 +29,20 @@ Following the presentations, a panel discussion will address the following quest
 **Related Publications**: 
 Jones, M. O., Allred, B. W., Naugle, D. E., Maestas, J. D., Donnelly, P., Metz, L. J., Karl, J., Smith, R., Bestelmeyer, B., Boyd, C., Kerby, J. D., and McIver, J. D., 2018. Innovation in rangeland monitoring: annual, 30 m, plant functional type percent cover maps for U.S. rangelands, 1984–2017. *Ecosphere* 9( 9):e02430. [10.1002/ecs2.2430](10.1002/ecs2.2430)
 <br>
+
 {% capture text %}### Dr. Liheng Zhong, Descartes Labs{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
-**Topic**: Large-scale agricultural mapping using deep learning (Convolutional Neural Network and Recurrent Neural Network) methods
+**Title**: How to use statistical data to train classifiers
+
+**Abstract**: The presentation is about a new possibility brought by deep learning in the field of cropland classification, which is covered in a recent article "Deep learning based winter wheat mapping using statistical data as ground references in Kansas and northern Texas, US" published in Remote Sensing of Environment. In the study, the deep neural network classifier was trained using per-county wheat acreage by USDA and MODIS image series, and the trained classifier predicted per-pixel wheat map without relying on county statistics in the target year.
 
 **Related Publications**:
-Zhong, L., Hu, L., Zhou, H., 2019. Deep learning based multi-temporal crop classification. *Remote Sens. Environ.* 221, 430–443. [10.1016/j.rse.2018.11.032](10.1016/j.rse.2018.11.032)
-
 Zhong, L., Hu, L., Zhou, H., Tao, X., 2019. Deep learning based winter wheat mapping using statistical data as ground references in Kansas and northern Texas, US. *Remote Sens. Environ.* 233, 111411. [10.1016/j.rse.2019.111411](10.1016/j.rse.2019.111411)
+
+Zhong, L., Hu, L., Zhou, H., 2019. Deep learning based multi-temporal crop classification. *Remote Sens. Environ.* 221, 430–443. [10.1016/j.rse.2018.11.032](10.1016/j.rse.2018.11.032)
 <br>
+
 {% capture text %}### Dr. Vasit Sagan, Saint Louis University{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
@@ -49,6 +53,7 @@ Maimaitijiang, M., Sagan, V., Sidike, P., Hartling, S., Esposito, F., Fritschi, 
 
 Maimaitijiang, M.; Sagan, V.; Sidike, P.; Daloye, A.M.; Erkbol, H.; Fritschi, F.B. Crop Monitoring Using Satellite/UAV Data Fusion and Machine Learning. *Remote Sens.* 2020, 12, 1357. [10.3390/rs12091357](10.3390/rs12091357)
 <br>
+
 {% capture text %}### Dr. Jingyi Huang, University of Wisconsin{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
