@@ -159,7 +159,8 @@ We will not cover basic Python, basic distributed/parallel computing, how to log
 This session is for USDA ARS scientists, scientific staff, and University collaborators who are interested in learning about how machine learning is being used in agricultural research. We will have 4 invited speakers from outside of USDA ARS give talks about using maching learning for a range of agricultural research questions, followed by a panel discussion. 
 
 **AGENDA (MDT)**
-TIME|SPEAKER|AFFILIATION| PRESENTATION TITLE |
+
+|TIME|SPEAKER|AFFILIATION| PRESENTATION TITLE |
 ---|---|---|---
 11-11:30 | Dr Matthew Jones | University of Montana | rangeland monitoring & classification
 11:35-12:05 | Dr Liheng Zhong | Descartes Labs | How to use statistical data to train classifiers
