@@ -158,10 +158,11 @@ We will not cover basic Python, basic distributed/parallel computing, how to log
 
 This session is for USDA ARS scientists, scientific staff, and University collaborators who are interested in learning about how machine learning is being used in agricultural research. We will have 4 invited speakers from outside of USDA ARS give talks about using maching learning for a range of agricultural research questions, followed by a panel discussion. 
 
-|AGENDA (MDT)| | | |
+**AGENDA (MDT)**
+TIME|SPEAKER|AFFILIATION| PRESENTATION TITLE |
 ---|---|---|---
 11-11:30 | Dr Matthew Jones | University of Montana | rangeland monitoring & classification
-11:35-12:05 | Dr Liheng Zhong | Descartes Labs | large-scale agricultural mapping
+11:35-12:05 | Dr Liheng Zhong | Descartes Labs | How to use statistical data to train classifiers
 12:10-12:40 | Dr Vasit Sagan | Saint Louis University | crop monitoring and yield prediction using UAVs
 12:45-1:15 | Dr Jingyi Huang | University of Wisconsin | Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
 1:15-1:25 | short break
