@@ -24,6 +24,8 @@ Following the presentations, a panel discussion will address the following quest
 {% capture text %}### Dr. Matthew Jones, University of Montana{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
+**Title**: Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
+
 **Topic**: Rangeland monitoring and classification using Landsat satellites, NRI, AIM data and Random Forest and Convolutional Neural Network methods
 
 **Related Publications**: 
