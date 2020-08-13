@@ -41,19 +41,19 @@ The software discussed and shown in the workshop is largely open source, can run
 
 **SCINet vs. Ceres**
 
-SCINet is the USDA ARS initiative to improve access to high performance and cloud computing, imporove networking to facilitate high speed data transfer, and to facilitate scientific computational training.
+SCINet is the USDA ARS initiative to improve access to high performance and cloud computing, improve networking to facilitate high speed data transfer, and to facilitate scientific computational training.
 
 Ceres is one of the HPC systems (located in Iowa) connected to the SCINet infrastucture. The system is largely maintained by staff at Iowa State University called the SCINet Virtual Research Support Core (VRSC). For more information on the Ceres and other HPC systems that SCINet offers, see the [Computer Systems page of the SCINet website](https://scinet.usda.gov/about/compute).  
 
 **Project Jupyter**
 
-Jupyter is an open-source, non-profit project to support interactive data science and scientific computing. Jupyter is language agnostic with support for >130 different scinetific programing language kernels. This workshop will use the following two applications from the Jupyter software stack:
+Jupyter is an open-source, non-profit project to support interactive data science and scientific computing. Jupyter is language agnostic with support for >130 different scientific programing language kernels. This workshop will use the following two applications from the Jupyter software stack:
   1. JupyterHub: A software to serve JupyterLab to multiple users (this is how we will launch an instance of JupyterLab on Ceres without having to to SSH into the cluster). Documention at: [https://jupyterhub.readthedocs.io/en/stable/](https://jupyterhub.readthedocs.io/en/stable/)
   2. JupyterLab: A web-based interactive development environment. Documentation at: [https://jupyterlab.readthedocs.io/en/stable/](https://jupyterlab.readthedocs.io/en/stable/)
 
 **SLURM**
 
-[SLURM](https://slurm.schedmd.com/quickstart.html) (Simple Linux Utility for Resource Management) is the workload manager used on the Ceres HPC system to allocate computational resources. From the [SLURM documentation](https://slurm.schedmd.com/quickstart.html), SLURM is "an open source... cluster management and job scheduling system for large and small Linux clusters. As a cluster workload manager, SLURM has three key functions. First, it allocates exclusive and/or non-exclusive access to resources (compute nodes) to users for some duration of time so they can perform work. Second, it provides a framework for starting, executing, and monitoring work (normally a parallel job) on the set of allocated nodes. Finally, it arbitrates contention for resources by managing a queue of pending work."
+SLURM (Simple Linux Utility for Resource Management) is the workload manager used on the Ceres HPC system to allocate computational resources. From the [SLURM documentation](https://slurm.schedmd.com/quickstart.html), SLURM is "an open source... cluster management and job scheduling system for large and small Linux clusters. As a cluster workload manager, SLURM has three key functions. First, it allocates exclusive and/or non-exclusive access to resources (compute nodes) to users for some duration of time so they can perform work. Second, it provides a framework for starting, executing, and monitoring work (normally a parallel job) on the set of allocated nodes. Finally, it arbitrates contention for resources by managing a queue of pending work."
 
 **Scientific Coding Languages - Python and R**
 
@@ -73,7 +73,7 @@ Git & GitHub allow you to version and archive your scientific codes (and more).
 
 Git is version control software that you use at the command line to keep track of edits to your scientific codes over time.
 
-GitHub is an online repository hosting service where you can archive your scientific codes online. You can [create a free personal Github account](https://github.com/join) where you can archive your scientific codes into different "repositories" within your account. If you keep your Github repo's up to date, it also allows you to access your codes from anywhere. 
+GitHub is an online repository hosting service where you can archive your scientific codes online. You can [create a free personal Github account](https://github.com/join) where you can archive your scientific codes into different "repositories" within your account. If you keep your Github repos up to date, it also allows you to access your codes from anywhere. 
 
 Much of the workshop materials will be accessible through the workshop's GitHub repository at (repo address coming soon). 
 
