@@ -26,10 +26,12 @@ Following the presentations, a panel discussion will address the following quest
 
 **Title**: Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
-**Topic**: Rangeland monitoring and classification using Landsat satellites, NRI, AIM data and Random Forest and Convolutional Neural Network methods
+**Abstract**: Capitalizing on over 52,000 on-the-ground vegetation plots we trained two machine learning style models to predict plant functional type fractional cover across western U.S. rangelands, annually from 1984-present. Random Forests provided the initial fractional cover product which we recently improved upon by using multi-task learning in temporal convolutional networks. The pros and cons of the two methods will be discussed as well as the multiple applications of the resulting fractional land cover products.
 
 **Related Publications**: 
-Jones, M. O., Allred, B. W., Naugle, D. E., Maestas, J. D., Donnelly, P., Metz, L. J., Karl, J., Smith, R., Bestelmeyer, B., Boyd, C., Kerby, J. D., and McIver, J. D., 2018. Innovation in rangeland monitoring: annual, 30 m, plant functional type percent cover maps for U.S. rangelands, 1984–2017. *Ecosphere* 9( 9):e02430. [10.1002/ecs2.2430](10.1002/ecs2.2430)
+Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth, L.M., Erickson, T.A., Fuhlendorf, S.D., Griffiths, T. V, Jansen, V., Jones, M.O., Karl, J., Maestas, J.D., Maynard, J.J., McCord, S.E., Naugle, D.E., Starns, H.D., Twidwell, D., Uden, D.R., 2020. Improving Landsat predictions of rangeland fractional cover with multitask learning and uncertainty. bioRxiv preprint. [10.1101/2020.06.10.142489](https://www.biorxiv.org/content/10.1101/2020.06.10.142489v1)
+
+Jones, M. O., Allred, B. W., Naugle, D. E., Maestas, J. D., Donnelly, P., Metz, L. J., Karl, J., Smith, R., Bestelmeyer, B., Boyd, C., Kerby, J. D., and McIver, J. D., 2018. Innovation in rangeland monitoring: annual, 30 m, plant functional type percent cover maps for U.S. rangelands, 1984–2017. *Ecosphere* 9( 9):e02430. [10.1002/ecs2.2430](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2430)
 <br>
 
 {% capture text %}### Dr. Liheng Zhong, Descartes Labs{% endcapture %}
