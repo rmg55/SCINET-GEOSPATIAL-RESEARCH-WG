@@ -11,6 +11,7 @@ Please complete this pre-meeting checklist ahead of time if you plan to particip
 3. Review the [tutorials page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/2-tutorials.html) and know which ones you wish to attend. Then, register for each one individually on the [workshop homepage](/SCINET-GEOSPATIAL-RESEARCH-WG/).
 4. [Create a free personal Github account](https://github.com/join) if you plan to participate in the Session 4 Tutorial: Computational Reproducibility Tools. Make sure you remember your Github username and password.
 5. Familiarize yourself with the brief background information below.
+**Optional but suggested:** If using your laptop for these tutorials you may want to **connect to a larger monitor** or Google how to connect your laptop to your tv so that you will have enough monitor space to see the zoom demonstration while also having your browser or terminal workspace open at the same time.
 {% endcapture %}
 {% include card.md text=text header="PreMeeting Checklist" %}
 
