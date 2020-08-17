@@ -1,6 +1,6 @@
 ---
 title: Resources
-nav: true
+#nav: true
 ---
 
 ## Other Relevant Geospatial Computational Resources
