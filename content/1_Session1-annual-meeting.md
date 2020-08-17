@@ -1,5 +1,5 @@
 ---
-title: Session 1
+title: Session1
 #nav: true
 --- 
 
