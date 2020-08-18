@@ -423,9 +423,9 @@ This tutorial focuses on creating container images with Docker and running the i
 
 **DOCKER** - open source containerization software that you use at the command line to build and run container images
 
-**DOCKERHUB** - an online repository for finding and sharing container images. Dockerhub is like Github for your Docker images.
+**DOCKERHUB** - an online repository hosting service where you can archive your container images and find/share container images. Dockerhub is like Github for your Docker images.
 
-**SINGULARITY** - like Docker, Singularity is open source containerization software that you use at the command line to build and run container images. Due to security concerns, Singularity is what Ceres HPC users must use to run container images.
+**SINGULARITY** - like Docker, Singularity is open source containerization software that you use at the command line to build and run container images. Due to security concerns, Singularity is what Ceres HPC users must use to run container images. At the time of this writing, Ceres has Singularity version 3.5.3.
 
 **CONTAINER** - a virtualized run-time environment where users can isolate applications from the underlying system. A container is created by running an image. On the Ceres HPC, we create containers using Singularity software to run Docker images.
 
@@ -435,11 +435,46 @@ This tutorial focuses on creating container images with Docker and running the i
 
 **DOCKERFILE** - a script of instructions that define how to build a specific Docker image 
 
+## Finding an Existing Docker Image
+QUESTION: WHERE/HOW DO WE FIND OUT ABOUT CONTAINER IMAGES THAT MAY BE USEFUL TO US? OR IMAGES THAT ARE BEING MAINTAINED BY OUR RESEARCH COMMUNITY TO IMPROVE REPRODUCIBILITY LIKE PANGEO?
 
-## Accessing an Existing Docker Image
+HOW TO SEARCH DOCKER HUB
 
-## Running a Container on Ceres
-singularity runs docker images  
+If you've downloaded Docker on you personal computer you can search Dockerhub with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search dockerhub- it can only search it's own singularity-hub and libraries.
+
+
+## Downloading an Existing Docker Image To Ceres
+On Ceres we must use singularity instead of docker to download, build, and run container images. But we can still access any image on dockerhub. The following will download a docker image layers from dockerhub and assemble them into a Singularity image on Ceres.
+
+A container you may be interested in comes from the Pangeo project. Pangeo is trying to promote and improve reproducibility in climate and geosciences in part by maintaining docker container images that include common geoscience analysis software. Here are links to [Pangeo on Dockerhub]() where you can see available images and [Pangeo on Github]() where you can see what software is included in the images (the "software stack"). 
+
+Navigate to your home directory on Ceres and type:
+
+```singularity pull docker://pangeo/pangeo-notebook```
+
+Another container you may be interested in is the one created to run some of the tutorials in this workshop:
+
+```singularity pull docker://rowangaffney/data_science_im_rs:vSCINetGeoWS_2020```
+
+QUESTION: WILL PARTICIPANTS RUN INTO "CONTAINER ALREADY EXISTS" IF THEY HAVE PREVIOUSLY LOGGED INTO CERES WITH JUPYTERHUB USING THE CONTAINER?
+
+You should now have at least one Singularity image in your home directory on Ceres. You will see that despite pulling from Dockerhub, Singularity has built the image(s) as .sif (Singularity Image Fomat). 
+
+
+## Running a Container Interactively on Ceres
+To "enter" the container by running it interactively on Ceres type:
+
+```singularity shell pangeo-notebook```
+
+Let's have a look around inside our container to see what we are running:
+
+```cat /etc/os-release```
+
+You should see that inside our container we are running Ubuntu 18.04.4 Linux. (Outside of the container, the Ceres HPC system is running CentOS Linux). No matter what OS is running on the host computer, inside this container will always be Ubuntu.
+
+Regardless or whether the host computer has, for example, xx installed on it, you know how access to it inside of your pangeo container.
+
+
 
 ## Creating a New Docker Image from an Existing Image
 dockerhub
