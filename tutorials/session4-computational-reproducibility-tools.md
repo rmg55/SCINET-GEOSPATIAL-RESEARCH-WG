@@ -421,7 +421,7 @@ This tutorial focuses on creating container images with Docker and running the i
 
 ## Container Terminology
 
-**DOCKER** - open source containerization software that you use at the command line to build and run container images
+**DOCKER** - open source containerization software that you use at the command line to build and run container images. You can use docker on your laptop but it is not available on Ceres due to security concerns.
 
 **DOCKERHUB** - an online repository hosting service where you can archive your container images and find/share container images. Dockerhub is like Github for your Docker images.
 
@@ -429,21 +429,26 @@ This tutorial focuses on creating container images with Docker and running the i
 
 **CONTAINER** - a virtualized run-time environment where users can isolate applications from the underlying system. A container is created by running an image. On the Ceres HPC, we create containers using Singularity software to run Docker images.
 
-**CONTAINER IMAGE** - just image for short. A read-only file (.sif) that contains a collection of files such as source code, libraries, dependencies, tools, and other files needed to run a container. The steps in producing an image are added in layers. In this tutorial, we are working with Docker images. When an image is run it becomes a container. 
+**CONTAINER IMAGE** - or just image for short. A read-only file that contains a collection of files such as source code, libraries, dependencies, tools, and other files needed to run a container. The steps in producing an image are added in layers. In this tutorial, we are working with Docker and Singularity images. When an image is run it becomes a container. 
 
 **IMAGE LAYER** - 
 
 **DOCKERFILE** - a script of instructions that define how to build a specific Docker image 
 
+**SINGULARITY DEFINITION FILE** - Singularity's equivalent of a dockerfile
+
+WHAT ELSE?
+
+
 ## Finding an Existing Docker Image
 QUESTION: WHERE/HOW DO WE FIND OUT ABOUT CONTAINER IMAGES THAT MAY BE USEFUL TO US? OR IMAGES THAT ARE BEING MAINTAINED BY OUR RESEARCH COMMUNITY TO IMPROVE REPRODUCIBILITY LIKE PANGEO?
 
-HOW TO SEARCH DOCKER HUB
+HOW TO SEARCH/TOUR OF DOCKER HUB
 
-If you've downloaded Docker on you personal computer you can search Dockerhub with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search dockerhub- it can only search it's own singularity-hub and libraries.
+If you've downloaded Docker on your laptop you can search Dockerhub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search dockerhub- it can only search it's own singularity-hub and libraries.
 
 
-## Downloading an Existing Docker Image To Ceres
+## Building an Existing Docker Image on Ceres with Singularity
 On Ceres we must use singularity instead of docker to download, build, and run container images. But we can still access any image on dockerhub. The following will download a docker image layers from dockerhub and assemble them into a Singularity image on Ceres.
 
 A container you may be interested in comes from the Pangeo project. Pangeo is trying to promote and improve reproducibility in climate and geosciences in part by maintaining docker container images that include common geoscience analysis software. Here are links to [Pangeo on Dockerhub]() where you can see available images and [Pangeo on Github]() where you can see what software is included in the images (the "software stack"). 
@@ -458,10 +463,10 @@ Another container you may be interested in is the one created to run some of the
 
 QUESTION: WILL PARTICIPANTS RUN INTO "CONTAINER ALREADY EXISTS" IF THEY HAVE PREVIOUSLY LOGGED INTO CERES WITH JUPYTERHUB USING THE CONTAINER?
 
-You should now have at least one Singularity image in your home directory on Ceres. You will see that despite pulling from Dockerhub, Singularity has built the image(s) as .sif (Singularity Image Fomat). 
+You should now have at least one Singularity image in your home directory on Ceres. You will see that despite pulling from Dockerhub, Singularity has built the image(s) as .sif (Singularity Image Fomat). The commands above result in a local copy of the Docker image in the Singularity Image Format. In building the SIF, individual layers of the Docker image have been combined into a single file for use by Singularity.
 
 
-## Running a Container Interactively on Ceres
+## Running a Singularity Container Interactively on Ceres
 To "enter" the container by running it interactively on Ceres type:
 
 ```singularity shell pangeo-notebook```
@@ -472,12 +477,37 @@ Let's have a look around inside our container to see what we are running:
 
 You should see that inside our container we are running Ubuntu 18.04.4 Linux. (Outside of the container, the Ceres HPC system is running CentOS Linux). No matter what OS is running on the host computer, inside this container will always be Ubuntu.
 
-Regardless or whether the host computer has, for example, xx installed on it, you know how access to it inside of your pangeo container.
+Regardless or whether the host computer has, for example, scikit-learn installed on it, you now have access to it inside of your pangeo container.
+
+HOW CAN WE TELL WHAT SOFTWARE IS INSIDE THE CONTAINER FROM THE CERES COMMAND LINE. FOR A DOCKER IMAGE BUILT WITH SINGULARITY IS IT POSSIBLE OR DO WE HAVE TO LOOK ON DOCKERHUB/GITHUB BECAUSE SINGULARITY SMASHES THE DOCKER IMAGE LAYERS TOGETHER?
+
+WHAT OTHER SINGULARITY IN-CONTAINER COMMANDS SHOULD WE COVER?
+
+## Non-interactive Container Computing
+Singularity run
+Singularity exec
+
+WHEN TO USE EACH AND WHAT DO THEY DO
+
+## Modifying a Container Image 
+OPTION 1
+
+I'D LIKE TO SHOW HOW TO MODIFY A DOCKER IMAGE USING SINGULARITY. IS THIS EVEN POSSIBLE? I KNOW WE DONT HAVE PRIVILEGES TO RUN SINGULARITY BUILD BUT FOR EXAMPLE, CAN WE USE SYLABS CLOUD TO BUILD THE DOCKER PANGEO-NOTEBOOK AND ADD TENSORFLOW? I COULDN'T FIGURE OUT HOW TO CREATE A SINGULARITY DEFINITION FILE ON THE SYLABS CLOUD CONTAINER BUILDER.
+
+WHAT I'M TRYING TO GET AT HERE IS A WORKFLOW THAT DOESN'T INVOLVE USING OUR LAPTOPS TO BUILD CONTAINERS WITH DOCKER (EVEN THOUGH THAT'S WHAT WE DO). IT MAY BE EASIER FOR THE TUTORIAL TO SHOW SOMETHING THAT'S ALL SINGULARITY/ REMOTE SINGULARITY. WE COULD MENTION BUT NOT SHOW OUR LAPTOP/DOCKER WORKFLOW FOR CREATING CONTAINERS? IDK, I'M UNDECIDED ON THIS. 
+
+OPTION 2
+
+WE COULD SCRAP THE ABOVE AND JUST POST SCREENSHOTS OF THE LAPTOP DOCKER/DOCKERHUB WORKFLOW AND JUST STICK TO ONLY SHOWING THE FEW SINGULARITY COMMANDS ABOVE? THE PROBLEM WITH THIS IS THAT I DON'T HAVE DOCKER ON MY WORK LAPTOP AND CAN'T GET IT. I COULD TRY ON MY PERSONAL LAPTOP BUT WOULDN'T BE ABLE TO SHARE MY SCREEN TO DEMONSTRATE LIVE. MAYBE ROWAN CAN DO THIS? WE'D WANT TO COVER:
+
+DOCKER COMMANDS,
+
+DOCKERFILE,
+
+WHATEVER ELSE YOU THINK IS NECESSARY.
+
+AND MAYBE THEN WE PUT THIS SECTION FIRST, BEFORE THE SINGULARITY STUFF.
 
 
 
-## Creating a New Docker Image from an Existing Image
-dockerhub
-dockerfile
-getting it on Ceres
 
