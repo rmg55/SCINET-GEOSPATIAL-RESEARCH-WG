@@ -33,6 +33,8 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 
 
+[return to agenda](#agenda-mdt)
+
 ## Details on the Upcoming 2020 Sessions
 The following links will take to you to our workshop homepage where you can register for each session if you haven't already. 
 
@@ -70,6 +72,9 @@ Participant Responses:
 
 
 
+[return to agenda](#agenda-mdt)
+
+
 ## Introduction to the SCINet Postdocs
 
 The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! Here is a short introduction to everyone.
@@ -98,6 +103,8 @@ Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-202
 #### Shawn Taylor, 
 
 
+[return to agenda](#agenda-mdt)
+
 
 ## Working Session: SCINet Common Data Library
 
@@ -110,6 +117,8 @@ Discussion Questions:
 
 Participant Responses:
 
+
+[return to agenda](#agenda-mdt)
 
 
 ## Working Session: Geospatial Workbook
@@ -124,8 +133,16 @@ Discussion Questions:
 
 Participant Responses:
 
+
+[return to agenda](#agenda-mdt)
+
+
 ## Proposals for New Working Group Initiatives
 
 Discussion Question:
 
 Participant Responses:
+
+
+[return to agenda](#agenda-mdt)
+
