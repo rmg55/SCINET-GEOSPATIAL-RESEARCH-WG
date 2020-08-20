@@ -21,7 +21,9 @@ After the session we will post any notes, outcomes, and links to video recording
 1:15-1:45 | [Working Session: geospatial workbook](#working-session-geospatial-workbook)
 1:45-2 | [Proposals for new working group initiatives](#proposals-for-new-working-group-initiatives)
 
+
 **Workshop Organizing Committee**
+
 Rowan Gaffney, Physical Scientist, Ft Collins, CO<br>
 Kerrie Geil, SCINet Postdoc, Las Cruces, NM<br>
 Amy Hudson, SCINet Postdoc, Las Cruces, NM<br>
