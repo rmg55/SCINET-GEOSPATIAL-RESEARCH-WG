@@ -77,13 +77,16 @@ Participant Responses:
 
 ## Introduction to the SCINet Postdocs
 
-The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! Here is a short introduction to everyone.
+The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! SCINet postdocs are tasked with developing cross-site collaborative research projects that utilize the ARS high-performance computing resources. They will also contribute to non-research projects that further the SCINet Computing Initiative such as the SCINet website, newsletter, and various computational trainings.  Here is a short introduction to everyone.
 
 #### Melanie Kammerer Allen, 
 
 #### Ibukun (Timothy) Ayankojo,
 
 #### Jennifer Chang,
+![picture of jennifer](/images/postdoc-pics/jennifer-chang-150-150.jpg)
+
+Jennifer Chang grew up in Wisconsin and has been programming since 2006. At Cornell College, she double majored in Biochemistry and Computer Science graduating in 2011. In 2017, Jennifer earned a PhD in bioinformatics from Iowa State University. During the PhD, her research software "Mango Graph Studio" led to co-founding a software company and working on two Department of Defense Small Business Innovation Research (SBIR) contracts. She eventually left the company and was a postdoc with Dr. Amy Vincent at USDA-ARS, automating swine influenza reports from 2017-2020. In June 2020, Jennifer shifted to a SCINet postdoc position with Dr. Andrew Severin and Dr. Brian Scheffler where she collaborates on the bioinformatics workbook. She's still in Ames, Iowa, learning slurm and automating pipelines for different hardware architectures. She hopes to write flexible general-purpose pipelines that reduce tedium and increase joy of discovery. Jennifer cares about collaboration, welcoming environments, and teaching.
 
 #### Alicia Foxx, 
 
