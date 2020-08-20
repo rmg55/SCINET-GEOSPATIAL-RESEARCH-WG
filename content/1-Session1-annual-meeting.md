@@ -144,7 +144,7 @@ Participant Responses:
 
 ## Proposals for New Working Group Initiatives
 
-Discussion Question:
+Discussion Question: What other projects should the working group pursue to enhance access to and use of high-performance computing and to improve computing skills in general?
 
 Participant Responses:
 
