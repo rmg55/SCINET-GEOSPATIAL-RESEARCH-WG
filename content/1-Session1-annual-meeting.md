@@ -104,7 +104,7 @@ Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-202
 #### Yanghui Kang, 
 ![picture of yanghui](/images/postdoc-pics/yanghui-kang-150-150.jpg)
 
-Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. degree in Geography from the University of Wisconsin-Madison. She works with Dr. Feng Gao at the Hydrology and Remote Sensing Laboratory in the Beltsville Agricultural Research Center, Beltsville, Maryland. Yanghui’s research projects have focused on the large-scale high-resolution monitoring of core agroecosystem variables (e.g., Leaf Area Index (LAI), crop yield), with the help of satellite remote sensing, machine learning, crop growth modeling, and data assimilation. At ARS, Yanghui is currently developing a machine-learning-based approach to map LAI from Landsat and Sentinel-2 images over the entire globe. She is also interested in detecting crop phenological stages from satellite observations and monitoring agroecosystem dynamics through data assimilation.
+Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. degree in Geography from the University of Wisconsin-Madison. She works with Dr. Feng Gao and Dr. Martha Anderson at the Hydrology and Remote Sensing Laboratory in the Beltsville Agricultural Research Center, Beltsville, Maryland. Yanghui’s research projects have focused on the large-scale high-resolution monitoring of core agroecosystem variables (e.g., Leaf Area Index (LAI), crop yield), with the help of satellite remote sensing, machine learning, crop growth modeling, and data assimilation techniques. At ARS, Yanghui is currently developing a machine-learning-based approach to map LAI from Landsat and Sentinel-2 images over the entire globe. She is also interested in deriving crop phenological stages from satellite observations and monitoring agroecosystem dynamics through data assimilation.
 
 #### Suzy Stillman, 
 
@@ -118,10 +118,16 @@ Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. 
 
 Lead: Yanghui Kang, SCINet Postdoc
 
-Discussion Questions:
-- 
-- 
--
+During the 2019 SCINet Geospatial Workshop, the working group identified the need to develop a shared repository to serve commmonly used geospatial datasets to ARS users. The common data library/repository aims to enable easy access to popular datasets and reduce the barrier of adoption for SCINet HPC clusters. Before the 2020 SCINet Geospatial Workshop, we invited the working group and workshop participants to complete a survey about the data and computational needs of ARS geospatial researches and applications. In this session, we will present the preliminary results of the survey and discuss important aspects of the common data library development.
+
+**Tentative Agenda**
+* Brief introduction (5 mins)
+* Preliminary results of the SCINet Geospatial Data and Computational Needs Survey (10 mins)
+* Discuss (45 mins)
+  * What kind of datasets and which ones will be stored on the clusters?
+  * How to store, manage, and serve data to the users?
+  * How to allow easy access to data that does not make it to the library/repository?
+  * Other topics brought by the audience ...
 
 Participant Responses:
 
