@@ -83,7 +83,7 @@ This example workflow demonstrates how to:
   - have your repo edits incorporated back into the online repo that you originally copied from on Github [(Step 5)](#step-5-make-a-pull-request-request-that-your-changes-be-incorporated-into-the-original-repo)
 <br>
 
-#### Step 1: Fork a Github Repo (on Github, copy an existing Github repo to your own Github account)
+#### **Step 1**: Fork a Github Repo (on Github, copy an existing Github repo to your own Github account)
 
 a. Login to [Github](https://github.com/) with your username and password.
 
@@ -95,7 +95,7 @@ b. Find the Github repo that you want to copy. Let's copy the repo called "Spoon
 c. Click Fork on the top right of the repo page and then click on your github username when you are asked where to fork to. You have now copied the repo to your own account. Notice the URL you are at- it should be github.com/yourusername/reponame
 <br><br>
 
-#### Step 2: Create a Local Repo on Ceres From Your Github Repo (git clone)
+#### **Step 2**: Create a Local Repo on Ceres From Your Github Repo (git clone)
 
 a. SSH into your Ceres account from a terminal/command line. See the [Ceres Quick Start Guide](https://scinet.usda.gov/guide/quickstart#accessing-scinet) for instructions.
 
@@ -104,60 +104,86 @@ b. Navigate to the location on Ceres where you want to copy the repo. It's small
 c. Go back to Github to get the URL of your Github repo. On your repo page, click the green Code button to find the repo address. It should be in the form github.com/yourusername/Spoon-Knife.git
 
 d. Back at the command line type the following to make a local copy of your Github repo<br>
-```git clone paste_or_type_the_full_repo_URL_including_https://```
+```bash
+git clone paste_or_type_the_full_repo_URL_including_https://
+```
 <br><br>
 
-#### Step 3: Make Changes to Your Local Repo and Make Multiple Commits (git add, git commit)
+#### **Step 3**: Make Changes to Your Local Repo and Make Multiple Commits (git add, git commit)
 
 a. Create some new text files using your name as the file name<br>
-```cd Spoon-Knife``` to navigate into your repo<br>
-```touch yourname1.txt yourname2.txt yourname3.txt``` to create some empty text files<br>
-```ls``` to see a list of the files in your repo
+```bash
+cd Spoon-Knife #to navigate into your repo<br>
+touch yourname1.txt yourname2.txt yourname3.txt #to create some empty text files
+ls #to see a list of the files in your repo
+```
 
 b. Check the status of your edits. The changed files should appear as untracked files<br>
-```git status```
+```bash
+git status
+```
 
 c. Stage the edits before committing. You are "telling Git" what files you want to include in a future commit.<br>
-```git add yourname1.txt```<br>
-```git add yourname2.txt yourname3.txt```
+```bash
+git add yourname1.txt
+git add yourname2.txt yourname3.txt
+```
 
 d. Check the status of your edits. The changed files should now appear as changes to be committed<br>
-```git status```
+```bash
+git status
+```
 
 e. Commit the edits to include them in a snapshot of your updated local repo<br>
-```git commit -m "create new text files"```
+```bash
+git commit -m "create new text files"
+```
 
 f. Check the status of your edits again. The changed files should no longer appear in the status output. If you've committed all your changes you should see "nothing to commit, working directory clean"<br> 
-```git status```
+```bash
+git status
+```
 
 g. Let's do it again. Edit the file hi-my-name-is.txt to include your name<br>
-```nano hi-my-name-is.txt``` <br>
+```bash
+nano hi-my-name-is.txt
+```
 then type your name, hit Ctl+O then enter to write, Ctl+X to exit
 
 h. Stage your edits<br>
-```git add hi-my-name-is.txt```
+```bash
+git add hi-my-name-is.txt
+```
 
 f. Another commit<br>
-```git commit -m "update with my name"```
+```bash
+git commit -m "update with my name"
+```
 
 g. Check the status of the changes. Working directory should now be clean, meaning all changes have been committed to an updated "snapshot"<br>
-```git status```
-<br><br>
+```bash
+git status
+```
+<br>
 
-#### Step 4: Push Your Local Changes Up to Your Remote Repo on Your Github Account (git push)
+#### **Step 4**: Push Your Local Changes Up to Your Remote Repo on Your Github Account (git push)
 
 a. If you want to double check what remote repo(s) is/are associated with your local repo, at the command line type<br>
-```git remote -v```<br>
+```bash
+git remote -v
+```
 
 You should see that your remote repo is called "origin" for short and that the URL to the remote repo is github.com/yourusername/Spoon-Knife.git, the same URL we used when we cloned the repo to your local computer
 
 b. Push your local changes to your remote repo on your Github account with<br>
-```git push origin```
+```bash
+git push origin
+```
 
 c. Go back to your repo on Github and refresh the page. You should see your new files appear now on Github
 <br><br>
 
-#### Step 5: Make a Pull Request (request that your changes be incorporated into the original repo)
+#### **Step 5**: Make a Pull Request (request that your changes be incorporated into the original repo)
 
 a. To add your repo changes into the original repo at kerriegeil/Spoon-Knife, navigate back to that original repo page
 
@@ -175,22 +201,26 @@ b. Now submit a pull request. You are requesting that kerriegeil incorporate (or
 Sometimes you'll want to start a brand new local repo right from the command line and then push your local repo up to Github. Here's how to do it.
 <br>
 
-#### Step 1: Initialize a New Local Git Repo
+#### **Step 1**: Initialize a New Local Git Repo
 
 a. Create a new local directory where you want your new local repo to live and navigate into it<br>
-```mkdir my_new_repo```<br>
-```cd my_new_repo```
+```bash
+mkdir my_new_repo
+cd my_new_repo
+```
 
 b. Initialize a new local git repository<br>
-```git init```
-<br><br>
+```bash
+git init
+```
+<br>
 
-#### Step 2: Edit away!
+#### **Step 2**: Edit away!
 
 Adding content to your local repo is the exact same process as Step 3 in the previous workflow
 <br><br>
 
-#### Step 3: Create a Remote Repo on Github and Push Your Local Repo Up to Your Github Repo
+#### **Step 3**: Create a Remote Repo on Github and Push Your Local Repo Up to Your Github Repo
 
 a. Login to your Github account
 
@@ -201,8 +231,10 @@ c. Give your new Github repo the same name my_new_repo
 d. You can skip the section about creating a readme, license, gitignore because you'll be importing an existing repo
 
 e. Follow the instructions to push an existing repo from the command line<br>
-```git remote add origin https://github.com/yourusername/my_new_repo.git```<br>
-```git push origin```
+```bash
+git remote add origin https://github.com/yourusername/my_new_repo.git
+git push origin
+```
 
 f. Refresh your Github repo page, you should see all your local files now in your Github repo
 
@@ -213,21 +245,27 @@ f. Refresh your Github repo page, you should see all your local files now in you
 **always git pull**
 
 If you are collaborating with someone on Github it is good practice to pull down any changes from the main repo to your local repo every time you begin working on your local repo. This way you can avoid merge conflicts later. If you have "origin"  set to the remote repo that you are collaborating on then you can simply type the following to fetch and merge remote changes into your local repo:<br>
-```git pull```
+```bash
+git pull
+```
 
 **access repo commit history**
 
 There are two ways to see every available snapshot of your repo (history of commits). On Github in your repo, click the commits link located right under the green Code button. From the command line:<br>
-```git log```
+```bash
+git log
+```
 
 We won't cover how to revert your repo to a previous commit in this tutorial but you should know that commit number you see on Github commits or in the ```git log``` output at the command line is what you need to access an earlier version of your repo.
 
 **create and switch to a new branch**
 
 If you need a new isolated area to experiment with changes to your code without affecting your codes on the deafault Master branch, create a new branch and switch to it with<br>
-```git checkout -b new_branch_name```<br>
-```git branch``` should show all your branches and which branch you are currently on<br>
-```git checkout master``` to switch back to your Master branch<br>
+```bash
+git checkout -b new_branch_name
+git branch #should show all your branches and which branch you are currently on<br>
+git checkout master #to switch back to your Master branch<br>
+```
 
 Note: from the command line creating a new branch does not create a new folder in your repo directory. Be careful to always be aware of which branch you are working on- from the command line it is not obvious.
 
@@ -267,45 +305,37 @@ Conda is available on Ceres without users having to install it themselves. Actua
 
 ### From the Module System
 After SSHing into Ceres, it is easy to load Conda from the software module system.<br>
-```module load miniconda```
+```bash
+module load miniconda
+```
 
 At the time of this writing, the default Conda on Ceres is miniconda/4.7.12.
 
 {% capture text %}
 You will then want to immediately issue the following command which will put you in the base environment:<br>
-```source activate```
+```bash
+source activate
+```
 
 Note: If you forget to ```source activate``` and later try to ```conda activate my_env```, you will get a command not found error and will be instructed to ```conda init```. Despite the standard output instructions, **DO NOT EVER TYPE ```conda init``` ON THE CERES HPC**. It will make a permanent modification to your $PATH that doesn't play nice with the software module system or with Jupyter. If you accidentally ```conda init``` you will have to modify your .bashrc file to remove any conda initialization info. See the section of the [Guide to User-Installed Software on Ceres with Conda](https://scinet.usda.gov/guide/conda/) highlighted in red for more detail about how to fix your .bashrc in this case.
 
 After you ```source activate``` and are placed in the base environment, you will then be able to ```conda activate my_env``` with no problems.
 
-{% endcapture %}
-{% include alert.md text=text color=warning %}
-
 ### From JuptyerHub
 When using JupyterHub to login to Ceres you will also have access to Conda.
 
-#### JupyterHub login with no container
+#### **JupyterHub login with no container**
 If you login to Ceres with JupyterHub and are not using a container, you will automatically have access to Conda- no need to load the module. At the time of this writing the default is miniconda/3.6. 
 
-{% capture text %}
-always remember to ```source activate``` immediately and to never ```conda init```
-
-see above [From the Module System](#from-the-module-system) for more detail
-{% endcapture %}
-{% include alert.md text=text color=warning %}
+<mark>always remember to ```source activate``` immediately and to never ```conda init```</mark> see the above [From the Module System](#from-the-module-system) for more detail
 
 The Conda version shouldn't really matter, but if you run into problems with this older version you can always open a terminal in JupyterLab and execute the same commands as in the above section [From the Module System](#from-the-module-system) to load a more up-to-date Conda version from the software module system. 
 
-#### JupyterHub login with a container
+#### **JupyterHub login with a container**
 If you login to Ceres with the workshop image "data_science_im_rs_vSCINetGeoWS_2020.sif" you will have access to miniconda/4.8.3.
 
-{% capture text %}
-always remember to ```source activate``` immediately and to never ```conda init```
-
+<mark>always remember to ```source activate``` immediately and to never ```conda init```</mark>
 see above [From the Module System](#from-the-module-system) for more detail
-{% endcapture %}
-{% include alert.md text=text color=warning %}
 <br><br>
 
 ## Using Conda Environments to Create Isolated Software Workspaces
@@ -321,34 +351,44 @@ At this point you should be logged in to your Ceres home directory preferably by
 
 ### The Conda Basics
 
-#### Create an New Environment
+#### **Create an New Environment**
 
 In this tutorial we will create an environment that you can run the Session 3 Tutorial with in JupyterLab.<br>
-```salloc``` to open an interactive compute session. You are now on a compute node as opposed to the login node.<br>
-```source activate``` to get into the base environment<br>
+```bash
+salloc #to open an interactive compute session. You are now on a compute node as opposed to the login node
+source activate #to get into the base environment
+```
 
 Create a new environment with ```conda create --name environment_name package1 package2 package3```.<br> 
-```conda create --name session3_env python=3.7 numpy dask dask-jobqueue```
+```bash 
+conda create --name session3_env python=3.7 numpy dask dask-jobqueue
+```
 
 Make sure you hit enter when Conda asks if you want to proceed. This build will likely take about 5 minutes.
 <br><br>
 
-#### View all Environments
+#### **View all Environments**
 
 When the build is finished and your command prompt returns, view all your environments with:<br>
-```conda env list```
-<br><br>
+```bash
+conda env list
+```
+<br>
 
-#### Activate an Environment and Install More Software
+#### **Activate an Environment and Install More Software**
 
 To activate your new environment<br>
-```conda activate session3_env```
+```bash
+conda activate session3_env
+```
 
 To access this environment in JupyterLab you will need to install the ipykernel package. We could have done this with our ```conda create``` but are doing it after the fact to demonstrate how to add additional packages into an existing environment. Make sure your session3_env is activated and<br>
-```conda install ipykernel -y``` notice how the -y allows you to bypass the "proceed ([y]/n)?"
-<br><br>
+```bash
+conda install ipykernel -y #notice how the -y allows you to bypass the "proceed ([y]/n)?"
+```
+<br>
 
-#### Change or Deactivate an Environment
+#### **Change or Deactivate an Environment**
 
 To change environments<br>
 ```conda activate base``` will switch you to another environment, in this case the base environment<br>
@@ -356,44 +396,58 @@ or <br>
 ```conda deactivate``` will switch you back to whichever environment you were in previously
 <br><br>
 
-#### View Software in an Environment
+#### **View Software in an Environment**
 
 To view all the packages in the active environment<br>
-```conda list```
-<br><br>
+```bash
+conda list
+```
+<br>
 
-#### Export the Environment Software List to a Specification File
+#### **Export the Environment Software List to a Specification File**
 
 Create a specification file that lists every single software package that's in an environment, including the packages that are specific to the operating system you are running on. You can save this file wherever you want. Here we'll save it in the Conda envs folder where the rest of your environment information lives.<br>
-```conda list --explicit > ~/.conda/envs/session3_env_spec_file.txt```
+```bash
+conda list --explicit > ~/.conda/envs/session3_env_spec_file.txt
+```
 
 View the file you just made<br>
-```cat ~/.conda/envs/session3_env_spec_file.txt```
+```bash
+cat ~/.conda/envs/session3_env_spec_file.txt
+```
 
 Notice at the very top of the file there are instructions for recreating the environment from this file, we'll cover this shortly. It also tells you what operating system you can recreate the environment on, in our case you can recreate this environment on 64-bit linux platforms. Recreating the environment on other platforms will likely not work.
 <br><br>
 
-#### Delete an Environment and Recreate from a Specification File
+#### **Delete an Environment and Recreate from a Specification File**
 
 Let's say you run out of space to store all your environments. No problem, as long as you have a specification file that lists the environment software, you can go ahead and delete your environment because you'll be able to recreate it anytime.<br>
-```conda env remove --name session3_env```
+```bash
+conda env remove --name session3_env
+```
 
 You can recreate the environment on the same machine you deleted it from<br>
-```conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt```
-<br><br>
+```bash
+conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
+```
+<br>
 
-#### Export the Environment Across OS Platforms
+#### **Export the Environment Across OS Platforms**
 
 To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
-```conda env export --from-history > ~/.conda/envs/session3_env.yml```
+```bash
+conda env export --from-history > ~/.conda/envs/session3_env.yml
+```
 
 View the file you just made<br>
-```cat ~/.conda/envs/session3_env.yml```
+```bash
+cat ~/.conda/envs/session3_env.yml
+```
 
 As with the specification file we made earlier, you can use this yml file to recreate your environment on the same machine. You can also use a yml to create a similar environment on another machine running a different operating system. This means you can share this yml with other scientists too. Note if there is a --prefix line in your yml file you'll need to modify that if recreating on a different machine or in a different file structure (e.g. different Ceres user). Note: this isn't a 100% foolproof method of getting your codes to run across different platforms because some software just isn't fully supported on all operating systems. Being able to run your codes successully across operating systems is the major benefit of using containers, which we will cover in the next segment.
 <br><br>
 
-#### Running the Session 3 Tutorial with Your New Environment
+#### **Running the Session 3 Tutorial with Your New Environment**
 
 During the Session 3 Tutorial we ran the tutorial in a container that already contained all the necessary software but use of a container wasn't totally necessary. The session3_env Conda environment we have created also contains all the software needed to run it.
 
@@ -402,10 +456,6 @@ To run the Session3 Tutorial using your new session3_env Conda environment, navi
 Once you have the Session 3 Jupyter notebook open, on the top right of the notebook you should be able to click to select a Kernel. In the Select Kernel window that pops up choose you session3_env from the dropdown list and then click Select. You are now running the Jupyter notebook in your session3_env Conda environment!
 <br><br>
 
-
-### Additional Conda Commands
-
-<br><br>
 
 ---
 
@@ -417,97 +467,114 @@ Using a container makes your codes portable from machine to machine regardless o
 
 If you've ever written code on one machine and then tried to run it without success on a different machine, then you could benefit from using containers. As you can image, using containers to make your code portable means that sharing code between collaborators is very simple. And portable code makes it much easier for others to reproduce your results.
 
-This tutorial focuses on creating container images with Docker and running the images on the Ceres HPC with Singularity. You can also create container images with Singularity and store/version them on Singularity-hub but we have chosen to feature a mostly Docker workflow because Docker container images are currently much more common than Singularity. 
+This tutorial <mark>focuses on creating container images with Docker and running the images on the Ceres HPC with Singularity</mark>. You can also create container images with Singularity and store/version them on Singularity-hub but we have chosen to feature a mostly Docker workflow because Docker container images are currently much more common than Singularity. For more detailed information about singularity on Ceres, see this SCINet 
 
 ## Container Terminology
 
 **DOCKER** - open source containerization software that you use at the command line to build and run container images. You can use docker on your laptop but it is not available on Ceres due to security concerns.
 
+**SINGULARITY** - like Docker, Singularity is open source containerization software that you use at the command line to build and run container images. Due to security concerns, Singularity is what Ceres HPC users must use to run container images. At the time of this writing, Ceres has Singularity version 3.5.3.
+
 **DOCKERHUB** - an online repository hosting service where you can archive your container images and find/share container images. Dockerhub is like Github for your Docker images.
 
-**SINGULARITY** - like Docker, Singularity is open source containerization software that you use at the command line to build and run container images. Due to security concerns, Singularity is what Ceres HPC users must use to run container images. At the time of this writing, Ceres has Singularity version 3.5.3.
+**SINGULARITY HUB** - an online repository hosting service where you can archive your container images and find/share container images. Singularity Hub is like Github for your Singularity images.
 
 **CONTAINER** - a virtualized run-time environment where users can isolate applications from the underlying system. A container is created by running an image. On the Ceres HPC, we create containers using Singularity software to run Docker images.
 
 **CONTAINER IMAGE** - or just image for short. A read-only file that contains a collection of files such as source code, libraries, dependencies, tools, and other files needed to run a container. The steps in producing an image are added in layers. In this tutorial, we are working with Docker and Singularity images. When an image is run it becomes a container. 
 
-**IMAGE LAYER** - 
-
 **DOCKERFILE** - a script of instructions that define how to build a specific Docker image 
 
 **SINGULARITY DEFINITION FILE** - Singularity's equivalent of a dockerfile
 
-%%%%%%%%%%%%%% WHAT ELSE? %%%%%%%%%%%%%%%
-
 
 ## Finding an Existing Docker Image
-%%%%%%%%%%%%%% QUESTION: WHERE/HOW DO WE FIND OUT ABOUT CONTAINER IMAGES THAT MAY BE USEFUL TO US? OR IMAGES THAT ARE BEING MAINTAINED BY OUR RESEARCH COMMUNITY TO IMPROVE REPRODUCIBILITY LIKE PANGEO? %%%%%%%%%%%%%%
 
-%%%%%%%%%%%%%% HOW TO SEARCH/TOUR OF DOCKER HUB %%%%%%%%%%%%%%
+Several organizations maintain excellent data science container stacks:
 
-If you've downloaded Docker on your laptop you can search Dockerhub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search dockerhub- it can only search it's own singularity-hub and libraries.
+1. **Jupyter**: (Interactive computing with Jupyter, focusing on Python and R): [Documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) | [GitHub](https://github.com/jupyter/docker-stacks) | [DockerHub](https://hub.docker.com/u/jupyter)
+2. **Rocker**:  (Interactive computing with RStudio, focusing on R): [Documentation](https://www.rocker-project.org/) | [GitHub](https://github.com/rocker-org/rocker) | [DockerHub](https://hub.docker.com/u/rocker)
+3. **RapidsAI**: (Interactive computing with Jupyter+Python and GPUs): [Documentation](https://hub.docker.com/r/rapidsai/rapidsai) | [GitHub](https://github.com/rapidsai/docker) | [DockerHub](https://hub.docker.com/u/rapidsai)
 
+If you've downloaded Docker on your laptop you can search Dockerhub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search dockerhub- it can only search it's own singularity-hub and libraries. In addition, you can simply do a key-word on DockerHubs website of the +100,000 public containers.
 
-## Building an Existing Docker Image on Ceres with Singularity
+## Using a Docker Image on Ceres with Singularity
 On Ceres we must use singularity instead of docker to download, build, and run container images. But we can still access any image on dockerhub. The following will download a docker image layers from dockerhub and assemble them into a Singularity image on Ceres.
 
-A container you may be interested in comes from the Pangeo project. Pangeo is trying to promote and improve reproducibility in climate and geosciences in part by maintaining docker container images that include common geoscience analysis software. Here are links to [Pangeo on Dockerhub]() where you can see available images and [Pangeo on Github]() where you can see what software is included in the images (the "software stack"). 
+Alpine is a popular (+1Billion dockerhub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
 
-Navigate to your home directory on Ceres and type:
+#### **Step 1**: Navigate to your home directory and download+build the container with:
+```bash
+cd $HOME 
+salloc #to start an interactive session on a compute node
+singularity pull docker://alpine:latest
+```
+Now you should see a container named ```alpine_latest.sif``` in your in your folder.
+```bash
+ls
+```
+#### **Step 2**: Interact with the image.
+You can shell (interactively enter) into the container with:
+```bash
+singularity shell alpine_latest.sif
+```
+Notice that the terminal has now changed (it should start with ```Singularity>```). Lets see what OS we are using:
+```bash
+cat /etc/os-release
+```
+To leave the container, simply:
+```bash
+exit
+```
+Now the terminal has changed back to the standard Ceres compute node convention.
 
-```singularity pull docker://pangeo/pangeo-notebook```
+#### **Step 3**: Run a command inside the container from the host system.
 
-Another container you may be interested in is the one created to run some of the tutorials in this workshop:
+Rather than the ```shell``` command, we will use the ```exec``` command.
+```bash
+singularity exec alpine_latest.sif cat /etc/os-release
+```
 
-```singularity pull docker://rowangaffney/data_science_im_rs:vSCINetGeoWS_2020```
+#### **Bonus Step 4**: Caching
+Singularity caches the containers from docker/singularity Hub in your ```$HOME/.singularity``` folder. For instance, we can delete the alpine image we just made, and then simply shell into it using the "dockerhub" url.
 
-QUESTION: WILL PARTICIPANTS RUN INTO "CONTAINER ALREADY EXISTS" IF THEY HAVE PREVIOUSLY LOGGED INTO CERES WITH JUPYTERHUB USING THE CONTAINER?
+```bash
+rm alpine_latest.sif #Delete the image
+ls #Check to make sure the image no longer existed
+```
+Now lets shell into the alpine image.
+```bash
+singularity shell docker://alpine:latest
+```
+Note that we did not need to download or rebuild the container. Now lets exit the container and the Ceres compute node with:
+```bash
+exit #to exit the container image
+exit #to exit the ceres compute node
+```
+## Building a Docker Container
 
-You should now have at least one Singularity image in your home directory on Ceres. You will see that despite pulling from Dockerhub, Singularity has built the image(s) as .sif (Singularity Image Fomat). The commands above result in a local copy of the Docker image in the Singularity Image Format. In building the SIF, individual layers of the Docker image have been combined into a single file for use by Singularity.
+#### **Option 1**: Build a container on your local system and copy over to Ceres (not covered in this tutorial).
 
+#### **Option 2**: Build a container with DockerHub. There are multiple ways to accomplish this task. Here we discuss one approach to link Github to Dockerhub.
 
-## Running a Singularity Container Interactively on Ceres
-To "enter" the container by running it interactively on Ceres type:
+  1. Create Github and Dockerhub accounts.
+  2. Create a Github repository, perhaps something like *my_container*.
+  3. Within the *my_container* Github repository, make a file titled *Dockerfile*. Below is an example what a simple Dockerfile might look like:
+  ```text
+  FROM jupyter/datascience-notebook
+  LABEL maintainer="My Name <my.email@xxx.xxx>"
 
-```singularity shell pangeo-notebook```
+  conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
+  ```
+  The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our info, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
+  4. Create a new repository in DockerHub and link it to the *my_containers* repository in Github.
+  5. Trigger the build in DockerHub. Wait for the build to complete and then pull to Ceres.
 
-Let's have a look around inside our container to see what we are running:
+## Example Github <---> DockerHub Setup
 
-```cat /etc/os-release```
+The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image titled *data_science_im_rs_vSCINetGeoWS_2020.sif*. The container was developed using Github ([https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs](https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs)) and DockerHub ([https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags](https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags)). These repositories are setup to have some additional useful features:
 
-You should see that inside our container we are running Ubuntu 18.04.4 Linux. (Outside of the container, the Ceres HPC system is running CentOS Linux). No matter what OS is running on the host computer, inside this container will always be Ubuntu.
-
-Regardless or whether the host computer has, for example, scikit-learn installed on it, you now have access to it inside of your pangeo container.
-
-%%%%%%%%%%%%%% HOW CAN WE TELL WHAT SOFTWARE IS INSIDE THE CONTAINER FROM THE CERES COMMAND LINE. FOR A DOCKER IMAGE BUILT WITH SINGULARITY IS IT POSSIBLE OR DO WE HAVE TO LOOK ON DOCKERHUB/GITHUB BECAUSE SINGULARITY SMASHES THE DOCKER IMAGE LAYERS TOGETHER? %%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%% WHAT OTHER SINGULARITY IN-CONTAINER COMMANDS SHOULD WE COVER? %%%%%%%%%%%%%%
-
-## Non-interactive Container Computing
-Singularity run
-Singularity exec
-
-%%%%%%%%%%%%%% WHEN TO USE EACH AND WHAT DO THEY DO %%%%%%%%%%%%%%
-
-## Modifying a Container Image 
-%%%%%%%%%%%%%% OPTION 1 %%%%%%%%%%%%%%
-
-I'D LIKE TO SHOW HOW TO MODIFY A DOCKER IMAGE USING SINGULARITY. IS THIS EVEN POSSIBLE? I KNOW WE DONT HAVE PRIVILEGES TO RUN SINGULARITY BUILD BUT FOR EXAMPLE, CAN WE USE SYLABS CLOUD TO BUILD THE DOCKER PANGEO-NOTEBOOK AND ADD TENSORFLOW? I COULDN'T FIGURE OUT HOW TO CREATE A SINGULARITY DEFINITION FILE ON THE SYLABS CLOUD CONTAINER BUILDER.
-
-WHAT I'M TRYING TO GET AT HERE IS A WORKFLOW THAT DOESN'T INVOLVE USING OUR LAPTOPS TO BUILD CONTAINERS WITH DOCKER (EVEN THOUGH THAT'S WHAT WE DO). IT MAY BE EASIER FOR THE TUTORIAL TO SHOW SOMETHING THAT'S ALL SINGULARITY/ REMOTE SINGULARITY. WE COULD MENTION BUT NOT SHOW OUR LAPTOP/DOCKER WORKFLOW FOR CREATING CONTAINERS? IDK, I'M UNDECIDED ON THIS. 
-
-%%%%%%%%%%%%%% OPTION 2 %%%%%%%%%%%%%%
-
-WE COULD SCRAP THE ABOVE AND JUST POST SCREENSHOTS OF THE LAPTOP DOCKER/DOCKERHUB WORKFLOW AND JUST STICK TO ONLY SHOWING THE FEW SINGULARITY COMMANDS ABOVE? THE PROBLEM WITH THIS IS THAT I DON'T HAVE DOCKER ON MY WORK LAPTOP AND CAN'T GET IT. I COULD TRY ON MY PERSONAL LAPTOP BUT WOULDN'T BE ABLE TO SHARE MY SCREEN TO DEMONSTRATE LIVE. MAYBE ROWAN CAN DO THIS? WE'D WANT TO COVER:
-
-DOCKER COMMANDS,
-
-DOCKERFILE,
-
-WHATEVER ELSE YOU THINK IS NECESSARY.
-
-AND MAYBE THEN WE PUT THIS SECTION FIRST, BEFORE THE SINGULARITY STUFF. 
-
-
-
-
+  1. **Dockerhub Auto-Build**: Whenever the Github repository changes, a new image is automatically built on DockerHub. This new image has the *:latest* tag.
+  2. **Capture GitHub Tags/Releases**: When a release/tag is created in the Github repository, a new image is automatically built on DockerHub with similiar tag (*:vTAGNAME*). For example, for this workshop, I created a release in the github repository titled *SCINetGeoWS_2020* (see: [link to GitHub release](https://github.com/rmg55/container_stacks/releases/tag/SCINetGeoWS_2020)). A subsequent image in DockerHub was built ([link equivalent DockerHub Image](https://hub.docker.com/layers/rowangaffney/data_science_im_rs/vSCINetGeoWS_2020/images/sha256-1dcb6b9bbf82e875ff92c961043f5e00c3f91aae0edf8791a52498e77af2ebba?context=explore)). This image will not be over-written by subsequent changes in the GitHub repository  (unlike the *:latest* image).
+  3. **Multiple Computing Environments**: The container includes two conda environments (py_geo and r_geo) that focus on geospatial and machine learning software.
+  4. **Several IDEs**: The container includes Jupyter, RStudio, and VSCode.
