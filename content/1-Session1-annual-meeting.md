@@ -85,17 +85,17 @@ The first cohort of postdocs funded by the SCINet Computing Initiative has arriv
 
 #### Ibukun (Timothy) Ayankojo,
 
-#### Jennifer Chang, bioinformatics scientist
+#### Jennifer Chang, Bioinformatics Scientist
 ![picture of jennifer](/images/postdoc-pics/jennifer-chang-150-150.jpg)
 
 Jennifer Chang grew up in Wisconsin and has been programming since 2006. At Cornell College, she double majored in Biochemistry and Computer Science graduating in 2011. In 2017, Jennifer earned a PhD in bioinformatics from Iowa State University. During the PhD, her research software "Mango Graph Studio" led to co-founding a software company and working on two Department of Defense Small Business Innovation Research (SBIR) contracts. She eventually left the company and was a postdoc with Dr. Amy Vincent at USDA-ARS, automating swine influenza reports from 2017-2020. In June 2020, Jennifer shifted to a SCINet postdoc position with Dr. Andrew Severin and Dr. Brian Scheffler where she collaborates on the bioinformatics workbook. She's still in Ames, Iowa, learning slurm and automating pipelines for different hardware architectures. She hopes to write flexible general-purpose pipelines that reduce tedium and increase joy of discovery. Jennifer cares about collaboration, welcoming environments, and teaching.
 
-#### Alicia Foxx, 
+#### Alicia Foxx, Ecologist
 ![picture of alicia](/images/postdoc-pics/alicia-foxx-150-150.jpg)
 
 Alicia started the SCINet Postdoc position in June 2020, working out of Gainesville, FL with Dr. Adam Rivers as her supervisor. She completed her PhD in plant biology and conservation from the joint program between Northwestern University and the Chicago Botanic Garden in Illinois. Her research used restoration-relevant native plants of the Colorado Plateau and focused on the implications of root traits on plant interactions and species coexistence and the role population variation played in those traits and interactions. This work Incorporated manipulative experimental work and meta-analytic methods to address these questions with the goal of to inform ecological theory and to provide recommendations on native plant material based on their performance. The work she is performing in the SCINet Postdoc position is applied machine learning on microbial communities and includes interrogating applications of machine learning in bioinformatics and the impacts of data distribution on algorithm performance and developing machine learning models to describe antibiotic and hand sanitizer resistance.
 
-#### Kerrie Geil, climate scientist
+#### Kerrie Geil, Climate Scientist
 ![picture of kerrie](/images/postdoc-pics/kerrie-geil-150-150.jpg)
 
 Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-2020 and has recently transitioned in July to a SCINet Postdoc position in Las Cruces, NM in the research group of Dr. Deb Peters. She received her PhD in Atmospheric Sciences from the University of Arizona in 2016 and her research background is in global and regional climate modeling and climate model performance evaluation using in-situ and satellite observations. Kerrie has expertise in global-, continental-, and regional- scale climate dynamics including teleconnections/climate oscillations (ENSO, PDO, etc.), land-atmosphere-ocean interactions, and the North American Monsoon system. She has also worked on national- and local- scale extreme temperature projects. One of the projects Kerrie hopes to accomplish during her time as a postdoc at ARS is a climate model evaluation tool to make the process of model ensemble selection (e.g. which downscaled models should be excluded from your analyses due to the garbage in garbage out principle) simpler and quicker for research scientists.
@@ -104,7 +104,7 @@ Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-202
 
 #### Amy Hudson, 
 
-#### Yanghui Kang, 
+#### Yanghui Kang, Physical Scientist
 ![picture of yanghui](/images/postdoc-pics/yanghui-kang-150-150.jpg)
 
 Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. degree in Geography from the University of Wisconsin-Madison. She works with Dr. Feng Gao and Dr. Martha Anderson at the Hydrology and Remote Sensing Laboratory in the Beltsville Agricultural Research Center, Beltsville, Maryland. Yanghui’s research projects have focused on the large-scale high-resolution monitoring of core agroecosystem variables (e.g., Leaf Area Index (LAI), crop yield), with the help of satellite remote sensing, machine learning, crop growth modeling, and data assimilation techniques. At ARS, Yanghui is currently developing a machine-learning-based approach to map LAI from Landsat and Sentinel-2 images over the entire globe. She is also interested in deriving crop phenological stages from satellite observations and monitoring agroecosystem dynamics through data assimilation.
