@@ -71,7 +71,7 @@ The workshop is split over 6 separate Zoom sessions (as well as a pre-meeting as
 ### Session 0: Pre-meeting SCINet Account Login Assistance
 
 **Wednesday August 19, 11am - 1pm MDT** <br>
-**No registration required, just show up at 11am MDT:**  [https://www.zoomgov.com/j/1616041733](https://www.zoomgov.com/j/1616041733) <br>
+**No registration required, just show up at 11am MDT:**  session completed <br>
 **Prerequisites:** None
 
 For those who plan on participating in any of the Sessions 2-5 tutorials, this pre-meeting session with the SCINet Vitural Research Support Core (VRSC) is to help anyone who is having trouble accessing their SCINet account.
