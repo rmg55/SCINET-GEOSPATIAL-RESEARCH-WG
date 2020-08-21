@@ -162,7 +162,7 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 
 |TIME|SPEAKER|AFFILIATION| PRESENTATION TITLE |
 ---|---|---|---
-11-11:10 | Yanghui Kang & Amy Hudson | USDA-ARS | Welcome
+11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs | Welcome
 11:10-11:40 | Dr Matthew Jones | University of Montana | rangeland monitoring & classification
 11:45-12:15 | Dr Liheng Zhong | Descartes Labs | How to use statistical data to train classifiers
 12:20-12:50 | Dr Vasit Sagan | Saint Louis University | crop monitoring and yield prediction using UAVs
