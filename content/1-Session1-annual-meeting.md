@@ -103,6 +103,9 @@ Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-202
 #### Lucas Heintzman, 
 
 #### Amy Hudson, 
+![picture of amy](/images/postdoc-pics/amy-hudson-150-150.jpg)
+
+Amy began her SCINet postdoc in May 2020 working with Dr. Debra Peters in Las Cruces, NM after recently completing a PhD in Natural Resources from the University of Arizona. Her research background is in examining climate-ecosystem interactions at regional to hemispheric scales by integrating multiple data sources. Past projects have focused on how changes in the Northern Hemisphere jet stream influence surface climate conditions, with impacts on the length of the growing season and continental insect migration. By leveraging signatures of climate on annual tree growth, Amy has also worked on teams to reconstruct Hadley Cell extent and summer temperatures in the US Northern Rockies, lending historical context to recent observed climate. Amy is currently involved in ARS research projects that include 1) a cross-site synthesis of the impacts of climate on long-term ecology at dryland sites and 2) determining the influence of broadscale climate on the spatial spread of the vector-borne virus Vesicular Stomatitis. 
 
 #### Yanghui Kang, Physical Scientist
 ![picture of yanghui](/images/postdoc-pics/yanghui-kang-150-150.jpg)
