@@ -403,7 +403,7 @@ Note: If you forget to ```source activate``` and later try to ```conda activate 
 
 After you ```source activate``` and are placed in the base environment, you will then be able to ```conda activate my_env``` with no problems.
 
-### From JuptyerHub
+### From JupyterHub
 When using JupyterHub to login to Ceres you will also have access to Conda.
 
 #### **JupyterHub login with no container**
@@ -428,7 +428,7 @@ One reason for this is because the base environment is a dynamic space that chan
 
 Many of the environments that we as geospatial researchers build contain enough software packages that the environment will take up multiple GBs of storage space. Because our environments are generally large, they take a while to build. **The best practice for creating Conda environments on Ceres is to first open an interactive compute session (i.e. don't create/remove environments or install packages on the login node).**
 
-At this point you should be logged in to your Ceres home directory preferably by using JupyterHub (with no container) and have opened a terminal in JupyterLab. You could also SSH in and load the miniconda module as described in the [From the Module System](#from-the-module-system) section above, but the remainder of this Conda tutorial will assume you logged in from JupyterHub.
+At this point you should be logged in to your Ceres home directory preferably by using JupyterHub (with no container) and have opened a terminal in JupyterLab. You could also SSH in and load the miniconda module as described in the [From the Module System](#from-the-module-system) section above, but the remainder of this Conda tutorial will assume you are logged in from JupyterHub.
 <br><br>
 
 ### The Conda Basics
@@ -470,14 +470,6 @@ conda install ipykernel -y #notice how the -y allows you to bypass the "proceed 
 ```
 <br>
 
-#### **Change or Deactivate an Environment**
-
-To change environments<br>
-```conda activate base``` will switch you to another environment, in this case the base environment<br>
-or <br>
-```conda deactivate``` will switch you back to whichever environment you were in previously
-<br><br>
-
 #### **View Software in an Environment**
 
 To view all the packages in the active environment<br>
@@ -518,6 +510,7 @@ conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
 
 To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
 ```bash
+conda activate session3_env
 conda env export --from-history > ~/.conda/envs/session3_env.yml
 ```
 
@@ -527,6 +520,20 @@ cat ~/.conda/envs/session3_env.yml
 ```
 
 As with the specification file we made earlier, you can use this yml file to recreate your environment on the same machine. You can also use a yml to create a similar environment on another machine running a different operating system. This means you can share this yml with other scientists too. Note if there is a --prefix line in your yml file you'll need to modify that if recreating on a different machine or in a different file structure (e.g. different Ceres user). Note: this isn't a 100% foolproof method of getting your codes to run across different platforms because some software just isn't fully supported on all operating systems. Being able to run your codes successully across operating systems is the major benefit of using containers, which we will cover in the next segment.
+<br><br>
+
+#### **Change or Deactivate an Environment**
+
+To change environments<br>
+```bash
+conda activate base
+``` 
+will switch you to another environment, in this case the base environment.<br>
+Or, <br>
+```bash
+conda deactivate
+``` 
+will switch you from a non-base environment back to whichever environment you were in previously.
 <br><br>
 
 #### **Running the Session 3 Tutorial with Your New Environment**
