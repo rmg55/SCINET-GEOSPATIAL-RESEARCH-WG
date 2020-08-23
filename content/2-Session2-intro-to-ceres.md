@@ -7,6 +7,11 @@ title: Session2
 
 # Introduction to the Ceres High-Performance Computing System Environment 
 
+This page contains all the info you need to participate in Session 2 of the SCINet Geospatial Workshop 2020.
+
+After the session we will post a link to the video recording on this page as well.
+<br><br>
+
 [Session Rules](#session-rules)
 
 [The SCINet Website](#the-scinet-website)
@@ -34,6 +39,7 @@ title: Session2
 
 [Submitting a Compute Job with a SLURM Batch Script](#submitting-a-compute-job-with-a-slurm-batch-script)
 
+---
 
 ## Session Rules
 
@@ -44,12 +50,18 @@ title: Session2
 **SHARE YOUR VIDEO WHEN SPEAKING** - If your internet plan/connectivity allows, please share your video when speaking.
 
 **KEEP YOURSELF ON MUTE** - Please mute yourself unless you are called on.
+<br><br>
 
+---
 
 ## The SCINet Website
 
 The [SCINet Website](https://scinet.usda.gov/) is the source of much of the material presented in this tutorial. Use the SCINet website to request SCINet accounts, access SCINet/HPC user guides, get computing help or other support, and find out about upcoming and previous computational training events. 
 
+[return to top of page](#session-2-tutorial)
+<br><br>
+
+---
 
 ## High-Performance Computing (HPC) System Basics
 
@@ -72,50 +84,97 @@ batch/interactive computing
 SLURM/job scheduler
 
 
+[return to top of page](#session-2-tutorial)
+<br><br>
+
+---
+
 ## USDA-ARS HPC System Details
 
 The [Computer Systems](https://scinet.usda.gov/about/compute) page of the SCINet website gives a brief summary of the USDA-ARS HPC systems.
+<br>
 
 ### The Ceres HPC System
 
 The [Ceres User Manual](https://scinet.usda.gov/guide/ceres/) and [Ceres Quick Start Guide](https://scinet.usda.gov/guide/quickstart) contain most of the information you could want to know about the Ceres HPC.
 
-The operating system running on Ceres is CentOS and the job scheduler is SLURM. LINK
+**System Configuration**
 
-Nodes
-You SSH into Ceres on the login node. The login node should be used for navigating your directories, organizing your files, and running minor scripts. All computing on Ceres should be done on compute nodes. DON'T RUN YOUR COMPUTE SCRIPTS OR INSTALL SOFTWARE ON THE LOGIN NODE AS IT SLOWS THE NODE DOWN FOR EVERYONE. 
+The operating system running on Ceres is CentOS and the job scheduler is SLURM. See [System Configuration in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#system-configuration) for more.
 
-When you use JupyterHub to login to Ceres you are placed on a compute node, not a login node
+**Nodes**
 
-The [Technical Overview of the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#technical-overview) describes the 5000 compute cores (10000 logical cores), 65 TB of total RAM, 250TB of total local storage, and 4.7 PB of shared storage available on the Ceres HPC.
+When you SSH into Ceres you are connecting to the login node. The login node should be used for navigating your directories, organizing your files, and running very minor scripts. All computing on Ceres should be done on compute nodes. **DON'T RUN YOUR COMPUTE SCRIPTS OR INSTALL SOFTWARE ON THE LOGIN NODE AS IT SLOWS THE NODE DOWN FOR EVERYONE.** 
 
-Partitions/Queues - Community and priority, short is the default
+When you use JupyterHub to login to Ceres you are placed on a compute node, not a login node.
 
-Directory structure and data storage - home, project, keep, /project/shared_files/, shared library, common data library, backups
+There are 5000+ compute cores (10000 logical cores), 65 TB of total RAM, 250TB of total local storage, and 4.7 PB of shared storage available on the Ceres HPC. See the [Technical Overview in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#technical-overview) for more.
 
-User quotas
+**Partitions/Queues**
 
-Compute limitations - nodes per user, time per partition
+All Ceres users have access to the "community partitions"- short, medium, long, long60, mem, longmem, mem768, debug. Each different partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). The short partition is the default. See [Partitions or Queues in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#partitions-or-queues) for more.
 
-Software on Ceres - module system, software page, user installed software
+Some research groups have purchased their own nodes which are placed on "priority partitions" that the research group has first priority to use. Other Ceres users have lower priority access to many of these partitions (the "-low" and "scavenger" partitions). However, the "-low" partitions have a compute time limit of 2 hours and while you can run jobs for much longer on the "scavenger" partitions, you run the risk of having your job killed at any moment if a higher priority user needs access to the nodes.
 
-Getting data on/off
+**Directory structure and data storage**
 
-User support from the Virtual Research Support Core
+There are 3 places to store your codes and data persistently on Ceres:
 
-Requesting storage, software, cloud compute (AWS)
+ - home directory, /home/user.name/ - Everyone has a small private home directory. You are automatically put in this directory when you log in. Home directories are backed up. You shouldn't run computations from your home directory.
+ - project directory, /lustre/project/your_project_name/ - You must [apply for each project directory](https://scinet.usda.gov/support/request-storage). This is where you run scripts from and where your datasets, codes, and results should live. Project directories are not backed up.
+- keep directory, /KEEP/your_project_name/ - Each of your projects will also have folder in the /KEEP directory. This folder is backed up nightly. Copy your most important project files to your /KEEP folder to ensure they are backed up. Compute jobs shouldn't be run from /KEEP directories.
 
-Best Practices
-nothing serious on the login node
-use /scratch space for faster i/o with large datasets
-for heavy compute short jobs (less than 2hrs) go for brief-low (more cores per node and more memory)
-acknowledge SCINet in your pubs!
-WHAT ELSE????
+Temporarily share files locally with other users:
 
+ - project shared files directory, /lustre/project/shared_files/ - Everyone has access to the shared files folder in the project directory. You can share files with other users by creating a folder inside this directory a copying your files there, although there is a 5GB limit. This is not a permanent storage location for your files.
+
+See more about directories and data storage in [Data Storage in the Quick Start Guide](https://scinet.usda.gov/guide/quickstart#data-storage) and in [Quotas in Home and Project Directories in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#quotas-on-home-and-project-directories).
+
+**User Compute Limitations**
+
+There is currently no quota system for keeping track of how many jobs you run or how much compute time you've used on Ceres like there is on University and National Lab HPC systems. However, there is a fair share policy which means super users who run many jobs and take up a lot of compute time are downgraded in priority compared to other users.
+
+The individual user compute limitations are:
+- 400 cores per user (across all your running jobs)
+- 1512 GB memory per user (across all your running jobs)
+
+**Software on Ceres**
+There is plenty of software on Ceres that you can access through the module system. See the [Software Overview](https://scinet.usda.gov/guide/software) for more.
+
+Users can also install their own software using the Anaconda package and environment management software module. See the [Conda Guide](https://scinet.usda.gov/guide/conda/) from more.
+
+If you don't want to use Conda, Ceres is also set up for R and Perl users to download packages. See the [Guide to Installing R, Perl, and Python Packages](https://scinet.usda.gov/guide/packageinstall/) for more (although we recommend that Python coders use Conda).
+
+Lastly, if none of the above methods of accessing software work for your particular software needs, you can request that the SCINet Virtual Research Support Core install software on the system for you. This is the method of last resort though because it takes a few weeks and requires an agency-level security review. See the [Request Software page](https://scinet.usda.gov/support/request-software) for more.
+
+**Getting data on/off**
+
+There are multiple ways of getting data on and off of the Ceres HPC system. See the [SCINet File Transfer Guide](https://scinet.usda.gov/guide/file-transfer/) for more.
+
+- for data on the web, download directly to Ceres using tools like wget
+- for data on your local machine the recommended method is Globus
+- for large local data, you can ship to VRSC and they will upload for you
+
+**User support from the Virtual Research Support Core (VRSC)**
+
+The VRSC is comprised of Iowa State University and ARS staff who manage the Ceres HPC system and provide support to users. See more on the [SCINet VRSC Support page](https://scinet.usda.gov/support/vrsc/).
+
+**Ceres HPC Best Practices**
+- nothing serious should be run on the login node
+- run compute jobs from project directories
+- use [node local scratch space](https://scinet.usda.gov/guide/ceres/#local-scratch-space-on-large-memory-nodes) for faster i/o with large datasets (stage your data to /local/scratch, $TMPDIR)
+- use your /KEEP directory to ensure important data/codes are backed up
+- for short heavy compute jobs (less than 2hrs) go for the brief-low partition (more cores per node and more memory)
+- [acknowledge SCINet in your pubs](https://scinet.usda.gov/guide/quickstart#scinet-citationacknowledgment-in-publications)!
+<br>
 
 ### Other SCINet HPC Systems
 There are two other HPC Systems coming to SCINet soon. Summaries of the systems will be posted to the SCINet website [computing systems page](https://scinet.usda.gov/about/compute).
 
+[return to top of page](#session-2-tutorial)
+<br><br>
+
+---
 
 ## Ceres HPC Login with Secure Shell (SSH)
 
@@ -143,6 +202,10 @@ If you can't successfully login to your account, contact scinet_vrsc@usda.gov fo
 
 To sign out of Ceres just close your terminal or type exit.
 
+[return to top of page](#session-2-tutorial)
+<br><br>
+
+---
 
 ## Ceres HPC Login with JupyterHub
 
@@ -233,7 +296,10 @@ Actually, JupyterLab is autosaving your notebook as you work, but you'll want to
 
 Right click on "Untitled.ipynb" either on the notebook tab or in the file browser on the left, then choose "Rename". In the pop-up window, name your file and click "Rename". 
 
+[return to top of page](#session-2-tutorial)
+<br><br>
 
+---
 
 ## Basic Linux Commands
 
@@ -241,7 +307,10 @@ Now we'll work through a bit of the [Unix Basics Tutorial from the bioinformatic
 
 We'll also look at some [useful SLURM commands from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/01_slurm-basics.html#gsc.tab=0).
 
+[return to top of page](#session-2-tutorial)
+<br><br>
 
+---
 
 ## Interactive Computing vs Batch Computing
 
@@ -289,7 +358,10 @@ will request the SLURM job scheduler to allocate you two hyper-threaded cores (4
 
 Batch computing involves writing and executing a batch script that the SLURM job scheduler will manage. This mode of computing is good for "set it and forget it" compute jobs such as running a climate model, executing a single script multiple times in a row, or executing a more complicated but fully functional workflow that you know you don't have to debug. We'll cover how to write and execute a batch script next.
 
+[return to top of page](#session-2-tutorial)
+<br><br>
 
+---
 
 ## Submitting a Compute Job with a SLURM Batch Script
 
