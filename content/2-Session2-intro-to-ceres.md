@@ -145,6 +145,7 @@ The individual user compute limitations are:
 <br><br>
 
 **Software on Ceres**
+
 There is plenty of software on Ceres that you can access through the module system. See the [Software Overview](https://scinet.usda.gov/guide/software) for more.
 
 Users can also install their own software using the Anaconda package and environment management software module. See the [Conda Guide](https://scinet.usda.gov/guide/conda/) from more.
@@ -180,6 +181,7 @@ The VRSC is comprised of Iowa State University and ARS staff who manage the Cere
 ### Other SCINet HPC Systems
 There are two other HPC Systems coming to SCINet soon. Summaries of the systems will be posted to the SCINet website [computing systems page](https://scinet.usda.gov/about/compute).
 
+<br>
 [return to top of page](#session-2-tutorial)
 <br><br>
 
