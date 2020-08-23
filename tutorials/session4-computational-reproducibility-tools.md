@@ -145,9 +145,9 @@ git clone paste_or_type_the_full_repo_URL_including_https://
 
 a. Create some new text files using your name as the file name<br>
 ```bash
-cd Spoon-Knife #to navigate into your repo<br>
-touch yourname1.txt yourname2.txt yourname3.txt #to create some empty text files
-ls #to see a list of the files in your repo
+cd Spoon-Knife
+touch yourname1.txt yourname2.txt yourname3.txt
+ls
 ```
 
 b. Check the status of your edits. The changed files should appear as untracked files<br>
@@ -337,8 +337,16 @@ We won't cover how to revert your repo to a previous commit in this tutorial but
 If you need a new isolated area to experiment with changes to your code without affecting your codes on the deafault Master branch, create a new branch and switch to it with<br>
 ```bash
 git checkout -b new_branch_name
-git branch #should show all your branches and which branch you are currently on<br>
-git checkout master #to switch back to your Master branch<br>
+```
+
+To show all your branches and which branch you are currently on:
+```bash
+git branch 
+```
+
+To switch back to your Master branch:
+```bash
+git checkout master 
 ```
 
 Note: from the command line creating a new branch does not create a new folder in your repo directory. Be careful to always be aware of which branch you are working on- from the command line it is not obvious.
