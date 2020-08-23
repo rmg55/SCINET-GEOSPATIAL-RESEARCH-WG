@@ -449,9 +449,17 @@ At this point you should be logged in to your Ceres home directory preferably by
 #### **Create an New Environment**
 
 In this tutorial we will create an environment that you can run the Session 3 Tutorial with in JupyterLab.<br>
+
+To open an interactive compute session:
 ```bash
-salloc #to open an interactive compute session. You are now on a compute node as opposed to the login node
-source activate #to get into the base environment
+salloc 
+```
+
+You are now on a compute node as opposed to the login node.
+
+To get into the base Conda environment:
+```bash
+source activate 
 ```
 
 Create a new environment with ```conda create --name environment_name package1 package2 package3```.<br> 
@@ -479,8 +487,11 @@ conda activate session3_env
 
 To access this environment in JupyterLab you will need to install the ipykernel package. We could have done this with our ```conda create``` but are doing it after the fact to demonstrate how to add additional packages into an existing environment. Make sure your session3_env is activated and<br>
 ```bash
-conda install ipykernel -y #notice how the -y allows you to bypass the "proceed ([y]/n)?"
+conda install ipykernel -y 
 ```
+
+Notice how the -y allows you to bypass the "proceed ([y]/n)?"
+
 <br>
 
 #### **View Software in an Environment**
