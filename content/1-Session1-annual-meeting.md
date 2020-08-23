@@ -8,19 +8,21 @@ title: Session1
 This page contains all the info you need to participate in Session 1 of the SCINet Geospatial Workshop 2020. 
 
 After the session we will post any notes, outcomes, and links to video recordings on this page as well.
+<br><br>
 
 # AGENDA (MDT)	 
 
 |AGENDA (MDT) | |
 ---|---
-11-11:30 | [Review of the 2019 workshop](#review-of-the-2019-workshop)
+11-11:10 | Welcome and [Session Rules](#session-rules)
+11:10-11:30 | [Review of the 2019 workshop](#review-of-the-2019-workshop)
 11:30-11:45 | [Details on the upcoming 2020 sessions](#details-on-the-upcoming-2020-sessions)
 11:45- 12 | [Introduction to the SCINet postdocs](#introduction-to-the-scinet-postdocs)
 12-12:15 | break
 12:15-1:15 | [Working Session: SCINet common data library](#working-session-scinet-common-data-library)
 1:15-1:45 | [Working Session: geospatial workbook](#working-session-geospatial-workbook)
 1:45-2 | [Proposals for new working group initiatives](#proposals-for-new-working-group-initiatives)
-
+<br>
 
 **Workshop Organizing Committee**
 
@@ -29,13 +31,29 @@ Kerrie Geil, SCINet Postdoc, Las Cruces, NM<br>
 Amy Hudson, SCINet Postdoc, Las Cruces, NM<br>
 Yanghui Kang, SCINet Postdoc, Beltsville, MD<br>
 Suzy Stillman, SCINet Postdoc, Las Cruces, NM
+<br><br>
 
+---
+
+## Session Rules
+
+**CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY** - Chat your question/comments either to everyone (preferred) or to the chat moderator (Rowan Gaffney) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
+
+**SHARE YOUR VIDEO WHEN SPEAKING** - If your internet plan/connectivity allows, please share your video when speaking.
+
+**KEEP YOURSELF ON MUTE** - Please mute yourself unless you are called on.
+<br><br>
+
+---
 
 ## Review of the 2019 Workshop
 
 
 
 [return to agenda](#agenda-mdt)
+<br><br>
+
+---
 
 ## Details on the Upcoming 2020 Sessions
 The following links will take to you to our workshop homepage where you can register for each session if you haven't already. 
@@ -51,9 +69,9 @@ If you are unable to join a session, you will still be able to access and work t
 - 8/28/2020, 1:00-2:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
  
 - 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
+<br>
 
-
-**Preparation for the tutorial sessions (2, 3, 4, 5)**
+### Preparation for the tutorial sessions (2, 3, 4, 5)
 
 The most important item is **make sure you can successfully login to your SCINet account** before (preferably days before) the tutorials start. There are many tutorial registrants with expired passwords that may need assistance from the SCINet Virtual Research Support Core (VRSC) if old passwords have been forgotten. If it's your first time logging in, use the [Quick Start Guide](https://scinet.usda.gov/guide/quickstart) and if you are still having trouble and contact the VRSC for help scinet_vrsc@usda.gov.
 
@@ -62,7 +80,7 @@ Try to **set yourself up on a large monitor** or Google how to connect your lapt
 If you plan to follow along with the Git/Github portion of the Session 4 Tutorial: Computational Reproducibility Tools, **[Create a free personal Github account](https://github.com/join)**.  Make sure you remember your Github username and password.
 
 Lastly, visit the [premeeting page](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html) to **familiarize yourself with the software/HPC terminology that will be used** in the tutorial sessions.
-
+<br>
 
 ### Other Upcoming Activities of the Working Group
 
@@ -75,7 +93,9 @@ Participant Responses:
 
 
 [return to agenda](#agenda-mdt)
+<br><br>
 
+---
 
 ## Introduction to the SCINet Postdocs
 
@@ -128,7 +148,9 @@ Bio coming soon
 
 
 [return to agenda](#agenda-mdt)
+<br><br>
 
+---
 
 ## Working Session: SCINet Common Data Library
 
@@ -149,7 +171,9 @@ Participant Responses:
 
 
 [return to agenda](#agenda-mdt)
+<br><br>
 
+---
 
 ## Working Session: Geospatial Workbook
 
@@ -167,7 +191,9 @@ Participant Responses:
 
 
 [return to agenda](#agenda-mdt)
+<br><br>
 
+---
 
 ## Proposals for New Working Group Initiatives
 
@@ -177,4 +203,5 @@ Participant Responses:
 
 
 [return to agenda](#agenda-mdt)
+
 
