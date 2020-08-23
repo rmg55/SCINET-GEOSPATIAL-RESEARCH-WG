@@ -83,7 +83,11 @@ The first cohort of postdocs funded by the SCINet Computing Initiative has arriv
 
 #### Melanie Kammerer Allen, 
 
+Bio coming soon
+
 #### Ibukun (Timothy) Ayankojo,
+
+Bio coming soon
 
 #### Jennifer Chang, Bioinformatics Scientist
 ![picture of jennifer](/images/postdoc-pics/jennifer-chang-150-150.jpg)
@@ -102,6 +106,8 @@ Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-202
 
 #### Lucas Heintzman, 
 
+Bio coming soon
+
 #### Amy Hudson, 
 ![picture of amy](/images/postdoc-pics/amy-hudson-150-150.jpg)
 
@@ -114,7 +120,11 @@ Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. 
 
 #### Suzy Stillman, 
 
+Bio coming soon
+
 #### Shawn Taylor, 
+
+Bio coming soon
 
 
 [return to agenda](#agenda-mdt)
