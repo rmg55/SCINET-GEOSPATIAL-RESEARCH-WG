@@ -368,17 +368,30 @@ Conda also let's you run separate instances of the same software, for example, m
 
 **[CONDA](https://docs.conda.io/en/latest/)** - an open source software package management and environment management system that runs on Windows, Mac, and Linux. Conda can find, install, run, and update software packages and their dependencies as well as create, save, and load software environments on your computer. It was created for Python programs, but it can package and distribute software for any language.
 
+<br>
+
 **PACKAGES** - pieces of software and their dependencies
+
+<br>
 
 **DEPENDENCIES** - pieces of software that are require for other software to run successfully
 
+<br>
+
 **ENVIRONMENT** - a conda software environment is a directory that contains a specific collection of conda packages that you have installed. It is isolated from your other conda environments such that when you change one environment, your other environments are not affected. 
+
+<br>
 
 **ACTIVATE** - the process of "entering" a specific conda environment. When you activate an environment you are telling Conda which isolated set of software packages to use to execute your codes.
 
+<br>
+
 **SPECIFICATION FILE** - a text file that lists every single package that's in a specific environment, including the packages that are specific to the operating system you are running on. A specfile can be used to recreate an environment. The file tells you what operating system you can recreate the environment on.
 
+<br>
+
 **YML** - another type of file that contains information that can be used to recreate an environment. Operating system-specific packages can be excluded from a yml file in order to recreate similar environments across different operating systems. 
+
 <br><br>
 
 ## Accessing Conda on Ceres
