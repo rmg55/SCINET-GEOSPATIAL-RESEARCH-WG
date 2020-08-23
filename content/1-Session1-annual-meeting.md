@@ -80,7 +80,7 @@ Try to **set yourself up on a large monitor** or Google how to connect your lapt
 If you plan to follow along with the Git/Github portion of the Session 4 Tutorial: Computational Reproducibility Tools, **[Create a free personal Github account](https://github.com/join)**.  Make sure you remember your Github username and password.
 
 Lastly, visit the [premeeting page](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html) to **familiarize yourself with the software/HPC terminology that will be used** in the tutorial sessions.
-<br>
+<br><br>
 
 ### Other Upcoming Activities of the Working Group
 
