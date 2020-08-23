@@ -92,15 +92,17 @@ SLURM/job scheduler
 ## USDA-ARS HPC System Details
 
 The [Computer Systems](https://scinet.usda.gov/about/compute) page of the SCINet website gives a brief summary of the USDA-ARS HPC systems.
-<br>
+<br><br>
 
 ### The Ceres HPC System
 
 The [Ceres User Manual](https://scinet.usda.gov/guide/ceres/) and [Ceres Quick Start Guide](https://scinet.usda.gov/guide/quickstart) contain most of the information you could want to know about the Ceres HPC.
+<br>
 
 **System Configuration**
 
 The operating system running on Ceres is CentOS and the job scheduler is SLURM. See [System Configuration in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#system-configuration) for more.
+<br>
 
 **Nodes**
 
@@ -109,12 +111,14 @@ When you SSH into Ceres you are connecting to the login node. The login node sho
 When you use JupyterHub to login to Ceres you are placed on a compute node, not a login node.
 
 There are 5000+ compute cores (10000 logical cores), 65 TB of total RAM, 250TB of total local storage, and 4.7 PB of shared storage available on the Ceres HPC. See the [Technical Overview in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#technical-overview) for more.
+<br>
 
 **Partitions/Queues**
 
 All Ceres users have access to the "community partitions"- short, medium, long, long60, mem, longmem, mem768, debug. Each different partition has different capabilities (e.g. regular memory versus high memory nodes) and resource restrictions (e.g. time limits on jobs). The short partition is the default. See [Partitions or Queues in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#partitions-or-queues) for more.
 
 Some research groups have purchased their own nodes which are placed on "priority partitions" that the research group has first priority to use. Other Ceres users have lower priority access to many of these partitions (the "-low" and "scavenger" partitions). However, the "-low" partitions have a compute time limit of 2 hours and while you can run jobs for much longer on the "scavenger" partitions, you run the risk of having your job killed at any moment if a higher priority user needs access to the nodes.
+<br>
 
 **Directory structure and data storage**
 
@@ -129,6 +133,7 @@ Temporarily share files locally with other users:
  - project shared files directory, /lustre/project/shared_files/ - Everyone has access to the shared files folder in the project directory. You can share files with other users by creating a folder inside this directory a copying your files there, although there is a 5GB limit. This is not a permanent storage location for your files.
 
 See more about directories and data storage in [Data Storage in the Quick Start Guide](https://scinet.usda.gov/guide/quickstart#data-storage) and in [Quotas in Home and Project Directories in the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#quotas-on-home-and-project-directories).
+<br>
 
 **User Compute Limitations**
 
@@ -137,6 +142,7 @@ There is currently no quota system for keeping track of how many jobs you run or
 The individual user compute limitations are:
 - 400 cores per user (across all your running jobs)
 - 1512 GB memory per user (across all your running jobs)
+<br>
 
 **Software on Ceres**
 There is plenty of software on Ceres that you can access through the module system. See the [Software Overview](https://scinet.usda.gov/guide/software) for more.
@@ -146,6 +152,7 @@ Users can also install their own software using the Anaconda package and environ
 If you don't want to use Conda, Ceres is also set up for R and Perl users to download packages. See the [Guide to Installing R, Perl, and Python Packages](https://scinet.usda.gov/guide/packageinstall/) for more (although we recommend that Python coders use Conda).
 
 Lastly, if none of the above methods of accessing software work for your particular software needs, you can request that the SCINet Virtual Research Support Core install software on the system for you. This is the method of last resort though because it takes a few weeks and requires an agency-level security review. See the [Request Software page](https://scinet.usda.gov/support/request-software) for more.
+<br>
 
 **Getting data on/off**
 
@@ -154,10 +161,12 @@ There are multiple ways of getting data on and off of the Ceres HPC system. See 
 - for data on the web, download directly to Ceres using tools like wget
 - for data on your local machine the recommended method is Globus
 - for large local data, you can ship to VRSC and they will upload for you
+<br>
 
 **User support from the Virtual Research Support Core (VRSC)**
 
 The VRSC is comprised of Iowa State University and ARS staff who manage the Ceres HPC system and provide support to users. See more on the [SCINet VRSC Support page](https://scinet.usda.gov/support/vrsc/).
+<br>
 
 **Ceres HPC Best Practices**
 - nothing serious should be run on the login node
