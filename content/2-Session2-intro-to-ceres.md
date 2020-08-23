@@ -58,6 +58,8 @@ After the session we will post a link to the video recording on this page as wel
 
 The [SCINet Website](https://scinet.usda.gov/) is the source of much of the material presented in this tutorial. Use the SCINet website to request SCINet accounts, access SCINet/HPC user guides, get computing help or other support, and find out about upcoming and previous computational training events. 
 
+<br>
+
 [return to top of page](#session-2-tutorial)
 <br><br>
 
@@ -83,6 +85,7 @@ batch/interactive computing
 
 SLURM/job scheduler
 
+<br>
 
 [return to top of page](#session-2-tutorial)
 <br><br>
@@ -182,6 +185,7 @@ The VRSC is comprised of Iowa State University and ARS staff who manage the Cere
 There are two other HPC Systems coming to SCINet soon. Summaries of the systems will be posted to the SCINet website [computing systems page](https://scinet.usda.gov/about/compute).
 
 <br>
+
 [return to top of page](#session-2-tutorial)
 <br><br>
 
@@ -212,6 +216,7 @@ After a successful login you will see a list of all your quotas and used space.
 If you can't successfully login to your account, contact scinet_vrsc@usda.gov for assistance.
 
 To sign out of Ceres just close your terminal or type exit.
+<br>
 
 [return to top of page](#session-2-tutorial)
 <br><br>
@@ -307,6 +312,8 @@ Actually, JupyterLab is autosaving your notebook as you work, but you'll want to
 
 Right click on "Untitled.ipynb" either on the notebook tab or in the file browser on the left, then choose "Rename". In the pop-up window, name your file and click "Rename". 
 
+<br>
+
 [return to top of page](#session-2-tutorial)
 <br><br>
 
@@ -317,6 +324,8 @@ Right click on "Untitled.ipynb" either on the notebook tab or in the file browse
 Now we'll work through a bit of the [Unix Basics Tutorial from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0) created by Andrew Severin of Iowa State University/SCINet VRSC.
 
 We'll also look at some [useful SLURM commands from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/01_slurm-basics.html#gsc.tab=0).
+
+<br>
 
 [return to top of page](#session-2-tutorial)
 <br><br>
@@ -368,6 +377,8 @@ will request the SLURM job scheduler to allocate you two hyper-threaded cores (4
 ### Batch Computing on Ceres
 
 Batch computing involves writing and executing a batch script that the SLURM job scheduler will manage. This mode of computing is good for "set it and forget it" compute jobs such as running a climate model, executing a single script multiple times in a row, or executing a more complicated but fully functional workflow that you know you don't have to debug. We'll cover how to write and execute a batch script next.
+
+<br>
 
 [return to top of page](#session-2-tutorial)
 <br><br>
@@ -429,3 +440,8 @@ cat stdout.######.ceres##-compute-##
 Note: there are a ton of other SBATCH options you could add to your script. For example, you could receive an email when your job has completed ([see the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#batch-mode)) and lots more ([see the SLURM sbatch doc](https://slurm.schedmd.com/sbatch.html)).
 
 Also Note: **this is a serial job**, meaning that it will run on a single compute core. The compute likely won't be any faster than if you ran this type of job on your laptop. To run your hello-world code in parallel from a batch script (multiple times simulataneously on different cores) you would use openMP or MPI (see the [Ceres User Manual](https://scinet.usda.gov/guide/ceres/#running-a-simple-openmp-job)) and your code would have to be in C or Fortran (not Python). For Python coders, there are much easier ways to run in parallel (using interactive mode as opposed to batch scripting), which we will cover in Session 3: Intro to Python and Dask.
+
+<br>
+
+[return to top of page](#session-2-tutorial)
+<br><br>
