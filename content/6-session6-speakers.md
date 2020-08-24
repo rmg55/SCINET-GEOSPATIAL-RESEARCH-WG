@@ -14,7 +14,7 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 ## AGENDA	(MDT)
 
 
-#### 11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs
+**11-11:10** | **Drs Yanghui Kang & Amy Hudson** | **USDA-ARS SCINet Postdocs**
 
   - Welcome
 
