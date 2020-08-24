@@ -1,12 +1,12 @@
 ---
-title: Speakers
-#nav: true
+title: Session6
+nav: true
 ---
 
 # Session 6 Symposium:
 <br>
 
-### Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
+## Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research, followed by a panel discussion. 
 
