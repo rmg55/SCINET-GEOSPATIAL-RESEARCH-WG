@@ -102,7 +102,7 @@ Participant Responses:
 
 The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! SCINet postdocs are tasked with developing cross-site collaborative research projects that utilize the ARS high-performance computing resources. They will also contribute to non-research projects that further the SCINet Computing Initiative such as the SCINet website, newsletter, and various computational trainings.  Here is a short introduction to everyone.
 
-#### Melanie Kammerer Allen, Ecologist
+#### Melanie Kammerer, Ecologist
 ![picture of melanie](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/melanie-kammerer-150-150.jpg)
 
 Melanie is an agroecologist and landscape ecologist, and, in September, she will be starting as a SCINet postdoc in State College, PA mentored by Drs. Sarah Goslee and Deb Peters. Melanie recently completed a USDA NIFA pre-doctoral fellowship during her PhD in Ecology at Penn State University. In her graduate research, Melanie studied landscape and climate drivers of wild-bee communities using long-term population monitoring data, new field studies, and high-resolution landscape characterization. She also has extensive expertise in spatial modelling of bee communities, which she leveraged to explore changes in floral resources for wild bees with shifting herbicide use in US field crops. In addition to her research, Melanie served as lead data wrangler for Beescape (beescape.org), an interactive mapping application that allows scientists, beekeepers, and land managers to easily evaluate landscape quality for bees. Melanie is deeply committed to open, reproducible science that is accessible to and informed by diverse stakeholders, which she is excited to continue with the vibrant ARS SCINet community. 
