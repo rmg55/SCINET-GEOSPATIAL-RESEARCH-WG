@@ -4,39 +4,39 @@ nav: true
 ---
 
 # Session 6 Symposium:
-<br>
-
 ## Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
+<br>
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research, followed by a panel discussion. 
 
+<br><br>
 
-# AGENDA	
+## AGENDA	(MDT)
 
 
-**11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs**
+#### 11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs
 
   - Welcome
 
-**11:10-11:40 | Dr Matthew Jones | University of Montana** 
+#### 11:10-11:40 | Dr Matthew Jones | University of Montana
 
   - Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
-**11:45-12:15 | Dr Liheng Zhong | Descartes Labs**
+#### 11:45-12:15 | Dr Liheng Zhong | Descartes Labs
 
   - How to use statistical data to train classifiers
 
-**12:20-12:50 | Dr Vasit Sagan | Saint Louis University** 
+#### 12:20-12:50 | Dr Vasit Sagan | Saint Louis University
 
   - UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
 
-**12:55-1:25 | Dr Jingyi Huang | University of Wisconsin** 
+#### 12:55-1:25 | Dr Jingyi Huang | University of Wisconsin
 
   - Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
 
-**1:30-1:40 | short break**
+#### 1:30-1:40 | short break
 
-**1:40-2:15 | Panel Discussion** 
+#### 1:40-2:15 | Panel Discussion
 
 - What are the merits and pitfalls of machine learning techniques in comparison to traditional deterministic (physical/process-based) and probabilistic modeling/analysis for agricultural research?
 - The USDA ARS is currently undergoing an effort to increase/improve the computational and machine learning capabilities across the agency. What are the skillsets that are required to conduct research with “big data” using machine learning techniques? Do you have suggestions on the best approaches for developing these skillsets?
@@ -48,7 +48,7 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 
 <br>
 
-# Session Rules
+## Session Rules
 
 **CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY** - Chat your question/comments either to everyone (preferred) or to the chat moderator (Kerrie Geil) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
 
@@ -61,13 +61,13 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 
 <br>
 
-# Invited Speaker Info
+## Invited Speaker Info
 <br>
 
 {% capture text %}
 ### Dr. Matthew Jones, University of Montana
 {% endcapture %}
-{% include alert.md text=text color=secondary %}
+<!--{% include alert.md text=text color=secondary %}-->
 
 **Title:** Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
@@ -77,8 +77,8 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth, L.M., Erickson, T.A., Fuhlendorf, S.D., Griffiths, T. V, Jansen, V., **Jones, M.O.**, Karl, J., Maestas, J.D., Maynard, J.J., McCord, S.E., Naugle, D.E., Starns, H.D., Twidwell, D., Uden, D.R., 2020. Improving Landsat predictions of rangeland fractional cover with multitask learning and uncertainty. bioRxiv preprint. [10.1101/2020.06.10.142489](https://www.biorxiv.org/content/10.1101/2020.06.10.142489v1)
 
 **Jones, M. O.**, Allred, B. W., Naugle, D. E., Maestas, J. D., Donnelly, P., Metz, L. J., Karl, J., Smith, R., Bestelmeyer, B., Boyd, C., Kerby, J. D., and McIver, J. D., 2018. Innovation in rangeland monitoring: annual, 30 m, plant functional type percent cover maps for U.S. rangelands, 1984–2017. *Ecosphere* 9( 9):e02430. [10.1002/ecs2.2430](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2430)
-<br>
 
+<br><br>
 
 
 {% capture text %}
@@ -94,8 +94,8 @@ Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth,
 **Zhong, L.**, Hu, L., Zhou, H., Tao, X., 2019. Deep learning based winter wheat mapping using statistical data as ground references in Kansas and northern Texas, US. *Remote Sens. Environ.* 233, 111411. [10.1016/j.rse.2019.111411](https://doi.org/10.1016/j.rse.2019.111411)
 
 **Zhong, L.**, Hu, L., Zhou, H., 2019. Deep learning based multi-temporal crop classification. *Remote Sens. Environ.* 221, 430–443. [10.1016/j.rse.2018.11.032](https://doi.org/10.1016/j.rse.2018.11.032)
-<br>
 
+<br><br>
 
 
 {% capture text %}
@@ -111,8 +111,8 @@ Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth,
 Maimaitijiang, M., **Sagan, V.**, Sidike, P., Hartling, S., Esposito, F., Fritschi, F.B., 2020. Soybean yield prediction from UAV using multimodal data fusion and deep learning. *Remote Sens. Environ.* 237, 111599. [10.1016/j.rse.2019.111599](https://doi.org/10.1016/j.rse.2019.111599)
 
 Maimaitijiang, M.; **Sagan, V.**; Sidike, P.; Daloye, A.M.; Erkbol, H.; Fritschi, F.B., 2020 Crop Monitoring Using Satellite/UAV Data Fusion and Machine Learning. *Remote Sens.* 12, 1357. [10.3390/rs12091357](https://doi.org/10.3390/rs12091357)
-<br>
 
+<br><br>
 
 
 {% capture text %}
