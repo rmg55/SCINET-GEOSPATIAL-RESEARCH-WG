@@ -1,6 +1,6 @@
 ---
 title: Session2
-#nav: true
+nav: true
 --- 
 
 # Session 2 Tutorial
