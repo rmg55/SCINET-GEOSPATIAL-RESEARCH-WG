@@ -89,7 +89,8 @@ We encourage everyone to attend this general session- members and non-members fr
 
 |AGENDA (MDT) | |
 ---|---
-11-11:30 | Review of the 2019 workshop
+11-11:10 | Welcome and Session Rules
+11:10-11:30 | Review of the 2019 workshop
 11:30-11:45 | Details on the upcoming 2020 sessions
 11:45- 12 | Introduction to the SCINet postdocs
 12-12:15 | break
@@ -171,7 +172,7 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 1:40-2:15 | Panel Discussion 
 
 <br>
-More information about our invited speakers and panel session can be found on our [speakers page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/3-speakers.html)
+More information about our invited speakers and panel session can be found on our [Session 6 page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html)
 
 ------
 
