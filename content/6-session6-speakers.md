@@ -5,6 +5,7 @@ title: Speakers
 
 # Session 6 Symposium:
 <br>
+
 ### Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research, followed by a panel discussion. 
@@ -13,23 +14,25 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 # AGENDA	
 
 
-11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs | Welcome
+11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs
+
+  - Welcome
 
 11:10-11:40 | Dr Matthew Jones | University of Montana 
 
-Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
+  - Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
 11:45-12:15 | Dr Liheng Zhong | Descartes Labs
 
-How to use statistical data to train classifiers
+  - How to use statistical data to train classifiers
 
 12:20-12:50 | Dr Vasit Sagan | Saint Louis University 
 
-UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
+  - UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
 
 12:55-1:25 | Dr Jingyi Huang | University of Wisconsin 
 
-Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
+  - Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
 
 1:30-1:40 | short break
 
@@ -39,10 +42,26 @@ Characterizing field-scale soil moisture dynamics with big data and machine lear
 - The USDA ARS is currently undergoing an effort to increase/improve the computational and machine learning capabilities across the agency. What are the skillsets that are required to conduct research with “big data” using machine learning techniques? Do you have suggestions on the best approaches for developing these skillsets?
 - What do you see as the future directions for machine learning and advanced computing techniques (e.g. cloud, HPC) in agricultural research?
 
+---
+
+# Session Rules
+
+**CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY** - Chat your question/comments either to everyone (preferred) or to the chat moderator (Kerrie Geil) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
+
+**SHARE YOUR VIDEO WHEN SPEAKING** - If your internet plan/connectivity allows, please share your video when speaking.
+
+**KEEP YOURSELF ON MUTE** - Please mute yourself unless you are called on.
+<br><br>
+
+---
+
 <br>
-# Invited Speakers
+# Invited Speaker Info
 <br>
-{% capture text %}### Dr. Matthew Jones, University of Montana{% endcapture %}
+
+{% capture text %}
+### Dr. Matthew Jones, University of Montana
+{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
 **Title:** Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
@@ -55,7 +74,11 @@ Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth,
 **Jones, M. O.**, Allred, B. W., Naugle, D. E., Maestas, J. D., Donnelly, P., Metz, L. J., Karl, J., Smith, R., Bestelmeyer, B., Boyd, C., Kerby, J. D., and McIver, J. D., 2018. Innovation in rangeland monitoring: annual, 30 m, plant functional type percent cover maps for U.S. rangelands, 1984–2017. *Ecosphere* 9( 9):e02430. [10.1002/ecs2.2430](https://esajournals.onlinelibrary.wiley.com/doi/10.1002/ecs2.2430)
 <br>
 
-{% capture text %}### Dr. Liheng Zhong, Descartes Labs{% endcapture %}
+
+
+{% capture text %}
+### Dr. Liheng Zhong, Descartes Labs
+{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
 **Title:** How to use statistical data to train classifiers
@@ -68,7 +91,11 @@ Allred, B.W., Bestelmeyer, B.T., Boyd, C.S., Brown, C., Davies, K.W., Ellsworth,
 **Zhong, L.**, Hu, L., Zhou, H., 2019. Deep learning based multi-temporal crop classification. *Remote Sens. Environ.* 221, 430–443. [10.1016/j.rse.2018.11.032](https://doi.org/10.1016/j.rse.2018.11.032)
 <br>
 
-{% capture text %}### Dr. Vasit Sagan, Saint Louis University{% endcapture %}
+
+
+{% capture text %}
+### Dr. Vasit Sagan, Saint Louis University
+{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
 **Title:** UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
@@ -81,7 +108,11 @@ Maimaitijiang, M., **Sagan, V.**, Sidike, P., Hartling, S., Esposito, F., Fritsc
 Maimaitijiang, M.; **Sagan, V.**; Sidike, P.; Daloye, A.M.; Erkbol, H.; Fritschi, F.B., 2020 Crop Monitoring Using Satellite/UAV Data Fusion and Machine Learning. *Remote Sens.* 12, 1357. [10.3390/rs12091357](https://doi.org/10.3390/rs12091357)
 <br>
 
-{% capture text %}### Dr. Jingyi Huang, University of Wisconsin{% endcapture %}
+
+
+{% capture text %}
+### Dr. Jingyi Huang, University of Wisconsin
+{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
 **Title:** Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
