@@ -13,7 +13,7 @@ After the session we will post a link to the video recording on this page as wel
 
 <br><br>
 
-## Learning Goals
+**Learning Goals**
 
 - data analysis technique for very large datasets (the tools in this tutorial are most appropriate for analysis of large earth-science-type datasets)
 - set up SLURM cluster to compute "in parallel"
@@ -22,6 +22,31 @@ After the session we will post a link to the video recording on this page as wel
 - view Dask diagnostics to visualize cluster computations in real time
 
 <br><br>
+
+**Contents**
+
+[Session Rules](#session-rules)
+
+[How to Run the Tutorial on Ceres](#how-to-run-the-tutorial-on-ceres)
+
+[View the Tutorial Online](#view-the-tutorial-online)
+
+
+
+---
+
+## Session Rules
+
+**GREEN LIGHT, RED LIGHT** - Use the Zoom participant feedback indicators to show us if you are following along successfully as well as when you need help. To access participant feed back, click on the "Participants" icon to open the participants pane/window. Click the green "yes" to indicate that you are following along successfully, click the red "no" to indicate when you need help. Ideally, you will have either the red or green indicator displayed for yourself throughout the entire tutorial. We will pause every so often to work through solutions for participants displaying a red light.
+
+**CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY** - Chat your questions/comments either to everyone (preferred) or to the chat moderator (Rowan Gaffney) privately to have your question/comment read out loud anonamously. We will address chat questions/comments first and call on people who have written in the chat before we take questions from raised hands.
+
+**SHARE YOUR VIDEO WHEN SPEAKING** - If your internet plan/connectivity allows, please share your video when speaking.
+
+**KEEP YOURSELF ON MUTE** - Please mute yourself unless you are called on.
+<br><br>
+
+---
 
 ## How to Run the Tutorial on Ceres
 
@@ -52,6 +77,8 @@ After the session we will post a link to the video recording on this page as wel
    * Execute blocks of script by clicking the "play" icon in the notebook or typing Shift+Enter 
 
 <br><br>
+
+---
 
 ## View the Tutorial Online
 
