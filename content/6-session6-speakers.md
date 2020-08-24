@@ -1,19 +1,40 @@
 ---
 title: Speakers
-nav: true
+#nav: true
 ---
 
-# Symposium
+# Session 6 Symposium:
 <br>
 ### Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
-**9/1/2020, 11am-2pm MDT**
+The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research, followed by a panel discussion. 
 
-**Registration Required:** [https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y](https://www.zoomgov.com/meeting/register/vJIscO-gqzwqHIbg_hUB-6vHosTYeDjjS_Y)
 
-The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four invited speakers, each giving a 30-minute presentation on how they use machine learning for agricultural research. 
+# AGENDA	
 
-Following the presentations, a panel discussion will address the following questions as well as questions from the audience:
+
+11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs | Welcome
+
+11:10-11:40 | Dr Matthew Jones | University of Montana 
+
+Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
+
+11:45-12:15 | Dr Liheng Zhong | Descartes Labs
+
+How to use statistical data to train classifiers
+
+12:20-12:50 | Dr Vasit Sagan | Saint Louis University 
+
+UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
+
+12:55-1:25 | Dr Jingyi Huang | University of Wisconsin 
+
+Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
+
+1:30-1:40 | short break
+
+1:40-2:15 | Panel Discussion 
+
 - What are the merits and pitfalls of machine learning techniques in comparison to traditional deterministic (physical/process-based) and probabilistic modeling/analysis for agricultural research?
 - The USDA ARS is currently undergoing an effort to increase/improve the computational and machine learning capabilities across the agency. What are the skillsets that are required to conduct research with “big data” using machine learning techniques? Do you have suggestions on the best approaches for developing these skillsets?
 - What do you see as the future directions for machine learning and advanced computing techniques (e.g. cloud, HPC) in agricultural research?
