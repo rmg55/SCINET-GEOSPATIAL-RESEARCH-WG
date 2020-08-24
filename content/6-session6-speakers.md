@@ -67,7 +67,7 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 {% capture text %}
 ### Dr. Matthew Jones, University of Montana
 {% endcapture %}
-<!--{% include alert.md text=text color=secondary %}-->
+{% include alert.md text=text color=secondary %}
 
 **Title:** Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
