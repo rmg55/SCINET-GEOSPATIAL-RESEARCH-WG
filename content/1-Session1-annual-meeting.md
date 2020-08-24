@@ -10,9 +10,9 @@ This page contains all the info you need to participate in Session 1 of the SCIN
 After the session we will post any notes, outcomes, and links to video recordings on this page as well.
 <br><br>
 
-# AGENDA (MDT)	 
+# AGENDA	 
 
-|AGENDA (MDT) | |
+|(MDT) | |
 |---|---|
 11-11:10 | Welcome and [Session Rules](#session-rules)
 11:10-11:30 | [Review of the 2019 workshop](#review-of-the-2019-workshop)
@@ -112,7 +112,7 @@ Bio coming soon
 
 #### Jennifer Chang, Bioinformatics Scientist
 
-![picture of jennifer](/images/postdoc-pics/jennifer-chang-150-150.jpg)
+![picture of jennifer](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/jennifer-chang-150-150.jpg)
 
 Jennifer Chang grew up in Wisconsin and has been programming since 2006. At Cornell College, she double majored in Biochemistry and Computer Science graduating in 2011. In 2017, Jennifer earned a PhD in bioinformatics from Iowa State University. During the PhD, her research software "Mango Graph Studio" led to co-founding a software company and working on two Department of Defense Small Business Innovation Research (SBIR) contracts. She eventually left the company and was a postdoc with Dr. Amy Vincent at USDA-ARS, automating swine influenza reports from 2017-2020. In June 2020, Jennifer shifted to a SCINet postdoc position with Dr. Andrew Severin and Dr. Brian Scheffler where she collaborates on the bioinformatics workbook. She's still in Ames, Iowa, learning slurm and automating pipelines for different hardware architectures. She hopes to write flexible general-purpose pipelines that reduce tedium and increase joy of discovery. Jennifer cares about collaboration, welcoming environments, and teaching.
 
