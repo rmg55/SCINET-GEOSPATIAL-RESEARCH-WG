@@ -10,7 +10,21 @@ title: Session2
 This page contains all the info you need to participate in Session 2 of the SCINet Geospatial Workshop 2020.
 
 After the session we will post a link to the video recording on this page as well.
+
+**Learning Goals:**
+
+- understand what an HPC system is and when to use one
+- introduction to the USDA-ARS Ceres HPC system on SCINet
+- access the Ceres HPC system on SCINet by using Secure Shell at the command line and by using the JupyterHub web interface
+- create a simple Jupyter notebook
+- execute basic linux commands
+- run an interactive computing session on Ceres
+- write and run a SLURM batch script on Ceres
 <br><br>
+
+---
+
+## Contents
 
 [Session Rules](#session-rules)
 
