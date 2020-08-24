@@ -18,19 +18,19 @@ The 2020 SCINet Geospatial Workshop concludes with a symposium showcasing four i
 
   - Welcome
 
-**11:10-11:40   Dr Matthew Jones, University of Montana**
+**11:10-11:40   [Dr Matthew Jones](#dr-matthew-jones-university-of-montana), University of Montana**
 
   - Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
 
-**11:45-12:15   Dr Liheng Zhong, Descartes Labs**
+**11:45-12:15   [Dr Liheng Zhong](#dr-liheng-zhong-descartes-labs), Descartes Labs**
 
   - How to use statistical data to train classifiers
 
-**12:20-12:50   Dr Vasit Sagan, Saint Louis University**
+**12:20-12:50   [Dr Vasit Sagan](#dr-vasit-sagan-saint-louis-university), Saint Louis University**
 
   - UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
 
-**12:55-1:25    Dr Jingyi Huang, University of Wisconsin**
+**12:55-1:25    [Dr Jingyi Huang](#dr-jingyi-huang-university-of-wisconsin), University of Wisconsin**
 
   - Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
 
