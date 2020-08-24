@@ -145,9 +145,9 @@ Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. 
 Bio coming soon
 
 #### Shawn Taylor, 
+![picture of shawn](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/shawn-taylor-150-150.jpg)
 
-Bio coming soon
-
+Shawn is currently a postdoc at the USDA-ARS Jornada Experimental Range in Las Cruces, NM working with Dr. Dawn Browning. He will begin his SCINet postdoc in October, 2020. His work will integrate large streams of sensor data across the Long Term Agricultural Research (LTAR) network to help promote increased production and sustainability. Shawn obtained his PhD from the University of Florida in 2019, where he researched best practices in ecological forecasting and implemented a continental scale phenology forecast. 
 
 [return to agenda](#agenda-mdt)
 <br><br>
