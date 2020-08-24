@@ -141,7 +141,7 @@ Some research groups have purchased their own nodes which are placed on "priorit
 
 There are 3 places to store your codes and data persistently on Ceres:
 
- - home directory, /home/user.name/ - Everyone has a small private home directory. You are automatically put in this directory when you log in. Home directories are backed up. You shouldn't run computations from your home directory.
+ - home directory, /home/firstname.lastname/ - Everyone has a small private home directory. You are automatically put in this directory when you log in. Home directories are backed up. You shouldn't run computations from your home directory.
  - project directory, /lustre/project/your_project_name/ - You must [apply for each project directory](https://scinet.usda.gov/support/request-storage). This is where you run scripts from and where your datasets, codes, and results should live. Project directories are not backed up.
 - keep directory, /KEEP/your_project_name/ - Each of your projects will also have folder in the /KEEP directory. This folder is backed up nightly. Copy your most important project files to your /KEEP folder to ensure they are backed up. Compute jobs shouldn't be run from /KEEP directories.
 
@@ -211,7 +211,7 @@ First, let's login to our SCINet (Ceres) accounts with SSH. You should have alre
 
 If you haven't yet set up a config file for SSH'ing to Ceres (we won't cover it but instructions are at the Quick Start Guide link above) then:
 ```bash
-ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 user.name@ceres.scinet.usda.gov
+ssh -o TCPKeepAlive=yes -o ServerAliveInterval=20 -o ServerAliveCountMax=30 firstname.lastname@ceres.scinet.usda.gov
 ```
 
 The keep alives are especially important for rural/satellite internet connections so that instantaneous breaks in service won't terminate your connection to the HPC.
@@ -371,7 +371,7 @@ Issuing this command requests the SLURM job scheduler to allocate you a single h
 
 View your runnning compute sessions/jobs with:
 ```bash
-squeue -u user.name
+squeue -u firstname.lastname
 ````
 
 To exit the interactive session:
