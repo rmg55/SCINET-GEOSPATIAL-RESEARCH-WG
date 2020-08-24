@@ -4,11 +4,14 @@ title: Session3
 --- 
 
 # Session 3 Tutorial
+
 # Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 
 This page contains all the info you need to participate in Session 3 of the SCINet Geospatial Workshop 2020.
 
 After the session we will post a link to the video recording on this page as well.
+
+<br><br>
 
 ## Learning Goals
 
@@ -18,6 +21,7 @@ After the session we will post a link to the video recording on this page as wel
 - use adaptive clusters to dynamically scale up and down your computing
 - view Dask diagnostics to visualize cluster computations in real time
 
+<br><br>
 
 ## How to Run the Tutorial on Ceres
 
