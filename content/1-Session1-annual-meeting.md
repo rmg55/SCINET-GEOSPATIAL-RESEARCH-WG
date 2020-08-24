@@ -137,12 +137,12 @@ Amy began her SCINet postdoc in May 2020 working with Dr. Debra Peters in Las Cr
 
 Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. degree in Geography from the University of Wisconsin-Madison. She works with Dr. Feng Gao and Dr. Martha Anderson at the Hydrology and Remote Sensing Laboratory in the Beltsville Agricultural Research Center, Beltsville, Maryland. Yanghui’s research projects have focused on the large-scale high-resolution monitoring of core agroecosystem variables (e.g., Leaf Area Index (LAI), crop yield), with the help of satellite remote sensing, machine learning, crop growth modeling, and data assimilation techniques. At ARS, Yanghui is currently developing a machine-learning-based approach to map LAI from Landsat and Sentinel-2 images over the entire globe. She is also interested in deriving crop phenological stages from satellite observations and monitoring agroecosystem dynamics through data assimilation.
 
-#### Suzy Stillman, 
+#### Suzy Stillman, Climate Scientist
 ![picture of suzy](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/suzy-stillman-150-150.png)
 
 Suzy began working as a SCINet Postdoc in Las Cruces, NM in Dr. Deb Peters’ research group in July, 2020. After receiving her PhD in hydrometeorology from the University of Arizona, she worked at the Desert Research Institute in Las Vegas, NV, where her main research focus included climate analyses for DoD and DoE. Her background is in evaluating and improving the hydrologic observing system through combining data from a variety of sources. Some of her research that excites her most includes working towards understanding the impact of atmospheric rivers on Colorado River yield and the influence of topography on precipitation in the western US. Her research interests include making the best use of the already available suite of hydrologic observational data to gain a better understanding of the future hydroclimate.
 
-#### Shawn Taylor, 
+#### Shawn Taylor, Ecologist
 ![picture of shawn](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/shawn-taylor-150-150.jpg)
 
 Shawn is currently a postdoc at the USDA-ARS Jornada Experimental Range in Las Cruces, NM working with Dr. Dawn Browning. He will begin his SCINet postdoc in October, 2020. His work will integrate large streams of sensor data across the Long Term Agricultural Research (LTAR) network to help promote increased production and sustainability. Shawn obtained his PhD from the University of Florida in 2019, where he researched best practices in ecological forecasting and implemented a continental scale phenology forecast. 
