@@ -1,9 +1,9 @@
 ---
 title: Session3
-#nav: true
+nav: true
 --- 
 
-# Session 3 Tutorial
+# Session 3 Tutorial:
 
 # Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 
