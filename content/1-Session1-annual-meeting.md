@@ -13,7 +13,7 @@ After the session we will post any notes, outcomes, and links to video recording
 # AGENDA (MDT)	 
 
 |AGENDA (MDT) | |
----|---
+|---|---|
 11-11:10 | Welcome and [Session Rules](#session-rules)
 11:10-11:30 | [Review of the 2019 workshop](#review-of-the-2019-workshop)
 11:30-11:45 | [Details on the upcoming 2020 sessions](#details-on-the-upcoming-2020-sessions)
@@ -22,6 +22,7 @@ After the session we will post any notes, outcomes, and links to video recording
 12:15-1:15 | [Working Session: SCINet common data library](#working-session-scinet-common-data-library)
 1:15-1:45 | [Working Session: geospatial workbook](#working-session-geospatial-workbook)
 1:45-2 | [Proposals for new working group initiatives](#proposals-for-new-working-group-initiatives)
+
 <br>
 
 **Workshop Organizing Committee**
@@ -69,7 +70,7 @@ If you are unable to join a session, you will still be able to access and work t
 - 8/28/2020, 1:00-2:30pm MDT, [Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics](#session-5-tutorial-distributed-machine-learning-using-gradient-boosting-to-predict-ndvi-dynamics)
  
 - 9/1/2020, 11am-2pm MDT, [Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture](#session-6-symposium-challenges-and-opportunities-in-leveraging-machine-learning-techniques-to-further-sustainable-and-intensified-agriculture)
-<br>
+<br><br>
 
 ### Preparation for the tutorial sessions (2, 3, 4, 5)
 
@@ -110,6 +111,7 @@ Bio coming soon
 Bio coming soon
 
 #### Jennifer Chang, Bioinformatics Scientist
+
 ![picture of jennifer](/images/postdoc-pics/jennifer-chang-150-150.jpg)
 
 Jennifer Chang grew up in Wisconsin and has been programming since 2006. At Cornell College, she double majored in Biochemistry and Computer Science graduating in 2011. In 2017, Jennifer earned a PhD in bioinformatics from Iowa State University. During the PhD, her research software "Mango Graph Studio" led to co-founding a software company and working on two Department of Defense Small Business Innovation Research (SBIR) contracts. She eventually left the company and was a postdoc with Dr. Amy Vincent at USDA-ARS, automating swine influenza reports from 2017-2020. In June 2020, Jennifer shifted to a SCINet postdoc position with Dr. Andrew Severin and Dr. Brian Scheffler where she collaborates on the bioinformatics workbook. She's still in Ames, Iowa, learning slurm and automating pipelines for different hardware architectures. She hopes to write flexible general-purpose pipelines that reduce tedium and increase joy of discovery. Jennifer cares about collaboration, welcoming environments, and teaching.
