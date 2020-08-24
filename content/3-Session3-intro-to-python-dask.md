@@ -11,7 +11,7 @@ This page contains all the info you need to participate in Session 3 of the SCIN
 
 After the session we will post a link to the video recording on this page as well.
 
-<br><br>
+<br>
 
 **Learning Goals**
 
@@ -23,7 +23,9 @@ After the session we will post a link to the video recording on this page as wel
 
 <br><br>
 
-**Contents**
+---
+
+## Contents
 
 [Session Rules](#session-rules)
 
@@ -31,7 +33,7 @@ After the session we will post a link to the video recording on this page as wel
 
 [View the Tutorial Online](#view-the-tutorial-online)
 
-
+<br><br>
 
 ---
 
