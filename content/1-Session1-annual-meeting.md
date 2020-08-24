@@ -127,10 +127,6 @@ Alicia started the SCINet Postdoc position in June 2020, working out of Gainesvi
 
 Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-2020 and has recently transitioned in July to a SCINet Postdoc position in Las Cruces, NM in the research group of Dr. Deb Peters. She received her PhD in Atmospheric Sciences from the University of Arizona in 2016 and her research background is in global and regional climate modeling and climate model performance evaluation using in-situ and satellite observations. Kerrie has expertise in global-, continental-, and regional- scale climate dynamics including teleconnections/climate oscillations (ENSO, PDO, etc.), land-atmosphere-ocean interactions, and the North American Monsoon system. She has also worked on national- and local- scale extreme temperature projects. One of the projects Kerrie hopes to accomplish during her time as a postdoc at ARS is a climate model evaluation tool to make the process of model ensemble selection (e.g. which downscaled models should be excluded from your analyses due to the garbage in garbage out principle) simpler and quicker for research scientists.
 
-#### Lucas Heintzman, 
-
-Bio coming soon
-
 #### Amy Hudson, Climate Ecologist
 ![picture of amy](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/amy-hudson-150-150.jpg)
 
