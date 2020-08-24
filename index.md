@@ -161,18 +161,36 @@ This session is for USDA ARS scientists, scientific staff, and University collab
 
 **AGENDA (MDT)**
 
-|TIME|SPEAKER|AFFILIATION| PRESENTATION TITLE |
----|---|---|---
-11-11:10 | Drs Yanghui Kang & Amy Hudson | USDA-ARS SCINet Postdocs | Welcome
-11:10-11:40 | Dr Matthew Jones | University of Montana | Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
-11:45-12:15 | Dr Liheng Zhong | Descartes Labs | How to use statistical data to train classifiers
-12:20-12:50 | Dr Vasit Sagan | Saint Louis University | UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
-12:55-1:25 | Dr Jingyi Huang | University of Wisconsin | Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
-1:30-1:40 | short break
-1:40-2:15 | Panel Discussion 
+**11-11:10    Drs Yanghui Kang & Amy Hudson, USDA-ARS SCINet Postdocs**
+
+  - Welcome
+
+**11:10-11:40   Dr Matthew Jones, University of Montana**
+
+  - Predicting rangeland fractional cover for the western U.S. with random forests and multitask learning
+
+**11:45-12:15   Dr Liheng Zhong, Descartes Labs**
+
+  - How to use statistical data to train classifiers
+
+**12:20-12:50   Dr Vasit Sagan, Saint Louis University**
+
+  - UAV-satellite spatio-temporal data fusion and deep learning for yield prediction
+
+**12:55-1:25    Dr Jingyi Huang, University of Wisconsin**
+
+  - Characterizing field-scale soil moisture dynamics with big data and machine learning: challenges and opportunities for digital agriculture
+
+**1:30-1:40   Short Break**
+
+**1:40-2:15   Panel Discussion**
+
+- What are the merits and pitfalls of machine learning techniques in comparison to traditional deterministic (physical/process-based) and probabilistic modeling/analysis for agricultural research?
+- The USDA ARS is currently undergoing an effort to increase/improve the computational and machine learning capabilities across the agency. What are the skillsets that are required to conduct research with “big data” using machine learning techniques? Do you have suggestions on the best approaches for developing these skillsets?
+- What do you see as the future directions for machine learning and advanced computing techniques (e.g. cloud, HPC) in agricultural research?
 
 <br>
-More information about our invited speakers and panel session can be found on our [Session 6 page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html)
+More information about our invited speakers can be found on our [Session 6 page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/6-session6-speakers.html)
 
 ------
 
