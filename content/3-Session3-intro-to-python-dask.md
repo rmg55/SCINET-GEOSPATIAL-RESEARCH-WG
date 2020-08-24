@@ -55,4 +55,4 @@ After the session we will post a link to the video recording on this page as wel
 
 ## View the Tutorial Online
 
-If you are not running the tutorial on Ceres during the session you can view a static version of it at [https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEARCH-WG/blob/master/tutorials/session3-intro-to-python-dask-on-ceres.ipynb](https://github.com/kerriegeil/SCINET-GEOSPATIAL-RESEARCH-WG/blob/master/tutorials/session3-intro-to-python-dask-on-ceres.ipynb)
+If you are not running the tutorial on Ceres during the session you can view a static version of it at [https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/html-tutorials/session3-intro-to-python-dask-on-ceres.html](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/html-tutorials/session3-intro-to-python-dask-on-ceres.html)
