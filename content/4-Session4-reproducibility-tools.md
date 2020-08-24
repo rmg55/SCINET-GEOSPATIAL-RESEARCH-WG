@@ -637,6 +637,7 @@ If you've ever written code on one machine and then tried to run it without succ
 
 This tutorial <mark>focuses on creating container images with Docker and running the images on the Ceres HPC with Singularity</mark>. You can also create container images with Singularity and store/version them on Singularity-hub but we have chosen to feature a mostly Docker workflow because Docker container images are currently much more common than Singularity. For more detailed information about singularity on Ceres, see this SCINet 
 
+
 ## Container Terminology
 
 **DOCKER** - open source containerization software that you use at the command line to build and run container images. You can use docker on your laptop but it is not available on Ceres due to security concerns.
@@ -719,6 +720,7 @@ Note that we did not need to download or rebuild the container. Now lets exit th
 exit #to exit the container image
 exit #to exit the ceres compute node
 ```
+
 ## Building a Docker Container
 
 #### Option 1: Build a container on your local system and copy over to Ceres (not covered in this tutorial).
@@ -746,8 +748,6 @@ The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image t
   2. **Capture GitHub Tags/Releases**: When a release/tag is created in the Github repository, a new image is automatically built on DockerHub with similiar tag (*:vTAGNAME*). For example, for this workshop, I created a release in the github repository titled *SCINetGeoWS_2020* (see: [link to GitHub release](https://github.com/rmg55/container_stacks/releases/tag/SCINetGeoWS_2020)). A subsequent image in DockerHub was built ([link equivalent DockerHub Image](https://hub.docker.com/layers/rowangaffney/data_science_im_rs/vSCINetGeoWS_2020/images/sha256-1dcb6b9bbf82e875ff92c961043f5e00c3f91aae0edf8791a52498e77af2ebba?context=explore)). This image will not be over-written by subsequent changes in the GitHub repository  (unlike the *:latest* image).
   3. **Multiple Computing Environments**: The container includes two conda environments (py_geo and r_geo) that focus on geospatial and machine learning software.
   4. **Several IDEs**: The container includes Jupyter, RStudio, and VSCode.
-
-
 <br>
 
 [return to contents](#contents)
