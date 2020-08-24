@@ -107,7 +107,7 @@ The first cohort of postdocs funded by the SCINet Computing Initiative has arriv
 
 Melanie is an agroecologist and landscape ecologist, and, in September, she will be starting as a SCINet postdoc in State College, PA mentored by Drs. Sarah Goslee and Deb Peters. Melanie recently completed a USDA NIFA pre-doctoral fellowship during her PhD in Ecology at Penn State University. In her graduate research, Melanie studied landscape and climate drivers of wild-bee communities using long-term population monitoring data, new field studies, and high-resolution landscape characterization. She also has extensive expertise in spatial modelling of bee communities, which she leveraged to explore changes in floral resources for wild bees with shifting herbicide use in US field crops. In addition to her research, Melanie served as lead data wrangler for Beescape (beescape.org), an interactive mapping application that allows scientists, beekeepers, and land managers to easily evaluate landscape quality for bees. Melanie is deeply committed to open, reproducible science that is accessible to and informed by diverse stakeholders, which she is excited to continue with the vibrant ARS SCINet community. 
 
-#### Ibukun (Timothy) Ayankojo,
+#### Ibukun (Timothy) Ayankojo
 
 Bio coming soon
 
@@ -138,8 +138,9 @@ Amy began her SCINet postdoc in May 2020 working with Dr. Debra Peters in Las Cr
 Yanghui started her SCINet Postdoc position in May 2020 after receiving a Ph.D. degree in Geography from the University of Wisconsin-Madison. She works with Dr. Feng Gao and Dr. Martha Anderson at the Hydrology and Remote Sensing Laboratory in the Beltsville Agricultural Research Center, Beltsville, Maryland. Yanghui’s research projects have focused on the large-scale high-resolution monitoring of core agroecosystem variables (e.g., Leaf Area Index (LAI), crop yield), with the help of satellite remote sensing, machine learning, crop growth modeling, and data assimilation techniques. At ARS, Yanghui is currently developing a machine-learning-based approach to map LAI from Landsat and Sentinel-2 images over the entire globe. She is also interested in deriving crop phenological stages from satellite observations and monitoring agroecosystem dynamics through data assimilation.
 
 #### Suzy Stillman, 
+![picture of suzy](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/suzy-stillman-150-150.png)
 
-Bio coming soon
+Suzy began working as a SCINet Postdoc in Las Cruces, NM in Dr. Deb Peters’ research group in July, 2020. After receiving her PhD in hydrometeorology from the University of Arizona, she worked at the Desert Research Institute in Las Vegas, NV, where her main research focus included climate analyses for DoD and DoE. Her background is in evaluating and improving the hydrologic observing system through combining data from a variety of sources. Some of her research that excites her most includes working towards understanding the impact of atmospheric rivers on Colorado River yield and the influence of topography on precipitation in the western US. Her research interests include making the best use of the already available suite of hydrologic observational data to gain a better understanding of the future hydroclimate.
 
 #### Shawn Taylor, 
 ![picture of shawn](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/shawn-taylor-150-150.jpg)
