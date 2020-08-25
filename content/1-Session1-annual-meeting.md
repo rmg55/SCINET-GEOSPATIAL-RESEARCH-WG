@@ -53,14 +53,16 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 [2019 Workshop Notes](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/01-WORKSHOP-NOTES.pdf) (opens pdf)
 
-At last year's workshop we:
+
+**At last year's workshop we:**
 - heard from ARS scientists about successes and challenges of using SCINet for geospatial analysis, 
 - identified common issues and barriers to using SCINet for geospatial research workflows,
 - generated recommendations for overcoming these issues/barriers, 
 - created the SCINet Geospatial Research Working Group to follow through with workshop recommendations, and
 - learned about machine learning, deep learning, and some of the ways ML/DL are being used for research at New Mexico State University and the Jornada Experimental Range.
 
-<span style="color: red">Identified Needs:</span>
+
+**Computational Needs of the ARS Geospatial Research Community:**
 - data access, sharing, and storage
   - securely store data
   - rapid access to data
@@ -76,31 +78,37 @@ At last year's workshop we:
   - cloud computing and storage for operational projects with large input and output data
   - decision support/agro-informatics applications for our stakeholders
 
+<span style="color: red"> </span>
 
-Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:
-1) Improve data access, sharing, and storage.
-  a. Implement better methods for getting massive input data into the computational environment.
-  b. Build/expand higher speed connections to SCINet.
-  c. Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
-  d. Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
+**Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:**
 
-2) Reproducibility and collaboration.
-  a. Hold trainings on using Git, containers, and other reproducibility tools.
-  b. Hold hands-on group work sessions in R and Python.
+A) Improve data access, sharing, and storage.
 
-3) Build capacity for using HPC/cloud computing.
-  a. Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
-  c. Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
-  d. Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
-  e. Hold trainings in R, Python, and Unix through The Carpentries or similar.
-  f. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
-  g. Hold trainings in image processing.
+  1. Implement better methods for getting massive input data into the computational environment.
+  2. Build/expand higher speed connections to SCINet.
+  3. Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
+  4. Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
+
+B) Reproducibility and collaboration.
+
+  1. Hold trainings on using Git, containers, and other reproducibility tools.
+  2. Hold hands-on group work sessions in R and Python.
+
+C) Build capacity for using HPC/cloud computing.
+
+  1. Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
+  2. Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
+  3. Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
+  4. Hold trainings in R, Python, and Unix through The Carpentries or similar.
+  5. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
+  6. Hold trainings in image processing.
   
-4) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
-  a. Contract a "GeoTeam" that would help our research community with workflow development, parallelization, and code optimization.
-  b. Deploy a better forum for searchable SCINet questions/answers.
-  c. Purchase community GPUs when the priority GPU gets to be a limited resource.
-  d. Install Pix4D Engine software on SCINet.
+D) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
+
+  1. Contract a "GeoTeam" that would help our research community with workflow development, parallelization, and code optimization.
+  2. Deploy a better forum for searchable SCINet questions/answers.
+  3. Purchase community GPUs when the priority GPU gets to be a limited resource.
+  4. Install Pix4D Engine software on SCINet.
 
 
 [return to agenda](#agenda)
