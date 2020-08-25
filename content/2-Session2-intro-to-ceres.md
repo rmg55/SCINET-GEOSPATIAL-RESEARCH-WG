@@ -15,7 +15,7 @@ After the session we will post a link to the video recording on this page as wel
 
 - understand what an HPC system is and when to use one
 - introduction to the USDA-ARS Ceres HPC system on SCINet
-- access the Ceres HPC system on SCINet by using Secure Shell at the command line and by using the JupyterHub web interface
+- access the Ceres with Secure Shell at the command line and with the JupyterHub web interface
 - create a simple Jupyter notebook
 - execute basic linux commands
 - run an interactive computing session on Ceres
