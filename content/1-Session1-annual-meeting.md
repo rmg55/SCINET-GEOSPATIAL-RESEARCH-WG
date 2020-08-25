@@ -78,30 +78,31 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
   - cloud computing and storage for operational projects with large input and output data
   - decision support/agro-informatics applications for our stakeholders
 
-<span style="color: red"> </span>
 
 **Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:**
+
+Key: <span style="color: green">progress made in FY20</span>, <span style="color: orange">progress beginning FY21</span>
 
 A) Improve data access, sharing, and storage.
 
   1. Implement better methods for getting massive input data into the computational environment.
-  2. Build/expand higher speed connections to SCINet.
-  3. Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
+  2. <span style="color: green">Build/expand higher speed connections to SCINet.</span>
+  3. <span style="color: orange">Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.</span>
   4. Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
 
-B) Reproducibility and collaboration.
+B) Enhance reproducibility of our science and increase collaboration.
 
-  1. Hold trainings on using Git, containers, and other reproducibility tools.
-  2. Hold hands-on group work sessions in R and Python.
+  1. <span style="color: green">Hold trainings on using Git, containers, and other reproducibility tools.</span>
+  2. <span style="color: orange">Hold hands-on group work sessions in R and Python.</span>
 
 C) Build capacity for using HPC/cloud computing.
 
-  1. Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
-  2. Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
-  3. Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
-  4. Hold trainings in R, Python, and Unix through The Carpentries or similar.
+  1. <span style="color: green">Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.</span>
+  2. <span style="color: orange">Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)</span>
+  3. <span style="color: green">Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.</span>
+  4. <span style="color: green">Hold trainings in R, Python, and Unix through The Carpentries or similar.</span>
   5. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
-  6. Hold trainings in image processing.
+  6. <span style="color: green">Hold trainings in image processing.</span>
   
 D) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
 
