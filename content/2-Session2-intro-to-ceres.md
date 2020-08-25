@@ -159,6 +159,7 @@ There is currently no quota system for keeping track of how many jobs you run or
 The individual user compute limitations are:
 - 400 cores per user (across all your running jobs)
 - 1512 GB memory per user (across all your running jobs)
+- 100 jobs per user running simultaneously
 <br><br>
 
 **Software on Ceres**
