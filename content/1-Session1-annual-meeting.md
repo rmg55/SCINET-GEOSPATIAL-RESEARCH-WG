@@ -64,6 +64,8 @@ See our [working group page on the SCINet website](https://scinet.usda.gov/worki
 
 <br><br>
 
+---
+
 ## Review of the 2019 Workshop
 
 [2019 Workshop Agenda and Participants](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/00-Agenda-AIandGeospatialAnalysis.pdf) (opens pdf)
