@@ -18,6 +18,12 @@ footer {
         }
     }
 }
+/* change default codeblock style */
+pre,
+code {
+    background-color: #eef;
+    padding: 6px;
+}
 /* change default colors */
 body {
     color: $text-color;
