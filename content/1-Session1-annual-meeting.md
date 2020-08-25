@@ -56,7 +56,6 @@ See our [working group page on the SCINet website](https://scinet.usda.gov/worki
 - improve the computational capacity of ARS geospatial researchers, and 
 - develop collaborative research projects.
 
-<br><br>
 
 **The goals of the 2020 workshop are to:**
 - provide hands-on learning using the Ceres high-performance computing (HPC) system to conduct geospatial and machine learning research,
@@ -71,7 +70,7 @@ See our [working group page on the SCINet website](https://scinet.usda.gov/worki
 
 [2019 Workshop Notes](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/01-WORKSHOP-NOTES.pdf) (opens pdf)
 
-<br><br>
+<br>
 
 **At last year's workshop we:**
 - heard from ARS scientists about successes and challenges of using SCINet for geospatial analysis, 
@@ -80,7 +79,7 @@ See our [working group page on the SCINet website](https://scinet.usda.gov/worki
 - created the SCINet Geospatial Research Working Group to follow through with workshop recommendations, and
 - learned about machine learning, deep learning, and some of the ways ML/DL are being used for research at New Mexico State University and the Jornada Experimental Range.
 
-<br><br>
+<br>
 
 **Computational Needs of the ARS Geospatial Research Community:**
 - data access, sharing, and storage
@@ -98,7 +97,7 @@ See our [working group page on the SCINet website](https://scinet.usda.gov/worki
   - cloud computing and storage for operational projects with large input and output data
   - decision support/agro-informatics applications for our stakeholders
 
-<br><br>
+<br>
 
 **Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:**
 
