@@ -86,7 +86,7 @@ Key: <span style="color: green">progress made in FY20</span>, <span style="color
 A) Improve data access, sharing, and storage.
 
   1. Implement better methods for getting massive input data into the computational environment.
-  2. <span style="color: green">Build/expand higher speed connections to SCINet.</span>
+  2. <span style="color: limegreen">Build/expand higher speed connections to SCINet.</span>
   3. <span style="color: orange">Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.</span>
   4. Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
 
@@ -99,10 +99,10 @@ C) Build capacity for using HPC/cloud computing.
 
   1. <span style="color: green">Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.</span>
   2. <span style="color: orange">Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)</span>
-  3. <span style="color: green">Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.</span>
-  4. <span style="color: green">Hold trainings in R, Python, and Unix through The Carpentries or similar.</span>
+  3. <span style="color: limegreen">Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.</span>
+  4. <span style="color: springgreen">Hold trainings in R, Python, and Unix through The Carpentries or similar.</span>
   5. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
-  6. <span style="color: green">Hold trainings in image processing.</span>
+  6. <span style="color: mediumspringgreen">Hold trainings in image processing.</span>
   
 D) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
 
