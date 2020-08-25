@@ -3,6 +3,11 @@ title: Tutorials
 nav: true
 ---
 
+{% capture text %}
+We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
+
 All tutorials are hosted on Github at (repo location coming soon). 
 
 Below is a brief description of each tutorial as well as an instructional on how to download and run them on the SCINet Ceres HPC system.
