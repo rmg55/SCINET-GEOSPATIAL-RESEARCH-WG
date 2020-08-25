@@ -49,6 +49,58 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 ## Review of the 2019 Workshop
 
+[2019 Workshop Agenda and Participants](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/00-Agenda-AIandGeospatialAnalysis.pdf) (opens pdf)
+
+[2019 Workshop Notes](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/01-WORKSHOP-NOTES.pdf) (opens pdf)
+
+At last year's workshop we:
+- heard from ARS scientists about successes and challenges of using SCINet for geospatial analysis, 
+- identified common issues and barriers to using SCINet for geospatial research workflows,
+- generated recommendations for overcoming these issues/barriers, 
+- created the SCINet Geospatial Research Working Group to follow through with workshop recommendations, and
+- learned about machine learning, deep learning, and some of the ways ML/DL are being used for research at New Mexico State University and the Jornada Experimental Range.
+
+<span style="color: red">Identified Needs:</span>
+- data access, sharing, and storage
+  - securely store data
+  - rapid access to data
+  - share large data files that aren't publicly available
+  - make research data publicly assessible (distribution and archiving)
+  - access to AgCROS and PDI data servers from SCINet
+- reproducibility and collaboration
+  - improve data provenance and versioning
+  - collaborate on models and code development in real time
+- computation and data manipulation
+  - explore/visualize large data
+  - build capacity for using SCINet/HPC and knowing when to use
+  - cloud computing and storage for operational projects with large input and output data
+  - decision support/agro-informatics applications for our stakeholders
+
+
+Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:
+1) Improve data access, sharing, and storage.
+  a. Implement better methods for getting massive input data into the computational environment.
+  b. Build/expand higher speed connections to SCINet.
+  c. Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
+  d. Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
+
+2) Reproducibility and collaboration.
+  a. Hold trainings on using Git, containers, and other reproducibility tools.
+  b. Hold hands-on group work sessions in R and Python.
+
+3) Build capacity for using HPC/cloud computing.
+  a. Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
+  c. Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
+  d. Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
+  e. Hold trainings in R, Python, and Unix through The Carpentries or similar.
+  f. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
+  g. Hold trainings in image processing.
+  
+4) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
+  a. Contract a "GeoTeam" that would help our research community with workflow development, parallelization, and code optimization.
+  b. Deploy a better forum for searchable SCINet questions/answers.
+  c. Purchase community GPUs when the priority GPU gets to be a limited resource.
+  d. Install Pix4D Engine software on SCINet.
 
 
 [return to agenda](#agenda)
@@ -80,7 +132,7 @@ Try to **set yourself up on a large monitor** or Google how to connect your lapt
 
 If you plan to follow along with the Git/Github portion of the Session 4 Tutorial: Computational Reproducibility Tools, **[Create a free personal Github account](https://github.com/join)**.  Make sure you remember your Github username and password.
 
-Lastly, visit the [premeeting page](https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html) to **familiarize yourself with the software/HPC terminology that will be used** in the tutorial sessions.
+Lastly, visit the [premeeting page](/SCINET-GEOSPATIAL-RESEARCH-WG/content/0-PreMeeting.html) to **familiarize yourself with the software/HPC terminology that will be used** in the tutorial sessions.
 <br><br>
 
 ### Other Upcoming Activities of the Working Group
