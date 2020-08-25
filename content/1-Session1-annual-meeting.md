@@ -47,6 +47,24 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 ---
 
+## What is the SCINet Geospatial Research Working Group?
+
+See our [working group page on the SCINet website](https://scinet.usda.gov/working-groups/geospatial).
+
+**Our main goals are to:**
+- provide continued input on the development of SCINet, 
+- improve the computational capacity of ARS geospatial researchers, and 
+- develop collaborative research projects.
+
+<br><br>
+
+**The goals of the 2020 workshop are to:**
+- provide hands-on learning using the Ceres high-performance computing (HPC) system to conduct geospatial and machine learning research,
+- foster research efforts that had previously been un-attainable due to technical limitations or inexperience, and
+- inspire new research ideas and collaborations.
+
+<br><br>
+
 ## Review of the 2019 Workshop
 
 [2019 Workshop Agenda and Participants](/SCINET-GEOSPATIAL-RESEARCH-WG/docs/00-Agenda-AIandGeospatialAnalysis.pdf) (opens pdf)
@@ -162,6 +180,7 @@ The sessions could include:
    - common data library
    - geospatial workbook
    - bring your own coding question/data problem
+- development of new cross-location research ideas
    
 
 **Discussion Question: What content would you like to see in quarterly working group meetings?**
