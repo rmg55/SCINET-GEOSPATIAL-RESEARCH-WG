@@ -81,7 +81,7 @@ Suzy Stillman, SCINet Postdoc, Las Cruces, NM
 
 **Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:**
 
-Key: <span style="color: green">progress made in FY20</span>, <span style="color: orange">progress beginning FY21</span>
+Key: <span style="color: limegreen">progress made in FY20</span>, <span style="color: orange">progress beginning FY21</span>
 
 A) Improve data access, sharing, and storage.
 
@@ -92,17 +92,17 @@ A) Improve data access, sharing, and storage.
 
 B) Enhance reproducibility of our science and increase collaboration.
 
-  1. <span style="color: green">Hold trainings on using Git, containers, and other reproducibility tools.</span>
+  1. <span style="color: limegreen">Hold trainings on using Git, containers, and other reproducibility tools.</span>
   2. <span style="color: orange">Hold hands-on group work sessions in R and Python.</span>
 
 C) Build capacity for using HPC/cloud computing.
 
-  1. <span style="color: green">Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.</span>
+  1. <span style="color: limegreen">Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.</span>
   2. <span style="color: orange">Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)</span>
   3. <span style="color: limegreen">Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.</span>
-  4. <span style="color: springgreen">Hold trainings in R, Python, and Unix through The Carpentries or similar.</span>
+  4. <span style="color: limegreen">Hold trainings in R, Python, and Unix through The Carpentries or similar.</span>
   5. Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
-  6. <span style="color: mediumspringgreen">Hold trainings in image processing.</span>
+  6. <span style="color: limegreen">Hold trainings in image processing.</span>
   
 D) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
 
