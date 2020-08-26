@@ -774,14 +774,14 @@ exit #to exit the ceres compute node
   2. Create a GitHub repository, perhaps something like *my_container*.
   3. Within the *my_container* GitHub repository, make a file titled *Dockerfile*. Below is an example what a simple Dockerfile might look like:
   
-  ```text
-  FROM jupyter/datascience-notebook
-  LABEL maintainer="My Name <my.email@xxx.xxx>"
+    ```text
+    FROM jupyter/datascience-notebook
+    LABEL maintainer="My Name <my.email@xxx.xxx>"
 
-  conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
-  ```
-  
-  The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
+    conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
+    ```
+    
+    The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
   
   4. Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
   5. Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
