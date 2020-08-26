@@ -1,6 +1,6 @@
 ---
 title: Session4
-#nav: true
+nav: true
 ---
 
 {% capture text %}
