@@ -681,10 +681,10 @@ Several organizations maintain excellent data science container stacks:
 2. **Rocker**:  (Interactive computing with RStudio, focusing on R): [Documentation](https://www.rocker-project.org/) | [GitHub](https://github.com/rocker-org/rocker) | [Docker Hub](https://hub.docker.com/u/rocker)
 3. **RapidsAI**: (Interactive computing with Jupyter+Python and GPUs): [Documentation](https://hub.docker.com/r/rapidsai/rapidsai) | [GitHub](https://github.com/rapidsai/docker) | [Docker Hub](https://hub.docker.com/u/rapidsai)
 
-If you've downloaded Docker on your laptop, you can search Docker Hub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. One limitation of Singularity on Ceres is that ```singularity search``` won't search Docker Hub- it can only search it's own singularity-hub registry. In addition, you can simply do a key-word on Docker Hub website of the +100,000 public containers.
+If you've downloaded Docker on your laptop, you can search Docker Hub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. In addition, you can simply do a key-word on Docker Hub website of the +100,000 public containers. One limitation of Singularity on Ceres is that ```singularity search``` won't search Docker Hub- it can only search it's own singularity-hub registry. 
 
 ## Using a Docker Image on Ceres with Singularity
-On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download a docker image layers from Docker Hub and assemble them into a Singularity image on Ceres.
+On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download docker image layers from Docker Hub and assemble them into a Singularity image on Ceres.
 
 Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
 
@@ -731,7 +731,7 @@ Now lets shell into the alpine image.
 ```bash
 singularity shell docker://alpine:latest
 ```
-Note that we did not need to download or rebuild the container. Singularity checks the local container against the container in the Hub repository. If they are the same, it will just use the cached container. If the local container and the container in the Hub are different, it will download and rebuild the container. Now lets exit the container and the Ceres compute node with:
+Note that we did not need to download or rebuild the container. Singularity checks the local container against the container in the Hub repository. If they are the same, it will just use the cached container. If the local container and the container in the Hub are different, it will download and rebuild the container. Now let's exit the container and the Ceres compute node with:
 ```bash
 exit #to exit the container image
 exit #to exit the ceres compute node
@@ -752,12 +752,13 @@ exit #to exit the ceres compute node
   conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
   ```
   The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
+  
   4. Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
   5. Trigger the build in Docker Hub. Wait for the build to complete and then pull to Ceres.
 
 ## Example: GitHub/Zenodo + Docker Hub Setup 
 
-The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image titled *data_science_im_rs_vSCINetGeoWS_2020.sif*. The container was developed using GitHub ([https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs](https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs)) and Docker Hub ([https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags](https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags)). These repositories are setup to have some additional useful features:
+The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image titled *data_science_im_rs_vSCINetGeoWS_2020.sif*. The container was developed using GitHub ([https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs](https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs)) and Docker Hub ([https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags](https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags)). These repositories are set up to have some additional useful features:
 
   1. **Docker Hub Auto-Build**: Whenever the GitHub repository changes, a new image is automatically built on Docker Hub. This new image has the *:latest* tag.
   2. **Capture GitHub Tags/Releases**: When a release/tag is created in the GitHub repository, a new image is automatically built on Docker Hub with similiar tag (*:vTAGNAME*). For example, for this workshop, I created a release in the GitHub repository titled *SCINetGeoWS_2020* (see: [link to GitHub release](https://github.com/rmg55/container_stacks/releases/tag/SCINetGeoWS_2020)). A subsequent image in Docker Hub was built ([link equivalent Docker Hub Image](https://hub.docker.com/layers/rowangaffney/data_science_im_rs/vSCINetGeoWS_2020/images/sha256-1dcb6b9bbf82e875ff92c961043f5e00c3f91aae0edf8791a52498e77af2ebba?context=explore)). This image will not be over-written by subsequent changes in the GitHub repository  (unlike the *:latest* image).
