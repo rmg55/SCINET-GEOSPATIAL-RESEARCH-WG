@@ -61,7 +61,7 @@ Containers
   - [Finding an Existing Docker Image](#finding-an-existing-docker-image)
   - [Using a Docker Image on Ceres with Singularity](#using-a-docker-image-on-ceres-with-singularity)
   - [Building a Docker Image](#building-a-docker-image)
-  - [Example GitHub/Zenodo + Docker Hub Setup](#example-github-zenodo-docker-hub-setup)
+  - [Example: GitHub/Zenodo + Docker Hub Setup](#example-github-zenodo-docker-hub-setup-example)
 
 ---
 
@@ -675,6 +675,9 @@ If you've ever written code on one machine and then tried to run it without succ
 
 This tutorial <mark>focuses on creating container images with Docker and running the images on the Ceres HPC with Singularity</mark>. You can also create container images with Singularity and store/version them on Singularity-hub but we have chosen to feature a mostly Docker workflow because Docker container images are currently much more common (outside the HPC ecosystem) than Singularity. For more detailed information about singularity on Ceres, see [this SCINet page](https://scinet.usda.gov/guide/singularity).
 
+<br>
+
+[return to contents](#contents)
 <br><br>
 
 ## Container Terminology
@@ -695,18 +698,24 @@ This tutorial <mark>focuses on creating container images with Docker and running
 
 **SINGULARITY DEFINITION FILE** - Singularity's equivalent of a dockerfile
 
+<br>
+
+[return to contents](#contents)
 <br><br>
 
 ## Finding an Existing Docker Image
 
 Several organizations maintain excellent data science container stacks:
 
-1. **Jupyter**: (Interactive computing with Jupyter, focusing on Python and R): [Documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) | [GitHub](https://github.com/jupyter/docker-stacks) | [Docker Hub](https://hub.docker.com/u/jupyter)
-2. **Rocker**:  (Interactive computing with RStudio, focusing on R): [Documentation](https://www.rocker-project.org/) | [GitHub](https://github.com/rocker-org/rocker) | [Docker Hub](https://hub.docker.com/u/rocker)
-3. **RapidsAI**: (Interactive computing with Jupyter+Python and GPUs): [Documentation](https://hub.docker.com/r/rapidsai/rapidsai) | [GitHub](https://github.com/rapidsai/docker) | [Docker Hub](https://hub.docker.com/u/rapidsai)
+1. **Jupyter**: (Interactive computing with Jupyter, focusing on Python and R): [Documentation](https://jupyter-docker-stacks.readthedocs.io/en/latest/index.html) - [GitHub](https://github.com/jupyter/docker-stacks) - [Docker Hub](https://hub.docker.com/u/jupyter)
+2. **Rocker**:  (Interactive computing with RStudio, focusing on R): [Documentation](https://www.rocker-project.org/) - [GitHub](https://github.com/rocker-org/rocker) - [Docker Hub](https://hub.docker.com/u/rocker)
+3. **RapidsAI**: (Interactive computing with Jupyter+Python and GPUs): [Documentation](https://hub.docker.com/r/rapidsai/rapidsai) - [GitHub](https://github.com/rapidsai/docker) - [Docker Hub](https://hub.docker.com/u/rapidsai)
 
 If you've downloaded Docker on your laptop, you can search Docker Hub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. In addition, you can simply do a key-word on Docker Hub website of the +100,000 public containers. One limitation of Singularity on Ceres is that ```singularity search``` won't search Docker Hub- it can only search it's own singularity-hub registry. 
 
+<br>
+
+[return to contents](#contents)
 <br><br>
 
 ## Using a Docker Image on Ceres with Singularity
@@ -716,22 +725,27 @@ I.e., running a singularity container from a Docker image. On Ceres we must use 
 Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
 <br><br>
 
-#### **Step 1**: Navigate to your home directory and download+build the container with:
-```bash
+**Step 1**: Navigate to your home directory and download+build the container with:
 
-cd $HOME 
-salloc #to start an interactive session on a compute node
-singularity pull docker://alpine:latest #download and assemble the container into a singularity image file (.sif)
+navigate to HOME directory
+```bash
+cd $HOME
 ```
-Now you should see a container named ```alpine_latest.sif``` in your in your folder.
+start an interactive session on a compute node
+```bash
+salloc
+```
+download and build a singularity container from dockerhub
+```bash
+singularity pull docker://alpine:latest
+```
+a container named ```alpine_latest.sif``` is in your folder.
 ```bash
 ls
 ```
+**Step 2**: Interact with the container.
 
-<br><br>
-
-#### **Step 2**: Interact with the container.
-You can shell (interactively enter) into the container with:
+shell (interactively enter) into the container with:
 ```bash
 singularity shell alpine_latest.sif
 ```
@@ -745,70 +759,74 @@ exit
 ```
 Now the terminal has changed back to the standard Ceres compute node convention.
 
-<br><br>
-
-#### **Step 3**: Run a command inside the container from the host system.
+**Step 3**: Run a command inside the container from the host system.
 
 Rather than the ```shell``` command, we will use the ```exec``` to run a command from within the container.
 ```bash
 singularity exec alpine_latest.sif cat /etc/os-release
 ```
 
-<br><br>
-
-#### **Bonus Step 4**: Caching
+**Bonus Step 4**: Caching
 Singularity caches the containers from Docker and Singularity Hub in your ```$HOME/.singularity``` folder. For instance, we can delete the alpine image we just made, and then simply shell into it using the "Docker Hub" url.
 
+delete the container
 ```bash
-
-rm alpine_latest.sif #Delete the image
-ls #Check to make sure the image no longer exists
+rm alpine_latest.sif
+```
+it is no longer in the folder
+```bash
+ls
 ```
 Now lets shell into the alpine image.
 ```bash
 singularity shell docker://alpine:latest
 ```
-Note that we did not need to download or rebuild the container. Singularity checks the local container against the container in the Hub repository. If they are the same, it will just use the cached container. If the local container and the container in the Hub are different, it will download and rebuild the container. Now let's exit the container and the Ceres compute node with:
-```bash
+Note that we did not need to download or rebuild the container. Singularity checks the local (cached) container against the container in the Hub repository. If they are the same, it will use the cached container. If the local container and the container in the Hub are different, it will download and rebuild the container. Now let's exit the container and the Ceres compute node with:
 
-exit #to exit the container image
-exit #to exit the ceres compute node
+exit the container
+```bash
+exit
+```
+exit the compute node
+```bash
+exit
 ```
 
+<br>
+
+[return to contents](#contents)
 <br><br>
 
 ## Building a Docker Image
 <br><br>
 
-#### **Option 1**: Build an image on your local system and copy over to Ceres (not covered in this tutorial).
-<br><br>
+#### Option 1: Build an image on your local system and transfer to Ceres (not covered in this tutorial).
 
-#### **Option 2**: Build an image with Docker Hub. There are multiple ways to accomplish this task. Here we discuss one approach to link GitHub to Docker Hub.
-<br>
+#### Option 2: Build an image with Docker Hub. There are multiple ways to accomplish this task. Here we discuss one approach to link GitHub to Docker Hub.
 
-**Step 1.** Create GitHub and Docker Hub accounts.
+  1. Create GitHub and Docker Hub accounts.
+  2. Create a GitHub repository, perhaps something like *my_container*.
+  3. Within the *my_container* GitHub repository, make a file titled *Dockerfile*. Below is an example what a simple Dockerfile might look like:
 
-**Step 2.** Create a GitHub repository, perhaps something like *my_container*.
-
-**Step 3.** Within the *my_container* GitHub repository, make a file titled *Dockerfile*. Below is an example what a simple Dockerfile might look like:
-
-  ```text
- 
- FROM jupyter/datascience-notebook
- LABEL maintainer="My Name <my.email@xxx.xxx>"
+  ```bash
+  FROM jupyter/datascience-notebook
+  LABEL maintainer="My Name <my.email@xxx.xxx>"
 
  conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
   ```
-  
+
 The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
 
 **Step 4.** Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
 
 **Step 5.** Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
 
+<br>
+
+[return to contents](#contents)
 <br><br>
 
-## Example: GitHub/Zenodo + Docker Hub Setup 
+## Example: GitHub/Zenodo + Docker Hub Setup
 
 The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image titled *data_science_im_rs_vSCINetGeoWS_2020.sif*. The container was developed using GitHub ([https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs](https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs)) and Docker Hub ([https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags](https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags)). These repositories are set up to have some additional useful features:
 
