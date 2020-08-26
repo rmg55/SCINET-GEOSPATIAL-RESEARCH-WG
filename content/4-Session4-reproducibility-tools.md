@@ -31,7 +31,7 @@ Conda
 
 Containers
 - understand the basics of containers and the benefits of using them for code portability and reproducibility
-- navigate Dockerhub, build a Singularity container on Ceres from a Docker image, create a Docker image
+- navigate Dockerhub, build a Singularity container on Ceres from a Docker image, create a Docker image, create a DOI for a container image
 
 <br><br>
 
@@ -58,9 +58,10 @@ Containers
 [Containers (Docker and Singularity)](#containers-docker-and-singularity)
   - [Why Use Containers?](#why-use-containers)
   - [Terminology](#container-terminology)
-  - [Accessing an Existing Docker Image](#accessing-an-existing-docker-image)
-  - [Running a Container on Ceres](#running-a-container-on-ceres)
-  - [Creating a New Docker Image from an Existing Image](#creating-a-new-docker-image-from-an-existing-image)
+  - [Finding an Existing Docker Image](#finding-an-existing-docker-image)
+  - [Using a Docker Image on Ceres with Singularity](#using-a-docker-image-on-ceres-with-singularity)
+  - [Building a Docker Hub Image](#building-a-docker-hub-image)
+  - [Example GitHub/Zenodo + Docker Hub Setup](#example-githubzenodo-docker-hub-setup)
 
 ---
 
@@ -684,7 +685,8 @@ Several organizations maintain excellent data science container stacks:
 If you've downloaded Docker on your laptop, you can search Docker Hub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. In addition, you can simply do a key-word on Docker Hub website of the +100,000 public containers. One limitation of Singularity on Ceres is that ```singularity search``` won't search Docker Hub- it can only search it's own singularity-hub registry. 
 
 ## Using a Docker Image on Ceres with Singularity
-On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download docker image layers from Docker Hub and assemble them into a Singularity image on Ceres.
+
+I.e., running a singularity container from a Docker image. On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download docker image layers from Docker Hub, assemble them into a Singularity image, and run the Singularity container on Ceres.
 
 Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
 
@@ -698,7 +700,7 @@ Now you should see a container named ```alpine_latest.sif``` in your in your fol
 ```bash
 ls
 ```
-#### **Step 2**: Interact with the image.
+#### **Step 2**: Interact with the container.
 You can shell (interactively enter) into the container with:
 ```bash
 singularity shell alpine_latest.sif
@@ -736,11 +738,11 @@ Note that we did not need to download or rebuild the container. Singularity chec
 exit #to exit the container image
 exit #to exit the ceres compute node
 ```
-## Building a Docker Container
+## Building a Docker Image
 
-#### **Option 1**: Build a container on your local system and copy over to Ceres (not covered in this tutorial).
+#### **Option 1**: Build an image on your local system and copy over to Ceres (not covered in this tutorial).
 
-#### **Option 2**: Build a container with Docker Hub. There are multiple ways to accomplish this task. Here we discuss one approach to link GitHub to Docker Hub.
+#### **Option 2**: Build an image with Docker Hub. There are multiple ways to accomplish this task. Here we discuss one approach to link GitHub to Docker Hub.
 
   1. Create GitHub and Docker Hub accounts.
   2. Create a GitHub repository, perhaps something like *my_container*.
@@ -754,7 +756,7 @@ exit #to exit the ceres compute node
   The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
   
   4. Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
-  5. Trigger the build in Docker Hub. Wait for the build to complete and then pull to Ceres.
+  5. Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
 
 ## Example: GitHub/Zenodo + Docker Hub Setup 
 
