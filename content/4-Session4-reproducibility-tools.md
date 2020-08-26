@@ -216,6 +216,7 @@ git status
 
 c. Stage the edits before committing. You are "telling Git" what files you want to include in a future commit.<br>
 ```bash
+
 git add yourname1.txt
 git add yourname2.txt yourname3.txt
 ```
@@ -301,6 +302,7 @@ Sometimes you'll want to start a brand new local repo right from the command lin
 
 a. Create a new local directory where you want your new local repo to live and navigate into it<br>
 ```bash
+
 cd
 mkdir my_new_repo
 cd my_new_repo
@@ -329,6 +331,7 @@ d. You can skip the section about creating a readme, license, gitignore because 
 
 e. Follow the instructions to push an existing repo from the command line<br>
 ```bash
+
 git remote add origin https://github.com/yourusername/my_new_repo.git
 git push -u origin master
 ```
@@ -620,6 +623,7 @@ conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
 
 To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
 ```bash
+
 conda activate session3_env
 conda env export --from-history > ~/.conda/envs/session3_env.yml
 ```
@@ -714,6 +718,7 @@ Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux O
 
 #### **Step 1**: Navigate to your home directory and download+build the container with:
 ```bash
+
 cd $HOME 
 salloc #to start an interactive session on a compute node
 singularity pull docker://alpine:latest #download and assemble the container into a singularity image file (.sif)
@@ -755,6 +760,7 @@ singularity exec alpine_latest.sif cat /etc/os-release
 Singularity caches the containers from Docker and Singularity Hub in your ```$HOME/.singularity``` folder. For instance, we can delete the alpine image we just made, and then simply shell into it using the "Docker Hub" url.
 
 ```bash
+
 rm alpine_latest.sif #Delete the image
 ls #Check to make sure the image no longer exists
 ```
@@ -764,6 +770,7 @@ singularity shell docker://alpine:latest
 ```
 Note that we did not need to download or rebuild the container. Singularity checks the local container against the container in the Hub repository. If they are the same, it will just use the cached container. If the local container and the container in the Hub are different, it will download and rebuild the container. Now let's exit the container and the Ceres compute node with:
 ```bash
+
 exit #to exit the container image
 exit #to exit the ceres compute node
 ```
@@ -786,6 +793,7 @@ exit #to exit the ceres compute node
 **Step 3.** Within the *my_container* GitHub repository, make a file titled *Dockerfile*. Below is an example what a simple Dockerfile might look like:
 
   ```text
+ 
  FROM jupyter/datascience-notebook
  LABEL maintainer="My Name <my.email@xxx.xxx>"
 
