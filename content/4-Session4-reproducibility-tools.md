@@ -3,6 +3,11 @@ title: Session4
 #nav: true
 ---
 
+{% capture text %}
+We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
+
 # Session 4 Tutorial:
 
 # Computational Reproducibility Tools (Git/Github, Conda, Docker/Singularity containers)
@@ -467,7 +472,8 @@ source activate
 Note: If you forget to ```source activate``` and later try to ```conda activate my_env```, you will get a command not found error and will be instructed to ```conda init```. Despite the standard output instructions, **DO NOT EVER TYPE ```conda init``` ON THE CERES HPC**. It will make a permanent modification to your $PATH that doesn't play nice with the software module system or with Jupyter. If you accidentally ```conda init``` you will have to modify your .bashrc file to remove any conda initialization info. See the section of the [Guide to User-Installed Software on Ceres with Conda](https://scinet.usda.gov/guide/conda/) highlighted in red for more detail about how to fix your .bashrc in this case.
 
 After you ```source activate``` and are placed in the base environment, you will then be able to ```conda activate my_env``` with no problems.
-{% endcapture %} {% include alert.md text=text color=warning %}
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
 
 ### From JupyterHub
 When using JupyterHub to login to Ceres you will also have access to Conda.
@@ -479,7 +485,8 @@ If you login to Ceres with JupyterHub and are not using a container, you will au
 always remember to ```source activate``` immediately and to never ```conda init```
 
 see the above [From the Module System](#from-the-module-system) for more detail
-{% endcapture %} {% include alert.md text=text color=warning %}
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
 
 The Conda version shouldn't really matter, but if you run into problems with this older version you can always open a terminal in JupyterLab and execute the same commands as in the above section [From the Module System](#from-the-module-system) to load a more up-to-date Conda version from the software module system. 
 
@@ -490,7 +497,8 @@ If you login to Ceres with the workshop image "data_science_im_rs_vSCINetGeoWS_2
 always remember to ```source activate``` immediately and to never ```conda init```
 
 see above [From the Module System](#from-the-module-system) for more detail
-{% endcapture %} {% include alert.md text=text color=warning %}
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
 
 <br><br>
 

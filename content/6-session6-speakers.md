@@ -3,6 +3,11 @@ title: Session6
 nav: true
 ---
 
+{% capture text %}
+We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
+
 # Session 6 Symposium:
 ## Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 

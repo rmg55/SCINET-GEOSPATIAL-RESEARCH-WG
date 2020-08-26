@@ -3,6 +3,11 @@ title: Premeeting
 nav: true
 --- 
 
+{% capture text %}
+We will stop approving new registrations about an hour before each session. Please register in advance of that cutoff so you don't get left out!
+{% endcapture %} 
+{% include alert.md text=text color='warning' %}
+
 Please complete this pre-meeting checklist ahead of time if you plan to participate in any of the interactive follow-along tutorials (Sessions 2-5).
 
 {% capture text %}
