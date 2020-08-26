@@ -87,21 +87,40 @@ The [SCINet Website](https://scinet.usda.gov/) is the source of much of the mate
 
 ### What is an HPC System? 
 
+A High Performance Computing (HPC) system provides a computational environment that can processes data and perform complex computations at high speeds. Generally HPC systems consists of 3 components:
+
+  1. *Compute nodes* (servers) that can provide a consistent environment across the system (similiar OS, software, etc...).
+
+  2. *Data storage*, generally a parallel file system, that supports high I/O throughput.
+
+  3. *Highspeed network* to allow for effecient communication and data transfer across compute nodes.
+
+For specific details about the Ceres system see: [https://scinet.usda.gov/guide/ceres/#technical-overview](https://scinet.usda.gov/guide/ceres/#technical-overview)
 
 ### Why use an HPC System?
 
+HPC systems can provide the compute infrastructure that allow researchers to improve or make possible computationally intensive analyses/workflows. However, developing analyses to run on HPC systems involve a non-trivial amount of overhead. Therefore, you should first evaluate if SCINet is an appropriate avenue for your research. Typically, analyses that are well-suited for SCINet are:
+
+  * CPU intensive workloads
+  * high memory workloads
+
+Additional considerations are:
+
+  * Are my analyses already optimized?
+  * Will I need to parallelize my analyses (typical for CPU intensive workloads)?
+  * Will I require more than a single node of compute power (ie. distributed computing)?
 
 ### HPC Terminology
 
-SSH
+**SSH** - Secure Shell is a network protocol that allows remote access over un-secure networks. We will use SSH to access the Ceres login node.
 
-login node, compute node
+**login/compute node** - Nodes refer to the individual servers that compose an HPC system. The login node is the node/server that users are sent to when they SSH to the system. The compute nodes (typically the bulk of the HPC nodes) are designed for running the computationally intensive workloads. There can be many different types of compute nodes within a HPC system (i.e. standard, high memory, gpu, etc...).
 
-core/logical core
+**core/logical core** - Cores (or CPU) are the computational processing component within a computer. Most modern cores have hyperthreading, which allow a single core to process two tasks simultaneously. Therefore, logical cores refer to the number apparent (not physical) cores in a system. For most modern systems, a single core will equate to two logical cores.
 
-batch/interactive computing
+**batch/interactive computing** - Batch computing referes to workflows that require no user interaction once they are underway/submitted. Interactive computing typically involves processing commands/transactions one at a time and requires input from the user.
 
-SLURM/job scheduler
+**SLURM/job scheduler** - HPC systems generally have software to allocate resources (nodes, cores, memory, etc...) in a fair and consistent manner to the users. These systems are generally refered to as *job schedulers*. A common job scheduling software used in HPC systems is [SLURM](https://slurm.schedmd.com/documentation.html).
 
 <br>
 
@@ -183,7 +202,9 @@ There are multiple ways of getting data on and off of the Ceres HPC system. See 
 
 - for data on the web, download directly to Ceres using tools like wget
 - for data on your local machine the recommended method is Globus
-- for large local data, you can ship to VRSC and they will upload for you
+- for large local data, you can:
+  1. utilize the I2 connection at your ARS location or
+  2. ship to VRSC and they will upload for you
 <br><br>
 
 **User support from the Virtual Research Support Core (VRSC)**
@@ -234,7 +255,7 @@ After a successful login you will see a list of all your quotas and used space.
 
 If you can't successfully login to your account, contact scinet_vrsc@usda.gov for assistance.
 
-To sign out of Ceres just close your terminal or type exit.
+To sign out of Ceres just close your terminal or type ```exit```.
 <br>
 
 [return to top of page](#session-2-tutorial)
