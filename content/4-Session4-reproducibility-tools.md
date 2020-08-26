@@ -816,8 +816,6 @@ exit
   ```
 
 The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
-  
-The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
 
 **Step 4.** Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
 
