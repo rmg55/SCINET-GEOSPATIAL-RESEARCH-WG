@@ -83,7 +83,7 @@ Containers
 ## Why Use Git/Github?
 "Git tracks the changes you make to files, so you have a record of what has been done, and you can revert to specific versions should you ever need to. Git also makes collaboration easier, allowing changes by multiple people to all be merged into one source. So regardless of whether you write code that only you will see, or work as part of a team, Git will be useful for you."
 
-/- [nobledesktop.com](https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it#:~:text=Git%20is%20the%20most%20commonly,be%20merged%20into%20one%20source.)
+\- [nobledesktop.com](https://www.nobledesktop.com/blog/what-is-git-and-why-should-you-use-it#:~:text=Git%20is%20the%20most%20commonly,be%20merged%20into%20one%20source.)
 
 Git and Github may seem excessively complicated, but that is because these tools were created for major software development projects. As research scientists, we can use Git and Github as tools for version control, online back up of our files, collaboration/sharing, and reproducibility by only learning a handful of commands which we will introduce in this tutorial. Once you have these handful of commands down you'll be on your way. Leave the complicated stuff for the software developers to worry about!   
 
