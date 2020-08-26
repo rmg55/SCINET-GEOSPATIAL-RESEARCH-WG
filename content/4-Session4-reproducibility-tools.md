@@ -203,6 +203,7 @@ git clone paste_or_type_the_full_repo_URL_including_https://
 
 a. Create some new text files using your name as the file name<br>
 ```bash
+
 cd Spoon-Knife
 touch yourname1.txt yourname2.txt yourname3.txt
 ls
@@ -215,6 +216,7 @@ git status
 
 c. Stage the edits before committing. You are "telling Git" what files you want to include in a future commit.<br>
 ```bash
+
 git add yourname1.txt
 git add yourname2.txt yourname3.txt
 ```
@@ -300,6 +302,7 @@ Sometimes you'll want to start a brand new local repo right from the command lin
 
 a. Create a new local directory where you want your new local repo to live and navigate into it<br>
 ```bash
+
 cd
 mkdir my_new_repo
 cd my_new_repo
@@ -328,6 +331,7 @@ d. You can skip the section about creating a readme, license, gitignore because 
 
 e. Follow the instructions to push an existing repo from the command line<br>
 ```bash
+
 git remote add origin https://github.com/yourusername/my_new_repo.git
 git push -u origin master
 ```
@@ -619,6 +623,7 @@ conda create --name session3_env --file ~/.conda/envs/session3_env_spec_file.txt
 
 To use an environment across different operating systems you need create a yml file with a list of software that excludes all the OS-specific software in the environment and only includes the major software packages (without all the dependencies). For our session3_env this means the packages we explicitly installed: python 3.7, numpy, dask, dask-jobqueue, ipykernel.<br>
 ```bash
+
 conda activate session3_env
 conda env export --from-history > ~/.conda/envs/session3_env.yml
 ```
@@ -718,6 +723,7 @@ If you've downloaded Docker on your laptop, you can search Docker Hub at the com
 I.e., running a singularity container from a Docker image. On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download docker image layers from Docker Hub, assemble them into a Singularity image, and run the Singularity container on Ceres.
 
 Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
+<br><br>
 
 **Step 1**: Navigate to your home directory and download+build the container with:
 
@@ -792,6 +798,7 @@ exit
 <br><br>
 
 ## Building a Docker Image
+<br><br>
 
 #### Option 1: Build an image on your local system and transfer to Ceres (not covered in this tutorial).
 
@@ -805,13 +812,16 @@ exit
   FROM jupyter/datascience-notebook
   LABEL maintainer="My Name <my.email@xxx.xxx>"
 
-  conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
+ conda create --name session3_env python=3.7 numpy dask dask-jobqueue ipykernel
   ```
 
-  The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
+The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
   
-  4. Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
-  5. Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
+The above Dockerfile adds to the jupyter/datascience-notebook container. We first change the maintainer information to our information, then create a new conda environment named *session3_env*, and install python, numpy, dask, dask-jobqueue and the ipykernel.
+
+**Step 4.** Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
+
+**Step 5.** Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
 
 <br>
 
