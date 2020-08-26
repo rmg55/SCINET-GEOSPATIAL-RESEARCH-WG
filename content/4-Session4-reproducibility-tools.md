@@ -710,6 +710,7 @@ If you've downloaded Docker on your laptop, you can search Docker Hub at the com
 I.e., running a singularity container from a Docker image. On Ceres we must use singularity instead of docker (for security reasons) to download, build, and run container images. But we can still access/use any image on Docker Hub. The following will download docker image layers from Docker Hub, assemble them into a Singularity image, and run the Singularity container on Ceres.
 
 Alpine is a popular (+1Billion Docker Hub pull requests) and lightweight linux OS. Here are are the steps to using this container on Ceres.
+<br><br>
 
 #### **Step 1**: Navigate to your home directory and download+build the container with:
 ```bash
@@ -721,6 +722,9 @@ Now you should see a container named ```alpine_latest.sif``` in your in your fol
 ```bash
 ls
 ```
+
+<br><br>
+
 #### **Step 2**: Interact with the container.
 You can shell (interactively enter) into the container with:
 ```bash
@@ -736,12 +740,16 @@ exit
 ```
 Now the terminal has changed back to the standard Ceres compute node convention.
 
+<br><br>
+
 #### **Step 3**: Run a command inside the container from the host system.
 
 Rather than the ```shell``` command, we will use the ```exec``` to run a command from within the container.
 ```bash
 singularity exec alpine_latest.sif cat /etc/os-release
 ```
+
+<br><br>
 
 #### **Bonus Step 4**: Caching
 Singularity caches the containers from Docker and Singularity Hub in your ```$HOME/.singularity``` folder. For instance, we can delete the alpine image we just made, and then simply shell into it using the "Docker Hub" url.
