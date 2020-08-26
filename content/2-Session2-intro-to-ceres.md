@@ -43,7 +43,7 @@ After the session we will post a link to the video recording on this page as wel
   - [The Ceres HPC System](#the-ceres-hpc-system)
   - [Other SCINet HPC Systems](#other-scinet-hpc-systems)
 
-[Ceres HPC Login with Secure Shell (SSH)](#ceres-hpc-login-with-secure-shell)
+[Ceres HPC Login with Secure Shell (SSH)](#ceres-hpc-login-with-secure-shell-ssh)
 
 [Ceres HPC Login with JupyterHub](#ceres-hpc-login-with-jupyterhub)
   - [Tour of JupyterLab](#tour-of-jupyterlab)
@@ -52,8 +52,8 @@ After the session we will post a link to the video recording on this page as wel
 [Basic Linux Commands](#basic-linux-commands)
 
 [Interactive Computing vs Batch Computing](#interactive-computing-vs-batch-computing)
-  -[Interactive Computing on Ceres](#interactive-computing-on-ceres)
-  -[Batch Computing on Ceres](#batch-computing-on-ceres)
+  - [Interactive Computing on Ceres](#interactive-computing-on-ceres)
+  - [Batch Computing on Ceres](#batch-computing-on-ceres)
 
 [Submitting a Compute Job with a SLURM Batch Script](#submitting-a-compute-job-with-a-slurm-batch-script)
 
