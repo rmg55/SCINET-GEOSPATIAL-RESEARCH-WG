@@ -203,6 +203,7 @@ git clone paste_or_type_the_full_repo_URL_including_https://
 
 a. Create some new text files using your name as the file name<br>
 ```bash
+
 cd Spoon-Knife
 touch yourname1.txt yourname2.txt yourname3.txt
 ls
@@ -762,8 +763,10 @@ exit #to exit the ceres compute node
 <br><br>
 
 ## Building a Docker Image
+<br>
 
 #### **Option 1**: Build an image on your local system and copy over to Ceres (not covered in this tutorial).
+<br>
 
 #### **Option 2**: Build an image with Docker Hub. There are multiple ways to accomplish this task. Here we discuss one approach to link GitHub to Docker Hub.
 
