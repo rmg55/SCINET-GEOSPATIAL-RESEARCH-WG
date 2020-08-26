@@ -60,8 +60,8 @@ Containers
   - [Terminology](#container-terminology)
   - [Finding an Existing Docker Image](#finding-an-existing-docker-image)
   - [Using a Docker Image on Ceres with Singularity](#using-a-docker-image-on-ceres-with-singularity)
-  - [Building a Docker Hub Image](#building-a-docker-hub-image)
-  - [Example GitHub/Zenodo + Docker Hub Setup](#example-githubzenodo-docker-hub-setup)
+  - [Building a Docker Image](#building-a-docker-image)
+  - [Example GitHub/Zenodo + Docker Hub Setup](#example-github-zenodo-docker-hub-setup)
 
 ---
 
@@ -155,6 +155,9 @@ Git and Github greatly improve computational reproducibility by enabling others 
 <br>
 
 **MERGE** - the process of combining multiple sequences of commits into one unified history. Most often used to incorporate changes from one branch into another. A merge happens when you pull, push, and pull request.
+
+<br>
+[return to contents](#contents)
 
 <br><br>
 
@@ -285,6 +288,9 @@ b. Now submit a pull request. You are requesting that kerriegeil incorporate (or
   - the fate of your pull request now lies with the owner of the original repo. They will see your pull request and approve/merge your changes into their repo
 
 <br>
+[return to contents](#contents)
+
+<br><br>
 
 ### A Workflow Starting From the Command Line
 Sometimes you'll want to start a brand new local repo right from the command line and then push your local repo up to Github. Here's how to do it.
@@ -329,6 +335,9 @@ git push -u origin master
 Enter your Github username and password when you are asked for it.
 
 f. Refresh your Github repo page, you should see all your local files now in your Github repo
+
+<br>
+[return to contents](#contents)
 
 <br><br>
 
@@ -450,6 +459,9 @@ Conda also let's you run separate instances of the same software, for example, m
 
 **YML** - another type of file that contains information that can be used to recreate an environment. Operating system-specific packages can be excluded from a yml file in order to recreate similar environments across different operating systems. 
 
+<br>
+[return to contents](#contents)
+
 <br><br>
 
 ## Accessing Conda on Ceres
@@ -500,6 +512,9 @@ always remember to ```source activate``` immediately and to never ```conda init`
 see above [From the Module System](#from-the-module-system) for more detail
 {% endcapture %} 
 {% include alert.md text=text color='warning' %}
+
+<br>
+[return to contents](#contents)
 
 <br><br>
 
@@ -655,6 +670,8 @@ If you've ever written code on one machine and then tried to run it without succ
 
 This tutorial <mark>focuses on creating container images with Docker and running the images on the Ceres HPC with Singularity</mark>. You can also create container images with Singularity and store/version them on Singularity-hub but we have chosen to feature a mostly Docker workflow because Docker container images are currently much more common (outside the HPC ecosystem) than Singularity. For more detailed information about singularity on Ceres, see [this SCINet page](https://scinet.usda.gov/guide/singularity).
 
+<br><br>
+
 ## Container Terminology
 
 **DOCKER** - open source containerization software that you use at the command line to build and run container images. You can use docker on your laptop but it is not available on Ceres due to security concerns.
@@ -673,6 +690,7 @@ This tutorial <mark>focuses on creating container images with Docker and running
 
 **SINGULARITY DEFINITION FILE** - Singularity's equivalent of a dockerfile
 
+<br><br>
 
 ## Finding an Existing Docker Image
 
@@ -683,6 +701,8 @@ Several organizations maintain excellent data science container stacks:
 3. **RapidsAI**: (Interactive computing with Jupyter+Python and GPUs): [Documentation](https://hub.docker.com/r/rapidsai/rapidsai) | [GitHub](https://github.com/rapidsai/docker) | [Docker Hub](https://hub.docker.com/u/rapidsai)
 
 If you've downloaded Docker on your laptop, you can search Docker Hub at the command line with ```docker search your-search-term```, very similar to how you can search for packages with Conda. In addition, you can simply do a key-word on Docker Hub website of the +100,000 public containers. One limitation of Singularity on Ceres is that ```singularity search``` won't search Docker Hub- it can only search it's own singularity-hub registry. 
+
+<br><br>
 
 ## Using a Docker Image on Ceres with Singularity
 
@@ -738,6 +758,9 @@ Note that we did not need to download or rebuild the container. Singularity chec
 exit #to exit the container image
 exit #to exit the ceres compute node
 ```
+
+<br><br>
+
 ## Building a Docker Image
 
 #### **Option 1**: Build an image on your local system and copy over to Ceres (not covered in this tutorial).
@@ -758,6 +781,8 @@ exit #to exit the ceres compute node
   4. Create a new repository in Docker Hub and link it to the *my_containers* repository in GitHub.
   5. Trigger the image build in Docker Hub. Wait for the build to complete and then pull to Ceres.
 
+<br><br>
+
 ## Example: GitHub/Zenodo + Docker Hub Setup 
 
 The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image titled *data_science_im_rs_vSCINetGeoWS_2020.sif*. The container was developed using GitHub ([https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs](https://github.com/rmg55/container_stacks/tree/master/data_science_im_rs)) and Docker Hub ([https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags](https://hub.docker.com/r/rowangaffney/data_science_im_rs/tags)). These repositories are set up to have some additional useful features:
@@ -770,3 +795,8 @@ The tutorials for this workshop (SCINet Geospatial Workshop 2020) use an image t
 The above setup (with the addition of [Zenodo](https://zenodo.org/) linked to the GitHub repository) would support the workflow outlined in the below figure. The container images are archived/stored on Docker Hub while the code used to define and build the images is archived on GitHub and citable via a Zenodo DOI. This workflow allows for a consistent and reproducible computational environment from laptop/desktop to HPC to cloud computing systems.
 
 ![alt text](../images/containers.png "Logo Title Text 1")
+
+<br>
+[return to contents](#contents)
+
+<br><br>
