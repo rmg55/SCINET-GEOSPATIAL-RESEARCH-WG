@@ -114,6 +114,8 @@ Additional considerations are:
 
 **SSH** - Secure Shell is a network protocol that allows remote access over un-secure networks. We will use SSH to access the Ceres login node.
 
+**shell** - a shell is what provides you an interface to the unix operating system. It's where we type commands and run programs. The default shell on Ceres is called bash.
+
 **login/compute node** - Nodes refer to the individual servers that compose an HPC system. The login node is the node/server that users are sent to when they SSH to the system. The compute nodes (typically the bulk of the HPC nodes) are designed for running the computationally intensive workloads. There can be many different types of compute nodes within a HPC system (i.e. standard, high memory, gpu, etc...).
 
 **core/logical core** - Cores (or CPU) are the computational processing component within a computer. Most modern cores have hyperthreading, which allow a single core to process two tasks simultaneously. Therefore, logical cores refer to the number apparent (not physical) cores in a system. For most modern systems, a single core will equate to two logical cores.
@@ -812,6 +814,30 @@ rm Land_and_Ocean_LatLong1.nc
 
 <br><br>
 
+**loading software from the module system**
+
+view available software on Ceres with:
+```bash
+module avail
+```
+
+load software (in this case conda) from the module system:
+```bash
+module load miniconda
+```
+
+see what software modules you have loaded with:
+```bash
+module list
+```
+
+unload software from the module system with:
+```bash
+module unload miniconda
+```
+
+<br><br>
+
 **There are also some SLURM-specific commands that are very useful**
 
 See the [bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/01_slurm-basics.html#gsc.tab=0) for more than what we cover here.
@@ -900,6 +926,10 @@ View the file you just created:
 cat hello-world.py
 ```
 
+<br><br>
+
+**a serial job that runs a python script one time**
+
 Now create your batch script with nano or other text editor:
 ```bash
 nano my-first-batch-script.sbatch
@@ -940,6 +970,11 @@ Note: there are a ton of other SBATCH options you could add to your script. For 
 
 Also Note: **this is a serial job**, meaning that it will run on a single compute core. The compute likely won't be any faster than if you ran this type of job on your laptop. To run your hello-world code in parallel from a batch script (multiple times simulataneously on different cores) you would use openMP or MPI (see the [Ceres User Manual](https://scinet.usda.gov/guide/ceres/#running-a-simple-openmp-job)) and your code would have to be in C or Fortran (not Python). For Python coders, there are much easier ways to run in parallel (using interactive mode as opposed to batch scripting), which we will cover in Session 3: Intro to Python and Dask.
 
+
+<br><br>
+
+**a serial job that runs a python script five times**
+
 Let's now run a script that will execute the same python code 5 times in a row back to back. 
 
 First, delete all your stdout and stderr files so it's easier to see which new files have been generated:
@@ -972,6 +1007,9 @@ Look at a stdout file and you will see the python code ran 5 times.
 
 Go ahead and delete your stdout and stderr files again.
 
+<br><br>
+
+**a parallel job that runs a python script 10 times simultaneously on different nodes**
 
 Let's now run a script that will execute the same python code 10 times simulataneously. Modify your sbatch script to look like this:
 ```
