@@ -1018,6 +1018,7 @@ Let's now run a script that will execute the same python code 10 times simulatan
 #SBATCH -p short              #name of the partition (queue) you are submitting to
 #SBATCH -N 10                 #number of nodes in this job
 #SBATCH -n 10                 #number of cores/tasks in this job
+#SBATCH --ntasks-per-node=1   
 #SBATCH -t 00:00:30           #time allocated for this job hours:mins:seconds
 #SBATCH -o "stdout.%j.%N"     # standard output, %j adds job number to output file name and %N adds the node name
 #SBATCH -e "stderr.%j.%N"     #optional, prints our standard error
