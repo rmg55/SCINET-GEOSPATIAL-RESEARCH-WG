@@ -361,9 +361,435 @@ Right click on "Untitled.ipynb" either on the notebook tab or in the file browse
 
 ## Basic Linux Commands
 
-Now we'll work through a bit of the [Unix Basics Tutorial from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0) created by Andrew Severin of Iowa State University/SCINet VRSC.
+Now we'll work through some basic linux commands. For more commands than we cover here see the [Unix Basics Tutorial from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0) created by Andrew Severin of Iowa State University/SCINet VRSC. 
 
-We'll also look at some [useful SLURM commands from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/01_slurm-basics.html#gsc.tab=0).
+First an illustration of the following terms: **prompt**, **command**, **argument** (a.k.a options, flags), **standard out** (stdout), **standard error** (stderr)
+![picture of terminal from bioinformaticsworkbook.org](/SCINET-GEOSPATIAL-RESEARCH-WG/images/andrews-graphic.png)
+[image source](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0)
+
+**What directory am I in?**
+
+**pwd** - print the path of the working directory (the directory that you are current in) to the screen (standard out)
+```bash
+pwd
+```
+stdout should show ```/home/firstname.lastname```. This directory can be accessed with ~, $HOME, or by typing only ```cd``` (all of which we will cover later).
+
+
+**How to make a new directory (folder)**
+
+**mkdir** - make a new directory
+```bash
+mkdir mynewdirectory
+```
+
+You have now created a new empty directory inside of your home directory. To see it we will use ```ls```
+
+
+
+**How to list (see) files and directories**
+
+**ls** - list directory contents
+```bash
+ls
+```
+You should see your new directory along with other files and directories that you have in your home directory.
+
+To view all files and directories (including hidden ones that start with a .) add an option/flag to the ```ls``` command:
+```bash
+ls -a
+```
+you will get the same result with
+```bash
+ls --all
+```
+Note that many options are accessible using the long version which always starts with two dashes (--all) or using the abbreviated version which always starts with one dash (-a). Also, you can add multiple options to commands:
+```bash
+ls -alh
+```
+will show you all files in your working directory in the long listing format (-l) and with file sizes listed in human-readable format (-h). The -l option shows you permissions, ownership, size, and last-modified date.
+
+Here's a key to the long format ls -l:
+![picture of long format file info](/SCINET-GEOSPATIAL-RESEARCH-WG/images/file-info.png)
+[image source](https://linuxize.com/post/chmod-command-in-linux/)
+
+We'll come back to how to change file or directory permissions.
+
+
+**What options are available for each command?*
+
+**man** - to view the reference manual for a command which will show the command format and all the available options.
+```bash
+man ls
+```
+So many options! Don't worry, you don't have to know all the options for every command. To view the entire manual page, use your up/down arrows to scroll or your pg up/pg dn buttons. NOTE: If you haven't discovered it already, **YOUR MOUSE DOESN'T WORK AT THE COMMAND LINE!** Notice the -a, -l, and -h on the man page for the ls command. 
+
+To exit/quit the man page
+```bash
+q
+```
+
+
+**Change Directory**
+
+**cd** - change directory
+
+Move from your home directory into your new directory with
+```bash
+cd mynewdirectory
+```
+
+Look at what directory you are in now:
+```bash
+pwd
+```
+
+You should be at /home/firstname.lastname/mynewdirectory
+
+To go up/back directory levels use ".."
+```bash
+cd ../..
+```
+takes you back two levels to the /home directory, where if you ```ls``` you will see the home directories all of users.
+
+Go back to mynewdirectory with:
+```bash
+cd ~/mynewdirectory
+```
+Note how the "~" is a shortcut for /home/firstname.lastname. Another shortcut for your home directory is $HOME. Replacing ~ with $HOME in the above command would yield the exact same result.
+
+To get back to your home directory from anywhere, just type cd with no arguments.
+```bash
+cd
+```
+
+
+**Creating a text file with nano**
+
+**nano** - a terminal-based text editor. This means when you use nano, your prompt will dissapear and you will instead be editing a text file on your terminal screen. There are plenty of other terminal-based text editors but we won't cover them here.
+
+First, change directory into mynewdirectory.
+
+Then, open a new empty text file:
+```bash
+nano
+```
+You can recognize that you are now in the nano text editor due to the banners on the top and bottom of your terminal. The top banner will say the nano version, the bottom banner shows shortcut keys to help you use the editor.
+
+Let's write in our new text file:
+```text
+
+1
+dog
+```
+
+then type Ctl+x, then y to save, the type the name file1.txt and hit enter.
+
+See that you made a file called file1.txt with:
+```bash
+ls
+```
+Let's do it again. This time we'll create a file with a name right off the bat:
+```bash
+nano file2.txt
+```
+
+Inside nano type:
+```text
+
+2
+Dogs
+```
+
+then Ctl+x, y, enter. You should now be back at your command prompt.
+
+Let's create one more text file that we'll do more things with in a minute. Use nano to create file3.txt and type the numbers 1-15 on separate lines in the text file, then save the file.
+
+
+**Viewing the contents of a text file**
+
+**head** - print the first 10 lines of the file to stdout
+
+**tail** - print the last 10 lines of the file to stdout
+
+**cat** - concatenate and print all contents to stdout
+
+Let's try these out:
+```bash
+head file3.txt
+```
+```bash
+tail file3.txt
+```
+```bash
+cat file3.txt
+```
+```bash 
+cat file1.txt file2.txt file3.txt
+```
+
+The last command should concatenate all three files and print everything to stdout.
+
+
+**Using cat to create textfiles**
+
+**cat** - concatenate and print all contents to stdout. 
+
+You can actually use cat to create quick textfiles without using nano.
+```bash
+cat > file30.txt
+```
+After you issue this command you'll see your cursor move to the next line in the terminal. Type whatever you want, multiple lines if you want. Cat will put whatever you type into a file called file30.txt. When you are finished typing you must type Ctl+d at least once to execute the command.
+
+An ```ls``` should now show that you've created file1.txt, file2.txt, file3.txt, and file30.txt
+
+
+**Wildcards**
+
+\* - matches at least one character
+? - matches a single character
+\[] - matches the characters inside the brackets
+
+To better understand how to use wildcards we'll practice with ```ls```:
+
+List all files that start with "file" and end with ".txt":
+```bash
+ls file*.txt
+```
+
+List all the files that start with "file", have one character after that, and end with ".txt"
+```bash
+ls file?.txt
+```
+Notice how this did not list file30.txt because the ? matched only a single character. You can however use two single character wildcards in a row:
+```bash
+ls file??.txt
+```
+should list only your file30.txt
+
+Let's get fancier now by using the brackets:
+```bash
+ls file[1-3].txt
+```
+and you will get the same result with
+```bash
+ls file[1-3].*
+```
+which should list only file1.txt, file2.txt, and file3.txt
+
+What do you think the following will list?
+```bash
+ls file[1,3].txt
+```
+You should see only file1 and file3.
+
+How about this?
+```bash
+ls file[1,3]*
+```
+This command will list all files that start with "file" and have a 1 or a 3 somewhere in the filename.
+
+
+**Copying and moving files**
+
+**cp** - copy files and directories
+**mv** - move or rename files
+
+Make a copy of one of your text files:
+```bash
+cp file1.txt file1a.txt
+```
+Now list your files to see the new file you created and then view the contents of your new file with the head command.
+
+Let's make a copy of one of your files to a different directory:
+```bash
+cp file1.txt ../file1.txt
+```
+You should now have a copy of file1 one level back in your home directory.
+
+From your mynewdirectory, list the files in your home directory:
+```bash
+ls ~
+```
+You should see the copy of file1.txt in your home directory.
+
+Let's move file2 into your home directory:
+```bash
+mv file2.txt ~
+```
+
+List the files in your home directory to see that file2 was moved.
+
+Let's move file2.txt from your home directory back into your mynewdirectory:
+```bash
+mv ../file2.txt .
+```
+Note how the double dot indicates that the file is located one directory up and the single dot indicates the current working directory.
+
+Let's rename file2:
+```bash
+mv file2.txt file100.txt
+```
+
+List the files in your working directory to see that you've renamed the file.
+
+
+
+**search files for a word**
+
+**grep** - print lines of files that match a pattern
+
+Let's search our files in the mynewdirectory for the word "dog":
+```bash
+grep 'dog' *
+```
+You should see that two of your files contain the word "dog". But wait, only two?
+
+```bash
+grep -i 'dog' *
+```
+The -i flag means "ignore case" and will find 'dog' a third time. Notice how the word in the file is "Dogs" but grep found it anyway.
+
+To search on an exact word:
+```bash
+grep -i -w 'dogs' *
+```
+
+
+**removing files and directories**
+
+**rm** - remove files or directories
+
+NOTE: there is no "undo" in linux. Be very careful when using the rm command. **When you delete something, it's gone- there's no trashcan to recover from.**
+
+Delete one of your files with:
+```bash
+rm file100.txt
+```
+List your files to see that file100 is gone.
+
+
+Let's remove a directory next. First make a new directory and move one of your files there:
+```bash
+mkdir delete-me
+mv file1.txt delete-me
+```
+
+Try to remove the delete-me directory with the rm command:
+```bash
+rm delete-me
+```
+
+You should get an error. Overcome that error with:
+```bash
+rm -r delete-me
+```
+
+The directory delete-me should now be gone. What's the -r option mean?
+```bash
+man rm
+```
+We can see on the man page for rm that -r means remove directories and their contents recursively.
+
+
+
+**change file permissions**
+
+**chmod** - change file "mode"
+
+If want to change who has access to certain files and directories, we use chmod (remember though that your home directory is private by default). View the permissions on your files with:
+```bash
+ls -l 
+```
+
+You should see that the file owner, and group members can read read and write to these files, but everyone else ("others") only has read privileges. To add write privileges for everyone else:
+```bash
+chmod o+w file3.txt
+ls -l
+```
+
+Now let's take away all privileges for "others":
+```bash
+chmod o-rw file3.txt
+ls -l
+```
+
+
+**see how much storage you are using**
+
+**du** - estimate file space usage
+**my_quotas** - see a summary of your storage quotas and how much of the quotas you've used. only works from your home directory
+
+In your mynewdirectory:
+```bash
+du -h
+```
+
+To list the size of each directory inside your home directory:
+```bash
+cd
+du -h --max-depth=1
+```
+The max depth flag is often very helpful, otherwise you will get the size of every single file in every single directory.
+
+To see a summary of your storage quotas and how much space you've used from each quota, go to your home directory and type:
+```bash
+my_quotas
+```
+This is the exact same info that appears when you SSH to Ceres. Note that this command only works from your home directory.
+
+
+
+**download files/data to Ceres from the web**
+
+**wget** - for downloading files from the web. It's non-interactive which means you can start something downloading with wget, log off the system before the download finishes, and the download will still be running. wget is not the only way to grab files from the web, but it's the only one we'll cover
+
+Let's get one of my favorite gridded surface air temperature datasets from Berkeley Earth at http://berkeleyearth.org/data-new/. It's the global monthly land + ocean data on a 1-degree grid.
+
+```bash
+salloc
+wget http://berkeleyearth.lbl.gov/auto/Global/Gridded/Land_and_Ocean_LatLong1.nc
+exit
+ls -lh
+```
+
+We just downloaded a 407MB data file in a few seconds. Wow, that was easy! More on salloc in a minute...
+
+
+**view metadata of a netcdf file**
+
+**ncdump** - converts netcdf file metadata to text form on stdout
+
+just a quick side note on working with the data file we downloaded...
+
+```bash
+ncdump -h Land_and_Ocean_LatLong1.nc
+```
+
+This shows metadata on all the data variables that are in the files including dimension information for each data variable (lat, lon, time). There is also metadata about the file history. Note: the -h flag means "header", without it you will get thousands of data values printed to stdout. If you do this by accident on a large file Ctl+c will stop the printing to stdout.
+
+View the values of a single data variable with:
+```bash
+ncdump -v latitude Land_and_Ocean_LatLong1.nc
+```
+
+NetCDF is one of my favorite data formats because the spatial and temporal metadata is already "attached" to the data variables in the file. This means that when you go to plot 'temperature' from this netcdf file (using python, r, etc) the data will appear automagically on a map without you having to define the longitudes and latitudes.
+
+
+**There are also some SLURM-specific commands that are very useful**
+
+See the [bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/01_slurm-basics.html#gsc.tab=0) for more than what we cover here.
+
+**sinfo** - see the status of all the nodes
+
+**salloc** - "SLURM allocate". Move onto a compute node in an interactive session. More in the next section.
+
+**squeue** - view information on compute jobs that are running. More in the next section.
+
+**scancel** - terminate a compute job that is running
+
+**sbatch** - submit a batch script to run a compute job. More in the next section
+
 
 <br>
 
