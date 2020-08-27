@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-nav: true
+#nav: true
 ---
 
 {% capture text %}
