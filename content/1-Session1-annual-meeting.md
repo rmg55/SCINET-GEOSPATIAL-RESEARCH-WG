@@ -197,12 +197,7 @@ Participant Responses:
 
 ## Introduction to the SCINet Postdocs
 
-The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! SCINet postdocs are tasked with developing cross-site collaborative research projects that utilize the ARS high-performance computing resources. They will also contribute to non-research projects that further the SCINet Computing Initiative such as the SCINet website, newsletter, and various computational trainings.  Here is a short introduction to everyone.
-
-#### Melanie Kammerer, Ecologist
-![picture of melanie](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/melanie-kammerer-150-150.jpg)
-
-Melanie is an agroecologist and landscape ecologist, and, in September, she will be starting as a SCINet postdoc in State College, PA mentored by Drs. Sarah Goslee and Deb Peters. Melanie recently completed a USDA NIFA pre-doctoral fellowship during her PhD in Ecology at Penn State University. In her graduate research, Melanie studied landscape and climate drivers of wild-bee communities using long-term population monitoring data, new field studies, and high-resolution landscape characterization. She also has extensive expertise in spatial modelling of bee communities, which she leveraged to explore changes in floral resources for wild bees with shifting herbicide use in US field crops. In addition to her research, Melanie served as lead data wrangler for Beescape (beescape.org), an interactive mapping application that allows scientists, beekeepers, and land managers to easily evaluate landscape quality for bees. Melanie is deeply committed to open, reproducible science that is accessible to and informed by diverse stakeholders, which she is excited to continue with the vibrant ARS SCINet community. 
+The first cohort of postdocs funded by the SCINet Computing Initiative has arrived at ARS! SCINet postdocs are tasked with developing cross-site collaborative research projects that utilize the ARS SCINet high-performance computing resources. They will also contribute to non-research projects that further the SCINet Computing Initiative such as the SCINet website, newsletter, and various computational trainings.  Here is a short introduction to everyone.
 
 #### Ibukun (Timothy) Ayankojo
 
@@ -224,10 +219,19 @@ Alicia started the SCINet Postdoc position in June 2020, working out of Gainesvi
 
 Kerrie served as a AAAS Policy Fellow at USDA ARS in Beltsville MD from 2018-2020 and has recently transitioned in July to a SCINet Postdoc position in Las Cruces, NM in the research group of Dr. Deb Peters. She received her PhD in Atmospheric Sciences from the University of Arizona in 2016 and her research background is in global and regional climate modeling and climate model performance evaluation using in-situ and satellite observations. Kerrie has expertise in global-, continental-, and regional- scale climate dynamics including teleconnections/climate oscillations (ENSO, PDO, etc.), land-atmosphere-ocean interactions, and the North American Monsoon system. She has also worked on national- and local- scale extreme temperature projects. One of the projects Kerrie hopes to accomplish during her time as a postdoc at ARS is a climate model evaluation tool to make the process of model ensemble selection (e.g. which downscaled models should be excluded from your analyses due to the garbage in garbage out principle) simpler and quicker for research scientists.
 
+#### Lucas Heintzman
+
+Bio coming soon
+
 #### Amy Hudson, Climate Ecologist
 ![picture of amy](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/amy-hudson-150-150.jpg)
 
 Amy began her SCINet postdoc in May 2020 working with Dr. Debra Peters in Las Cruces, NM after recently completing a PhD in Natural Resources from the University of Arizona. Her research background is in examining climate-ecosystem interactions at regional to hemispheric scales by integrating multiple data sources. Past projects have focused on how changes in the Northern Hemisphere jet stream influence surface climate conditions, with impacts on the length of the growing season and continental insect migration. By leveraging signatures of climate on annual tree growth, Amy has also worked on teams to reconstruct Hadley Cell extent and summer temperatures in the US Northern Rockies, lending historical context to recent observed climate. Amy is currently involved in ARS research projects that include 1) a cross-site synthesis of the impacts of climate on long-term ecology at dryland sites and 2) determining the influence of broadscale climate on the spatial spread of the vector-borne virus Vesicular Stomatitis. 
+
+#### Melanie Kammerer, Ecologist
+![picture of melanie](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/melanie-kammerer-150-150.jpg)
+
+Melanie is an agroecologist and landscape ecologist, and, in September, she will be starting as a SCINet postdoc in State College, PA mentored by Drs. Sarah Goslee and Deb Peters. Melanie recently completed a USDA NIFA pre-doctoral fellowship during her PhD in Ecology at Penn State University. In her graduate research, Melanie studied landscape and climate drivers of wild-bee communities using long-term population monitoring data, new field studies, and high-resolution landscape characterization. She also has extensive expertise in spatial modelling of bee communities, which she leveraged to explore changes in floral resources for wild bees with shifting herbicide use in US field crops. In addition to her research, Melanie served as lead data wrangler for Beescape (beescape.org), an interactive mapping application that allows scientists, beekeepers, and land managers to easily evaluate landscape quality for bees. Melanie is deeply committed to open, reproducible science that is accessible to and informed by diverse stakeholders, which she is excited to continue with the vibrant ARS SCINet community. 
 
 #### Yanghui Kang, Physical Scientist
 ![picture of yanghui](/SCINET-GEOSPATIAL-RESEARCH-WG/images/postdoc-pics/yanghui-kang-150-150.jpg)
