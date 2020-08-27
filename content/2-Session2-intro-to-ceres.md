@@ -217,6 +217,8 @@ The VRSC is comprised of Iowa State University and ARS staff who manage the Cere
 **Ceres HPC Best Practices**
 - nothing serious should be run on the login node
 - run compute jobs from project directories
+- install software on a compute node (salloc)
+- install software (including Conda environments) in your home or /KEEP directories
 - use [node local scratch space](https://scinet.usda.gov/guide/ceres/#local-scratch-space-on-large-memory-nodes) for faster i/o with large datasets (stage your data to /local/scratch, $TMPDIR)
 - use your /KEEP directory to ensure important data/codes are backed up
 - for short heavy compute jobs (less than 2hrs) go for the brief-low partition (more cores per node and more memory)
