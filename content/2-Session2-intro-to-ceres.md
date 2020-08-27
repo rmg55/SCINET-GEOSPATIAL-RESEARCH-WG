@@ -1009,20 +1009,20 @@ Go ahead and delete your stdout and stderr files again.
 
 <br><br>
 
-**a parallel job that runs a python script 10 times simultaneously on different nodes**
+**a parallel job that runs a python script 10 times simultaneously on different cores**
 
 Let's now run a script that will execute the same python code 10 times simulataneously. Modify your sbatch script to look like this:
 ```
 #!/bin/bash
 #SBATCH --job-name=HelloWorld 
 #SBATCH -p short              #name of the partition (queue) you are submitting to
-#SBATCH -N 10                 #number of nodes in this job
+#SBATCH -N 1                 #number of nodes in this job
 #SBATCH -n 10                 #number of cores/tasks in this job
-#SBATCH --ntasks-per-node=1   
+#SBATCH --ntasks-per-core=1   
 #SBATCH -t 00:00:30           #time allocated for this job hours:mins:seconds
 #SBATCH -o "stdout.%j.%N"     # standard output, %j adds job number to output file name and %N adds the node name
 #SBATCH -e "stderr.%j.%N"     #optional, prints our standard error
-#SBATCH --array=1-10          #array IDs
+#SBATCH --array=1-10          #job array index values
 
 module load python_3
 echo "you are running python" 
@@ -1031,7 +1031,7 @@ python3 --version
 python3 hello-world.py
 ```
 
-You should see a stdout and stderr file for each job in the array of jobs that were run (10) and each file should have run on a different node.
+You should see a stdout and stderr file for each job in the array of jobs that were run (10) and and the jobs should have run on a variety of different nodes.
 
 
 <br>
