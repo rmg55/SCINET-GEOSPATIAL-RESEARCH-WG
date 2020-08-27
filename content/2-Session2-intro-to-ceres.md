@@ -880,9 +880,6 @@ will request the SLURM job scheduler to allocate you two hyper-threaded cores (4
 
 Batch computing involves writing and executing a batch script that the SLURM job scheduler will manage. This mode of computing is good for "set it and forget it" compute jobs such as running a climate model, executing a single script multiple times in a row, or executing a more complicated but fully functional workflow that you know you don't have to debug. We'll cover how to write and execute a batch script next.
 
-<br>
-
-[return to top of page](#session-2-tutorial)
 <br><br>
 
 ---
@@ -914,7 +911,7 @@ In the nano editor type:
 #SBATCH --job-name=HelloWorld 
 #SBATCH -p short              #name of the partition (queue) you are submitting to
 #SBATCH -N 1                  #number of nodes in this job
-#SBATCH -n 2                  #number of cores/tasks in this job, you get all 20 physical cores with 2 threads per core with hyper-threading
+#SBATCH -n 2                  #number of cores/tasks in this job
 #SBATCH -t 00:00:30           #time allocated for this job hours:mins:seconds
 #SBATCH -o "stdout.%j.%N"     # standard output, %j adds job number to output file name and %N adds the node name
 #SBATCH -e "stderr.%j.%N"     #optional, prints our standard error
@@ -942,6 +939,61 @@ cat stdout.######.ceres##-compute-##
 Note: there are a ton of other SBATCH options you could add to your script. For example, you could receive an email when your job has completed ([see the Ceres User Manual](https://scinet.usda.gov/guide/ceres/#batch-mode)) and lots more ([see the SLURM sbatch doc](https://slurm.schedmd.com/sbatch.html)).
 
 Also Note: **this is a serial job**, meaning that it will run on a single compute core. The compute likely won't be any faster than if you ran this type of job on your laptop. To run your hello-world code in parallel from a batch script (multiple times simulataneously on different cores) you would use openMP or MPI (see the [Ceres User Manual](https://scinet.usda.gov/guide/ceres/#running-a-simple-openmp-job)) and your code would have to be in C or Fortran (not Python). For Python coders, there are much easier ways to run in parallel (using interactive mode as opposed to batch scripting), which we will cover in Session 3: Intro to Python and Dask.
+
+Let's now run a script that will execute the same python code 5 times in a row back to back. 
+
+First, delete all your stdout and stderr files so it's easier to see which new files have been generated:
+```bash
+rm std*
+```
+
+Now modify your sbatch script using nano to look like this:
+```
+#!/bin/bash
+#SBATCH --job-name=HelloWorld 
+#SBATCH -p short              #name of the partition (queue) you are submitting to
+#SBATCH -N 1                  #number of nodes in this job
+#SBATCH -n 2                  #number of cores/tasks in this job
+#SBATCH -t 00:00:30           #time allocated for this job hours:mins:seconds
+#SBATCH -o "stdout.%j.%N"     # standard output, %j adds job number to output file name and %N adds the node name
+#SBATCH -e "stderr.%j.%N"     #optional, prints our standard error
+
+module load python_3
+echo "you are running python" 
+python3 --version
+
+for i {1..5}
+do
+  python3 hello-world.py
+done
+```
+
+Look at a stdout file and you will see the python code ran 5 times.
+
+Go ahead and delete your stdout and stderr files again.
+
+
+Let's now run a script that will execute the same python code 10 times simulataneously. Modify your sbatch script to look like this:
+```
+#!/bin/bash
+#SBATCH --job-name=HelloWorld 
+#SBATCH -p short              #name of the partition (queue) you are submitting to
+#SBATCH -N 10                 #number of nodes in this job
+#SBATCH -n 10                 #number of cores/tasks in this job
+#SBATCH -t 00:00:30           #time allocated for this job hours:mins:seconds
+#SBATCH -o "stdout.%j.%N"     # standard output, %j adds job number to output file name and %N adds the node name
+#SBATCH -e "stderr.%j.%N"     #optional, prints our standard error
+#SBATCH --array=1-10          #array IDs
+
+module load python_3
+echo "you are running python" 
+python3 --version
+
+python3 hello-world.py
+```
+
+You should see a stdout and stderr file for each job in the array of jobs that were run (10) and each file should have run on a different node.
+
 
 <br>
 
