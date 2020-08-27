@@ -363,9 +363,17 @@ Right click on "Untitled.ipynb" either on the notebook tab or in the file browse
 
 Now we'll work through some basic linux commands. For more commands than we cover here see the [Unix Basics Tutorial from the bioinformatics workbook](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0) created by Andrew Severin of Iowa State University/SCINet VRSC. 
 
-First an illustration of the following terms: **prompt**, **command**, **argument** (a.k.a options, flags), **standard out** (stdout), **standard error** (stderr)
+First an illustration of the following terms: 
+- **prompt**, 
+- **command**, 
+- **argument** (a.k.a options, flags), 
+- **standard out** (stdout), 
+- **standard error** (stderr)
+
 ![picture of terminal from bioinformaticsworkbook.org](/SCINET-GEOSPATIAL-RESEARCH-WG/images/andrews-graphic.png)
 [image source](https://bioinformaticsworkbook.org/Appendix/Unix/unix-basics-1.html#gsc.tab=0)
+
+<br><br>
 
 **What directory am I in?**
 
@@ -375,7 +383,7 @@ pwd
 ```
 stdout should show ```/home/firstname.lastname```. This directory can be accessed with ~, $HOME, or by typing only ```cd``` (all of which we will cover later).
 
-
+<br><br>
 **How to make a new directory (folder)**
 
 **mkdir** - make a new directory
@@ -386,6 +394,7 @@ mkdir mynewdirectory
 You have now created a new empty directory inside of your home directory. To see it we will use ```ls```
 
 
+<br><br>
 
 **How to list (see) files and directories**
 
@@ -395,46 +404,53 @@ ls
 ```
 You should see your new directory along with other files and directories that you have in your home directory.
 
-To view all files and directories (including hidden ones that start with a .) add an option/flag to the ```ls``` command:
+To view all files and directories (including hidden ones that start with a ".") add an option/flag to the ```ls``` command:
 ```bash
 ls -a
 ```
-you will get the same result with
+you will get the same result with:
 ```bash
 ls --all
 ```
-Note that many options are accessible using the long version which always starts with two dashes (--all) or using the abbreviated version which always starts with one dash (-a). Also, you can add multiple options to commands:
+Note that many options are accessible using the long version which always starts with two dashes (--all) or using the abbreviated version which always starts with one dash (-a). 
+
+Also, you can add multiple options to commands:
 ```bash
 ls -alh
 ```
 will show you all files in your working directory in the long listing format (-l) and with file sizes listed in human-readable format (-h). The -l option shows you permissions, ownership, size, and last-modified date.
 
 Here's a key to the long format ls -l:
+
 ![picture of long format file info](/SCINET-GEOSPATIAL-RESEARCH-WG/images/file-info.png)
 [image source](https://linuxize.com/post/chmod-command-in-linux/)
 
 We'll come back to how to change file or directory permissions.
 
+<br><br>
 
-**What options are available for each command?*
+**What options are available for each command?**
 
 **man** - to view the reference manual for a command which will show the command format and all the available options.
 ```bash
 man ls
 ```
-So many options! Don't worry, you don't have to know all the options for every command. To view the entire manual page, use your up/down arrows to scroll or your pg up/pg dn buttons. NOTE: If you haven't discovered it already, **YOUR MOUSE DOESN'T WORK AT THE COMMAND LINE!** Notice the -a, -l, and -h on the man page for the ls command. 
+So many options! Don't worry, you don't have to know all the options for every command. To view the entire manual page, use your up/down arrows to scroll or your pg up/pg dn buttons. 
 
-To exit/quit the man page
+NOTE: If you haven't discovered it already, **YOUR MOUSE DOESN'T WORK AT THE COMMAND LINE!** Notice the -a, -l, and -h on the man page for the ls command. 
+
+To exit/quit the man page:
 ```bash
 q
 ```
 
+<br><br>
 
 **Change Directory**
 
 **cd** - change directory
 
-Move from your home directory into your new directory with
+Move from your home directory into your new directory with:
 ```bash
 cd mynewdirectory
 ```
@@ -446,7 +462,7 @@ pwd
 
 You should be at /home/firstname.lastname/mynewdirectory
 
-To go up/back directory levels use ".."
+To go up/back directory levels use "..":
 ```bash
 cd ../..
 ```
@@ -458,11 +474,12 @@ cd ~/mynewdirectory
 ```
 Note how the "~" is a shortcut for /home/firstname.lastname. Another shortcut for your home directory is $HOME. Replacing ~ with $HOME in the above command would yield the exact same result.
 
-To get back to your home directory from anywhere, just type cd with no arguments.
+To get back to your home directory from anywhere, just type cd with no arguments:
 ```bash
 cd
 ```
 
+<br><br>
 
 **Creating a text file with nano**
 
@@ -505,6 +522,7 @@ then Ctl+x, y, enter. You should now be back at your command prompt.
 
 Let's create one more text file that we'll do more things with in a minute. Use nano to create file3.txt and type the numbers 1-15 on separate lines in the text file, then save the file.
 
+<br><br>
 
 **Viewing the contents of a text file**
 
@@ -528,8 +546,9 @@ cat file3.txt
 cat file1.txt file2.txt file3.txt
 ```
 
-The last command should concatenate all three files and print everything to stdout.
+The last command should concatenate the printing of all three files to stdout.
 
+<br><br>
 
 **Using cat to create textfiles**
 
@@ -543,11 +562,14 @@ After you issue this command you'll see your cursor move to the next line in the
 
 An ```ls``` should now show that you've created file1.txt, file2.txt, file3.txt, and file30.txt
 
+<br><br>
 
 **Wildcards**
 
 \* - matches at least one character
+
 ? - matches a single character
+
 \[] - matches the characters inside the brackets
 
 To better understand how to use wildcards we'll practice with ```ls```:
@@ -589,10 +611,12 @@ ls file[1,3]*
 ```
 This command will list all files that start with "file" and have a 1 or a 3 somewhere in the filename.
 
+<br><br>
 
 **Copying and moving files**
 
 **cp** - copy files and directories
+
 **mv** - move or rename files
 
 Make a copy of one of your text files:
@@ -633,9 +657,9 @@ mv file2.txt file100.txt
 
 List the files in your working directory to see that you've renamed the file.
 
+<br><br>
 
-
-**search files for a word**
+**search files for a word/phrase ("pattern")**
 
 **grep** - print lines of files that match a pattern
 
@@ -655,6 +679,7 @@ To search on an exact word:
 grep -i -w 'dogs' *
 ```
 
+<br><br>
 
 **removing files and directories**
 
@@ -691,7 +716,7 @@ man rm
 ```
 We can see on the man page for rm that -r means remove directories and their contents recursively.
 
-
+<br><br>
 
 **change file permissions**
 
@@ -714,10 +739,12 @@ chmod o-rw file3.txt
 ls -l
 ```
 
+<br><br>
 
 **see how much storage you are using**
 
 **du** - estimate file space usage
+
 **my_quotas** - see a summary of your storage quotas and how much of the quotas you've used. only works from your home directory
 
 In your mynewdirectory:
@@ -738,7 +765,7 @@ my_quotas
 ```
 This is the exact same info that appears when you SSH to Ceres. Note that this command only works from your home directory.
 
-
+<br><br>
 
 **download files/data to Ceres from the web**
 
@@ -755,6 +782,7 @@ ls -lh
 
 We just downloaded a 407MB data file in a few seconds. Wow, that was easy! More on salloc in a minute...
 
+<br><br>
 
 **view metadata of a netcdf file**
 
@@ -766,7 +794,9 @@ just a quick side note on working with the data file we downloaded...
 ncdump -h Land_and_Ocean_LatLong1.nc
 ```
 
-This shows metadata on all the data variables that are in the files including dimension information for each data variable (lat, lon, time). There is also metadata about the file history. Note: the -h flag means "header", without it you will get thousands of data values printed to stdout. If you do this by accident on a large file Ctl+c will stop the printing to stdout.
+This shows metadata on all the data variables that are in the files including dimension information for each data variable (lat, lon, time). There is also metadata about the file history. 
+
+Note: the -h flag means "header", without it you will get thousands of data values printed to stdout. If you do this by accident on a large file Ctl+c will stop the printing to stdout.
 
 View the values of a single data variable with:
 ```bash
@@ -775,6 +805,12 @@ ncdump -v latitude Land_and_Ocean_LatLong1.nc
 
 NetCDF is one of my favorite data formats because the spatial and temporal metadata is already "attached" to the data variables in the file. This means that when you go to plot 'temperature' from this netcdf file (using python, r, etc) the data will appear automagically on a map without you having to define the longitudes and latitudes.
 
+Let's all delete this data file so that it's not sitting on Ceres in 50 different user accounts taking up space. Plus, it's easy to download again if we ever wanted to.
+```bash
+rm Land_and_Ocean_LatLong1.nc
+```
+
+<br><br>
 
 **There are also some SLURM-specific commands that are very useful**
 
